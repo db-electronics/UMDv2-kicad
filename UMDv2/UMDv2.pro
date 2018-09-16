@@ -1,4 +1,4 @@
-update=Thu 06 Sep 2018 08:52:41 PM EDT
+update=Thu 13 Sep 2018 08:46:11 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -38,3 +38,13 @@ LibName6=/home/rene/Git/KiCad/kicadlib/db-passives
 LibName7=/home/rene/Git/KiCad/kicadlib/db-sem
 LibName8=/home/rene/Git/KiCad/kicadlib/db-transistors
 LibName9=/home/rene/Git/KiCad/kicadlib/db-vgparts
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

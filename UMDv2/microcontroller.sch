@@ -119,70 +119,6 @@ Text Label 10775 7025 0    60   ~ 0
 UD15
 Text Notes 9875 9000 0    60   ~ 0
 DIR = 0 = B to A\nDIR = 1 = A to B
-Wire Wire Line
-	9800 8425 9325 8425
-Wire Wire Line
-	9800 8325 9325 8325
-Wire Wire Line
-	9800 8225 9325 8225
-Wire Wire Line
-	9800 8125 9325 8125
-Wire Wire Line
-	9800 8025 9325 8025
-Wire Wire Line
-	9800 7925 9325 7925
-Wire Wire Line
-	9800 7825 9325 7825
-Wire Wire Line
-	9800 7725 9325 7725
-Wire Wire Line
-	9800 7025 9325 7025
-Wire Wire Line
-	9800 6925 9325 6925
-Wire Wire Line
-	9800 6825 9325 6825
-Wire Wire Line
-	9800 6725 9325 6725
-Wire Wire Line
-	9800 6625 9325 6625
-Wire Wire Line
-	9800 6525 9325 6525
-Wire Wire Line
-	9800 6425 9325 6425
-Wire Wire Line
-	9800 6325 9325 6325
-Wire Wire Line
-	10700 7725 11125 7725
-Wire Wire Line
-	10700 7825 11125 7825
-Wire Wire Line
-	10700 7925 11125 7925
-Wire Wire Line
-	10700 8025 11125 8025
-Wire Wire Line
-	10700 8125 11125 8125
-Wire Wire Line
-	10700 8225 11125 8225
-Wire Wire Line
-	10700 8325 11125 8325
-Wire Wire Line
-	10700 8425 11125 8425
-Wire Wire Line
-	10700 6325 11125 6325
-Wire Wire Line
-	10700 6425 11125 6425
-Wire Wire Line
-	10700 6525 11125 6525
-Wire Wire Line
-	10700 6625 11125 6625
-Wire Wire Line
-	10700 6725 11125 6725
-Wire Wire Line
-	10700 6825 11125 6825
-Wire Wire Line
-	10700 6925 11125 6925
-Wire Wire Line
-	10700 7025 11125 7025
 Text Notes 9700 5975 0    60   ~ 0
 databus translation
 $Bitmap
@@ -726,7 +662,7 @@ B3 B0 E6 6A 7C B0 91 B5 85 F5 AA 29 4B 86 75 1C 70 FA DE 25 95 FA 0B 3B 73 C4 42
 C3 4E EA F9 43 51 69 F1 E7 1F 27 08 64 6B 61 83 10 1A DB 7D 78 6E 69 C1 17 5F DB 34 A0 11 42 A8 
 55 70 33 82 AD 8D 87 68 2D 82 9A 22 84 9A D5 6D AC 9D 3F 96 26 7E 21 1F FE 4D 60 29 EC 04 00 00 
 00 E8 29 58 2C 03 00 00 C0 A8 FD 1F 1F 82 A8 A4 9D 50 0C 54 00 00 00 00 49 45 4E 44 AE 42 60 82 
-38 
+F0 
 EndData
 $EndBitmap
 $Comp
@@ -935,140 +871,6 @@ Text Label 13075 3500 0    60   ~ 0
 UGP1
 Text Label 13075 3600 0    60   ~ 0
 UGP0
-Wire Wire Line
-	12100 8425 11675 8425
-Wire Wire Line
-	12100 8325 11675 8325
-Wire Wire Line
-	12100 8225 11675 8225
-Wire Wire Line
-	12100 8125 11675 8125
-Wire Wire Line
-	12100 8025 11675 8025
-Wire Wire Line
-	12100 7925 11675 7925
-Wire Wire Line
-	12100 7825 11675 7825
-Wire Wire Line
-	12100 7725 11675 7725
-Wire Wire Line
-	12100 7025 11675 7025
-Wire Wire Line
-	12100 6925 11675 6925
-Wire Wire Line
-	12100 6825 11675 6825
-Wire Wire Line
-	12100 6725 11675 6725
-Wire Wire Line
-	12100 6625 11675 6625
-Wire Wire Line
-	12100 6525 11675 6525
-Wire Wire Line
-	12100 6425 11675 6425
-Wire Wire Line
-	12100 6325 11675 6325
-Wire Wire Line
-	13000 7725 13425 7725
-Wire Wire Line
-	13000 7825 13425 7825
-Wire Wire Line
-	13000 7925 13425 7925
-Wire Wire Line
-	13000 8025 13425 8025
-Wire Wire Line
-	13000 8125 13425 8125
-Wire Wire Line
-	13000 8225 13425 8225
-Wire Wire Line
-	13000 8325 13425 8325
-Wire Wire Line
-	13000 8425 13425 8425
-Wire Wire Line
-	13000 6325 13425 6325
-Wire Wire Line
-	13000 6425 13425 6425
-Wire Wire Line
-	13000 6525 13425 6525
-Wire Wire Line
-	13000 6625 13425 6625
-Wire Wire Line
-	13000 6725 13425 6725
-Wire Wire Line
-	13000 6825 13425 6825
-Wire Wire Line
-	13000 6925 13425 6925
-Wire Wire Line
-	13000 7025 13425 7025
-Wire Wire Line
-	12100 7175 11675 7175
-Wire Wire Line
-	12100 8575 11675 8575
-Wire Wire Line
-	12100 4925 11675 4925
-Wire Wire Line
-	12100 5025 11675 5025
-Wire Wire Line
-	12100 5125 11675 5125
-Wire Wire Line
-	12100 5225 11675 5225
-Wire Wire Line
-	12100 5325 11675 5325
-Wire Wire Line
-	12100 5425 11675 5425
-Wire Wire Line
-	12100 5525 11675 5525
-Wire Wire Line
-	12100 5625 11675 5625
-Wire Wire Line
-	13000 4925 13425 4925
-Wire Wire Line
-	13000 5025 13425 5025
-Wire Wire Line
-	13000 5125 13425 5125
-Wire Wire Line
-	13000 5225 13425 5225
-Wire Wire Line
-	13000 5325 13425 5325
-Wire Wire Line
-	13000 5425 13425 5425
-Wire Wire Line
-	13000 5525 13425 5525
-Wire Wire Line
-	13000 5625 13425 5625
-Wire Wire Line
-	12100 5775 11675 5775
-Wire Wire Line
-	12100 4150 11675 4150
-Wire Wire Line
-	11675 3700 12100 3700
-Wire Wire Line
-	11675 3800 12100 3800
-Wire Wire Line
-	11675 3900 12100 3900
-Wire Wire Line
-	11675 4000 12100 4000
-Wire Wire Line
-	12100 5875 11675 5875
-Wire Wire Line
-	12100 7275 11675 7275
-Wire Wire Line
-	12100 8675 11675 8675
-Wire Wire Line
-	13000 3700 13425 3700
-Wire Wire Line
-	13000 3800 13425 3800
-Wire Wire Line
-	13000 3900 13425 3900
-Wire Wire Line
-	13000 4000 13425 4000
-Wire Wire Line
-	11675 3500 12100 3500
-Wire Wire Line
-	11675 3600 12100 3600
-Wire Wire Line
-	13000 3500 13425 3500
-Wire Wire Line
-	13000 3600 13425 3600
 $Comp
 L UMDv2-CONN CON?
 U 1 1 5B99A3E0
@@ -1358,6 +1160,670 @@ F 3 "" H 14475 2325 50  0000 C CNN
 	1    14475 2325
 	1    0    0    -1  
 $EndComp
+$Comp
+L VCC #PWR034
+U 1 1 5B99A4D6
+P 15050 8125
+F 0 "#PWR034" H 15050 7975 50  0001 C CNN
+F 1 "VCC" H 15050 8275 50  0000 C CNN
+F 2 "" H 15050 8125 50  0000 C CNN
+F 3 "" H 15050 8125 50  0000 C CNN
+	1    15050 8125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 101-00405-75 CON303
+U 1 1 5B99B192
+P 9925 1350
+F 0 "CON303" H 10075 1475 50  0000 C CNN
+F 1 "101-00405-75" H 10225 1400 50  0000 C CNN
+F 2 "db-smt:SDCARD-AMP-10100405" H 10725 1875 60  0001 C CNN
+F 3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/1010040575.pdf" H 11800 1575 60  0001 C CNN
+F 4 "101-00405-75-ND" H 10425 1775 60  0001 C CNN "Digikey"
+F 5 "CONN SD CARD PUSH-PUSH R/A SMD" H 10825 1675 60  0001 C CNN "Description"
+	1    9925 1350
+	1    0    0    -1  
+$EndComp
+Text Label 9375 1650 0    60   ~ 0
+~SS2~
+Text Label 9375 1750 0    60   ~ 0
+SCK2
+Text Label 9375 1850 0    60   ~ 0
+SDO2
+Text Label 9375 1950 0    60   ~ 0
+SDI2
+Text Label 10850 1650 0    60   ~ 0
+~SDCD~
+Text Notes 9775 1100 0    60   ~ 0
+SD Card connector
+$Comp
+L PIC32MX795F512LT-80I/PF U301
+U 1 1 5B99C2CD
+P 5850 4050
+F 0 "U301" H 4400 6550 50  0000 R CNN
+F 1 "PIC32MX795F512LT-80I/PF" H 5275 6450 50  0000 R CNN
+F 2 "db-smt:TQFP-100" H 5875 6825 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/60001156J.pdf" H 7175 6925 50  0001 C CNN
+F 4 "PIC32MX795F512LT-80I/PFCT-ND" H 6640 7035 60  0001 C CNN "Digikey"
+F 5 "IC MCU 32BIT 512KB FLASH 100TQFP" H 6720 7145 60  0001 C CNN "Description"
+	1    5850 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PIC_ICSP CON302
+U 1 1 5B99C2D6
+P 1300 1800
+F 0 "CON302" H 1725 1925 50  0000 C CNN
+F 1 "PIC_ICSP" H 1725 1850 50  0000 C CNN
+F 2 "db-thparts:HDR1X6" H 1775 2225 60  0001 C CNN
+F 3 "" H 1425 1850 60  0001 C CNN
+F 4 "#ND" H 1450 2125 60  0001 C CNN "Digikey"
+F 5 "Microchip Pickit 3 Programming Header" H 2250 2025 60  0001 C CNN "Description"
+	1    1300 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L USB-B1HSB6 CON301
+U 1 1 5B99C2DF
+P 1150 6550
+F 0 "CON301" H 1400 6675 50  0000 C CNN
+F 1 "USB-B1HSB6" H 1300 6600 50  0000 C CNN
+F 2 "db-thparts:USB-B1HSxx" H 1725 7025 60  0001 C CNN
+F 3 "http://www.on-shore.com/wp-content/uploads/2015/09/usb-b1hsxx.pdf" H 2900 6775 60  0001 C CNN
+F 4 "ED2983-ND" H 1450 6950 60  0001 C CNN "Digikey"
+F 5 "CONN USB TYPE B R/A BLACK" H 1875 6850 60  0001 C CNN "Description"
+	1    1150 6550
+	-1   0    0    -1  
+$EndComp
+Text Label 7725 5450 0    60   ~ 0
+D15
+Text Label 7725 5550 0    60   ~ 0
+D14
+Text Label 7725 5650 0    60   ~ 0
+D13
+Text Label 7725 5750 0    60   ~ 0
+D12
+Text Label 7725 5850 0    60   ~ 0
+D11
+Text Label 7725 5950 0    60   ~ 0
+D10
+Text Label 7725 6050 0    60   ~ 0
+D9
+Text Label 7725 6150 0    60   ~ 0
+D8
+Text Label 7725 6250 0    60   ~ 0
+D7
+Text Label 7725 6350 0    60   ~ 0
+D6
+Text Label 7725 6450 0    60   ~ 0
+D5
+Text Label 7725 6550 0    60   ~ 0
+D4
+Text Label 7725 6650 0    60   ~ 0
+D3
+Text Label 7725 6750 0    60   ~ 0
+D2
+Text Label 7725 6850 0    60   ~ 0
+D1
+Text Label 7725 6950 0    60   ~ 0
+D0
+Text Label 3925 2550 2    60   ~ 0
+ALH
+Text Label 3925 2450 2    60   ~ 0
+ALL
+Text Label 7725 4950 0    60   ~ 0
+~CE1~
+Text Label 7725 5050 0    60   ~ 0
+~CE0~
+Text Label 7725 5150 0    60   ~ 0
+~RD~
+Text Label 7725 5250 0    60   ~ 0
+~WR~
+Text Label 7725 3250 0    60   ~ 0
+~USS4~/URX5/GP2
+Text Label 7725 3350 0    60   ~ 0
+USCK4/UTX5/GP3
+Text Label 7725 3450 0    60   ~ 0
+USDO4/UTX2/USCL5/GP4
+Text Label 7725 3550 0    60   ~ 0
+USDI4/URX2/USDA5/GP5
+Text Label 7725 2250 0    60   ~ 0
+~SS2~
+Text Label 7725 2350 0    60   ~ 0
+SCK2
+Text Label 7725 2450 0    60   ~ 0
+SDO2
+Text Label 7725 2550 0    60   ~ 0
+SDI2
+Text Label 3725 5650 0    60   ~ 0
+~SDCD~
+$Comp
+L GND #PWR035
+U 1 1 5B99C305
+P 950 7600
+F 0 "#PWR035" H 950 7350 50  0001 C CNN
+F 1 "GND" H 950 7450 50  0000 C CNN
+F 2 "" H 950 7600 50  0000 C CNN
+F 3 "" H 950 7600 50  0000 C CNN
+	1    950  7600
+	1    0    0    -1  
+$EndComp
+Text Label 3950 4650 2    60   ~ 0
+A16
+Text Label 3950 4550 2    60   ~ 0
+A17
+Text Label 3950 4450 2    60   ~ 0
+A18
+Text Label 3950 4350 2    60   ~ 0
+A19
+Text Label 3950 4250 2    60   ~ 0
+A20
+Text Label 3950 4150 2    60   ~ 0
+A21
+Text Label 3950 4050 2    60   ~ 0
+A22
+Text Label 3950 3950 2    60   ~ 0
+A23
+Text Label 7725 3750 0    60   ~ 0
+SDA1
+Text Label 7725 3850 0    60   ~ 0
+SCL1
+Text Label 3925 2300 2    60   ~ 0
+PGC
+Text Label 3925 2200 2    60   ~ 0
+PGD
+Text Label 3750 2100 0    60   ~ 0
+~MCLR~
+Text Label 1575 2100 0    60   ~ 0
+~MCLR~
+Text Label 1575 2300 0    60   ~ 0
+PGC
+Text Label 1575 2200 0    60   ~ 0
+PGD
+Text Label 3775 2650 0    60   ~ 0
+~AOE~
+Text Label 7725 4650 0    60   ~ 0
+GP1
+Text Label 7725 4750 0    60   ~ 0
+GP0
+$Comp
+L C_0603 C301
+U 1 1 5B99C320
+P 2200 7500
+F 0 "C301" V 2275 7600 50  0000 L CNN
+F 1 "0.1uF/50V" V 2375 7600 50  0000 L CNN
+F 2 "db-smt:0603" H 2700 7400 30  0001 C CNN
+F 3 "" H 2225 7600 60  0001 C CNN
+F 4 "490-8020-1-ND" H 2625 7475 60  0001 C CNN "Digikey"
+F 5 "CAP CER 0.1UF 50V X7R 0603" H 2625 7575 60  0001 C CNN "Description"
+	1    2200 7500
+	0    1    1    0   
+$EndComp
+$Comp
+L USBLC6-2SC6 D301
+U 1 1 5B99C329
+P 1875 6750
+F 0 "D301" H 1975 7000 50  0000 C CNN
+F 1 "USBLC6-2SC6" H 2150 6925 50  0000 C CNN
+F 2 "db-smt:SOT-23-6" H 2175 7075 60  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf" H 3175 7250 60  0001 C CNN
+F 4 "497-5235-1-ND" H 2225 7150 60  0001 C CNN "Digikey"
+F 5 "TVS DIODE 5.25V 17V SOT23-6" H 2725 6975 60  0001 C CNN "Description"
+	1    1875 6750
+	1    0    0    -1  
+$EndComp
+Text Label 1375 6750 0    60   ~ 0
+D-in
+Text Label 1375 6850 0    60   ~ 0
+D+in
+Text Label 2875 6850 0    60   ~ 0
+D-
+Text Label 2875 7250 0    60   ~ 0
+D+
+Text Notes 775  6350 0    60   ~ 0
+USB data input and ESD protection
+Text Notes 675  1600 0    60   ~ 0
+PIC ICSP 1x6 0.1" header
+Text Label 1375 6650 0    60   ~ 0
+Vbus
+$Comp
+L +5VD #PWR036
+U 1 1 5B99C337
+P 2850 6575
+F 0 "#PWR036" H 2850 6425 50  0001 C CNN
+F 1 "+5VD" H 2850 6715 50  0000 C CNN
+F 2 "" H 2850 6575 50  0000 C CNN
+F 3 "" H 2850 6575 50  0000 C CNN
+	1    2850 6575
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR037
+U 1 1 5B99C33D
+P 6150 7700
+F 0 "#PWR037" H 6150 7450 50  0001 C CNN
+F 1 "GND" H 6150 7550 50  0000 C CNN
+F 2 "" H 6150 7700 50  0000 C CNN
+F 3 "" H 6150 7700 50  0000 C CNN
+	1    6150 7700
+	1    0    0    -1  
+$EndComp
+Text Label 3725 5950 0    60   ~ 0
+5V/~3V~
+Text Label 3725 6050 0    60   ~ 0
+CVEN
+$Comp
+L +3.3VP #PWR038
+U 1 1 5B99C39B
+P 5550 1150
+F 0 "#PWR038" H 5700 1100 50  0001 C CNN
+F 1 "+3.3VP" H 5550 1250 50  0000 C CNN
+F 2 "" H 5550 1150 50  0000 C CNN
+F 3 "" H 5550 1150 50  0000 C CNN
+	1    5550 1150
+	1    0    0    -1  
+$EndComp
+Text HLabel 3625 5950 0    60   Output ~ 0
+5V/~3V~
+Text HLabel 3625 6050 0    60   Output ~ 0
+CVEN
+$Comp
+L +3.3VP #PWR?
+U 1 1 5B9B1B74
+P 1700 1825
+F 0 "#PWR?" H 1850 1775 50  0001 C CNN
+F 1 "+3.3VP" H 1700 1925 50  0000 C CNN
+F 2 "" H 1700 1825 50  0000 C CNN
+F 3 "" H 1700 1825 50  0000 C CNN
+	1    1700 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5B9B22ED
+P 1250 5650
+F 0 "#PWR?" H 1250 5400 50  0001 C CNN
+F 1 "GND" H 1250 5500 50  0000 C CNN
+F 2 "" H 1250 5650 50  0000 C CNN
+F 3 "" H 1250 5650 50  0000 C CNN
+	1    1250 5650
+	1    0    0    -1  
+$EndComp
+Text HLabel 1050 5350 0    60   Input ~ 0
+Vdigital
+Text HLabel 1050 5450 0    60   Input ~ 0
+Vcart
+Text HLabel 1050 5550 0    60   BiDi ~ 0
+GND
+$Comp
+L VDD #PWR?
+U 1 1 5B9B2CD6
+P 11675 4150
+F 0 "#PWR?" H 11675 4000 50  0001 C CNN
+F 1 "VDD" H 11675 4300 50  0000 C CNN
+F 2 "" H 11675 4150 50  0000 C CNN
+F 3 "" H 11675 4150 50  0000 C CNN
+	1    11675 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VDD #PWR?
+U 1 1 5B9B2D1E
+P 11675 5775
+F 0 "#PWR?" H 11675 5625 50  0001 C CNN
+F 1 "VDD" H 11675 5925 50  0000 C CNN
+F 2 "" H 11675 5775 50  0000 C CNN
+F 3 "" H 11675 5775 50  0000 C CNN
+	1    11675 5775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VDD #PWR?
+U 1 1 5B9B2F08
+P 1250 5250
+F 0 "#PWR?" H 1250 5100 50  0001 C CNN
+F 1 "VDD" H 1250 5400 50  0000 C CNN
+F 2 "" H 1250 5250 50  0000 C CNN
+F 3 "" H 1250 5250 50  0000 C CNN
+	1    1250 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5B9B2F0E
+P 1450 5250
+F 0 "#PWR?" H 1450 5100 50  0001 C CNN
+F 1 "VCC" H 1450 5400 50  0000 C CNN
+F 2 "" H 1450 5250 50  0000 C CNN
+F 3 "" H 1450 5250 50  0000 C CNN
+	1    1450 5250
+	1    0    0    -1  
+$EndComp
+Text HLabel 1050 4350 0    60   Output ~ 0
++5Vusb
+Text HLabel 1050 4650 0    60   Input ~ 0
++3.3V
+Text HLabel 1050 4450 0    60   Input ~ 0
++5V
+Text HLabel 1050 4550 0    60   Input ~ 0
++3.3VP
+$Comp
+L +3.3V #PWR?
+U 1 1 5B9B4FAE
+P 1950 4250
+F 0 "#PWR?" H 1950 4100 50  0001 C CNN
+F 1 "+3.3V" H 1950 4390 50  0000 C CNN
+F 2 "" H 1950 4250 50  0000 C CNN
+F 3 "" H 1950 4250 50  0000 C CNN
+	1    1950 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5B9B4FB4
+P 1450 4250
+F 0 "#PWR?" H 1450 4100 50  0001 C CNN
+F 1 "+5V" H 1450 4390 50  0000 C CNN
+F 2 "" H 1450 4250 50  0000 C CNN
+F 3 "" H 1450 4250 50  0000 C CNN
+	1    1450 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3VP #PWR?
+U 1 1 5B9B4FBA
+P 1700 4200
+F 0 "#PWR?" H 1850 4150 50  0001 C CNN
+F 1 "+3.3VP" H 1700 4300 50  0000 C CNN
+F 2 "" H 1700 4200 50  0000 C CNN
+F 3 "" H 1700 4200 50  0000 C CNN
+	1    1700 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5VD #PWR?
+U 1 1 5B9B4FC6
+P 1250 4250
+F 0 "#PWR?" H 1250 4100 50  0001 C CNN
+F 1 "+5VD" H 1250 4390 50  0000 C CNN
+F 2 "" H 1250 4250 50  0000 C CNN
+F 3 "" H 1250 4250 50  0000 C CNN
+	1    1250 4250
+	1    0    0    -1  
+$EndComp
+Text Notes 675  4000 0    60   ~ 0
+5Vusb = from CON301 data USB\n5V    = from CON201 charger micro USB\n3.3VP = uC voltage rail, LDO on +5Vusb\n3.3V  = logic voltage rail, LDO on +5V
+Text Notes 650  5025 0    60   ~ 0
+Vdigital = 5V or 3.3V selectable via 5V/~3.3V­~ on U202\nVcart   = Vdigital switched and current sensed
+$Comp
+L GND #PWR?
+U 1 1 5B9B68FD
+P 1700 2750
+F 0 "#PWR?" H 1700 2500 50  0001 C CNN
+F 1 "GND" H 1700 2600 50  0000 C CNN
+F 2 "" H 1700 2750 50  0000 C CNN
+F 3 "" H 1700 2750 50  0000 C CNN
+	1    1700 2750
+	1    0    0    -1  
+$EndComp
+Text Label 3950 3750 2    60   ~ 0
+AN0
+Text Label 3950 3650 2    60   ~ 0
+AN1
+Text Notes 11950 4625 0    60   ~ 0
+address latch
+Text HLabel 3725 3550 0    60   Input ~ 0
+iSense
+Text Label 3775 3550 0    60   ~ 0
+iSense
+$Comp
+L R_0603 R?
+U 1 1 5B9DE3E2
+P 3450 2100
+F 0 "R?" V 3350 1975 50  0000 C CNN
+F 1 "470" V 3350 2175 50  0000 C CNN
+F 2 "db-smt:0603" H 3750 2000 30  0001 C CNN
+F 3 "" H 3550 2100 30  0001 C CNN
+F 4 "P470HCT-ND" H 3700 2075 60  0001 C CNN "Digikey"
+F 5 "RES SMD 470 OHM 1% 1/10W 0603" H 3700 2175 60  0001 C CNN "Description"
+	1    3450 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L R_0603 R?
+U 1 1 5B9DE572
+P 3050 1825
+F 0 "R?" H 2925 1750 50  0000 C CNN
+F 1 "10.0k" H 2875 1850 50  0000 C CNN
+F 2 "db-smt:0603" H 3350 1725 30  0001 C CNN
+F 3 "" H 3150 1825 30  0001 C CNN
+F 4 "P10.0KHCT-ND" H 3300 1800 60  0001 C CNN "Digikey"
+F 5 "RES SMD 10.0K OHM 1% 1/10W 0603" H 3300 1900 60  0001 C CNN "Description"
+	1    3050 1825
+	-1   0    0    1   
+$EndComp
+$Comp
+L +3.3VP #PWR?
+U 1 1 5B9DEFFE
+P 3050 1500
+F 0 "#PWR?" H 3200 1450 50  0001 C CNN
+F 1 "+3.3VP" H 3050 1600 50  0000 C CNN
+F 2 "" H 3050 1500 50  0000 C CNN
+F 3 "" H 3050 1500 50  0000 C CNN
+	1    3050 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_0603 C?
+U 1 1 5B9DF5AB
+P 3050 2500
+F 0 "C?" H 2925 2400 50  0000 L CNN
+F 1 "0.1uF/50V" H 2625 2600 50  0000 L CNN
+F 2 "db-smt:0603" H 3550 2400 30  0001 C CNN
+F 3 "" H 3075 2600 60  0001 C CNN
+F 4 "490-8020-1-ND" H 3475 2475 60  0001 C CNN "Digikey"
+F 5 "CAP CER 0.1UF 50V X7R 0603" H 3475 2575 60  0001 C CNN "Description"
+	1    3050 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9800 8425 9325 8425
+Wire Wire Line
+	9800 8325 9325 8325
+Wire Wire Line
+	9800 8225 9325 8225
+Wire Wire Line
+	9800 8125 9325 8125
+Wire Wire Line
+	9800 8025 9325 8025
+Wire Wire Line
+	9800 7925 9325 7925
+Wire Wire Line
+	9800 7825 9325 7825
+Wire Wire Line
+	9800 7725 9325 7725
+Wire Wire Line
+	9800 7025 9325 7025
+Wire Wire Line
+	9800 6925 9325 6925
+Wire Wire Line
+	9800 6825 9325 6825
+Wire Wire Line
+	9800 6725 9325 6725
+Wire Wire Line
+	9800 6625 9325 6625
+Wire Wire Line
+	9800 6525 9325 6525
+Wire Wire Line
+	9800 6425 9325 6425
+Wire Wire Line
+	9800 6325 9325 6325
+Wire Wire Line
+	10700 7725 11125 7725
+Wire Wire Line
+	10700 7825 11125 7825
+Wire Wire Line
+	10700 7925 11125 7925
+Wire Wire Line
+	10700 8025 11125 8025
+Wire Wire Line
+	10700 8125 11125 8125
+Wire Wire Line
+	10700 8225 11125 8225
+Wire Wire Line
+	10700 8325 11125 8325
+Wire Wire Line
+	10700 8425 11125 8425
+Wire Wire Line
+	10700 6325 11125 6325
+Wire Wire Line
+	10700 6425 11125 6425
+Wire Wire Line
+	10700 6525 11125 6525
+Wire Wire Line
+	10700 6625 11125 6625
+Wire Wire Line
+	10700 6725 11125 6725
+Wire Wire Line
+	10700 6825 11125 6825
+Wire Wire Line
+	10700 6925 11125 6925
+Wire Wire Line
+	10700 7025 11125 7025
+Wire Wire Line
+	12100 8425 11675 8425
+Wire Wire Line
+	12100 8325 11675 8325
+Wire Wire Line
+	12100 8225 11675 8225
+Wire Wire Line
+	12100 8125 11675 8125
+Wire Wire Line
+	12100 8025 11675 8025
+Wire Wire Line
+	12100 7925 11675 7925
+Wire Wire Line
+	12100 7825 11675 7825
+Wire Wire Line
+	12100 7725 11675 7725
+Wire Wire Line
+	12100 7025 11675 7025
+Wire Wire Line
+	12100 6925 11675 6925
+Wire Wire Line
+	12100 6825 11675 6825
+Wire Wire Line
+	12100 6725 11675 6725
+Wire Wire Line
+	12100 6625 11675 6625
+Wire Wire Line
+	12100 6525 11675 6525
+Wire Wire Line
+	12100 6425 11675 6425
+Wire Wire Line
+	12100 6325 11675 6325
+Wire Wire Line
+	13000 7725 13425 7725
+Wire Wire Line
+	13000 7825 13425 7825
+Wire Wire Line
+	13000 7925 13425 7925
+Wire Wire Line
+	13000 8025 13425 8025
+Wire Wire Line
+	13000 8125 13425 8125
+Wire Wire Line
+	13000 8225 13425 8225
+Wire Wire Line
+	13000 8325 13425 8325
+Wire Wire Line
+	13000 8425 13425 8425
+Wire Wire Line
+	13000 6325 13425 6325
+Wire Wire Line
+	13000 6425 13425 6425
+Wire Wire Line
+	13000 6525 13425 6525
+Wire Wire Line
+	13000 6625 13425 6625
+Wire Wire Line
+	13000 6725 13425 6725
+Wire Wire Line
+	13000 6825 13425 6825
+Wire Wire Line
+	13000 6925 13425 6925
+Wire Wire Line
+	13000 7025 13425 7025
+Wire Wire Line
+	12100 7175 11675 7175
+Wire Wire Line
+	12100 8575 11675 8575
+Wire Wire Line
+	12100 4925 11675 4925
+Wire Wire Line
+	12100 5025 11675 5025
+Wire Wire Line
+	12100 5125 11675 5125
+Wire Wire Line
+	12100 5225 11675 5225
+Wire Wire Line
+	12100 5325 11675 5325
+Wire Wire Line
+	12100 5425 11675 5425
+Wire Wire Line
+	12100 5525 11675 5525
+Wire Wire Line
+	12100 5625 11675 5625
+Wire Wire Line
+	13000 4925 13425 4925
+Wire Wire Line
+	13000 5025 13425 5025
+Wire Wire Line
+	13000 5125 13425 5125
+Wire Wire Line
+	13000 5225 13425 5225
+Wire Wire Line
+	13000 5325 13425 5325
+Wire Wire Line
+	13000 5425 13425 5425
+Wire Wire Line
+	13000 5525 13425 5525
+Wire Wire Line
+	13000 5625 13425 5625
+Wire Wire Line
+	12100 5775 11675 5775
+Wire Wire Line
+	12100 4150 11675 4150
+Wire Wire Line
+	11675 3700 12100 3700
+Wire Wire Line
+	11675 3800 12100 3800
+Wire Wire Line
+	11675 3900 12100 3900
+Wire Wire Line
+	11675 4000 12100 4000
+Wire Wire Line
+	12100 5875 11675 5875
+Wire Wire Line
+	12100 7275 11675 7275
+Wire Wire Line
+	12100 8675 11675 8675
+Wire Wire Line
+	13000 3700 13425 3700
+Wire Wire Line
+	13000 3800 13425 3800
+Wire Wire Line
+	13000 3900 13425 3900
+Wire Wire Line
+	13000 4000 13425 4000
+Wire Wire Line
+	11675 3500 12100 3500
+Wire Wire Line
+	11675 3600 12100 3600
+Wire Wire Line
+	13000 3500 13425 3500
+Wire Wire Line
+	13000 3600 13425 3600
 Wire Wire Line
 	15475 7325 15050 7325
 Wire Wire Line
@@ -1526,40 +1992,6 @@ Wire Wire Line
 	14475 2400 14300 2400
 Wire Wire Line
 	14300 2400 14300 2325
-$Comp
-L VCC #PWR034
-U 1 1 5B99A4D6
-P 15050 8125
-F 0 "#PWR034" H 15050 7975 50  0001 C CNN
-F 1 "VCC" H 15050 8275 50  0000 C CNN
-F 2 "" H 15050 8125 50  0000 C CNN
-F 3 "" H 15050 8125 50  0000 C CNN
-	1    15050 8125
-	0    -1   -1   0   
-$EndComp
-$Comp
-L 101-00405-75 CON303
-U 1 1 5B99B192
-P 9925 1350
-F 0 "CON303" H 10075 1475 50  0000 C CNN
-F 1 "101-00405-75" H 10225 1400 50  0000 C CNN
-F 2 "db-smt:SDCARD-AMP-10100405" H 10725 1875 60  0001 C CNN
-F 3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/1010040575.pdf" H 11800 1575 60  0001 C CNN
-F 4 "101-00405-75-ND" H 10425 1775 60  0001 C CNN "Digikey"
-F 5 "CONN SD CARD PUSH-PUSH R/A SMD" H 10825 1675 60  0001 C CNN "Description"
-	1    9925 1350
-	1    0    0    -1  
-$EndComp
-Text Label 9375 1650 0    60   ~ 0
-~SS2~
-Text Label 9375 1750 0    60   ~ 0
-SCK2
-Text Label 9375 1850 0    60   ~ 0
-SDO2
-Text Label 9375 1950 0    60   ~ 0
-SDI2
-Text Label 10850 1650 0    60   ~ 0
-~SDCD~
 Wire Wire Line
 	9300 1650 9725 1650
 Wire Wire Line
@@ -1570,220 +2002,6 @@ Wire Wire Line
 	9300 1950 9725 1950
 Wire Wire Line
 	10775 1650 11200 1650
-Text Notes 9775 1100 0    60   ~ 0
-SD Card connector
-$Comp
-L PIC32MX795F512LT-80I/PF U301
-U 1 1 5B99C2CD
-P 5850 4050
-F 0 "U301" H 4400 6550 50  0000 R CNN
-F 1 "PIC32MX795F512LT-80I/PF" H 5275 6450 50  0000 R CNN
-F 2 "db-smt:TQFP-100" H 5875 6825 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/60001156J.pdf" H 7175 6925 50  0001 C CNN
-F 4 "PIC32MX795F512LT-80I/PFCT-ND" H 6640 7035 60  0001 C CNN "Digikey"
-F 5 "IC MCU 32BIT 512KB FLASH 100TQFP" H 6720 7145 60  0001 C CNN "Description"
-	1    5850 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L PIC_ICSP CON302
-U 1 1 5B99C2D6
-P 1350 2000
-F 0 "CON302" H 1775 2125 50  0000 C CNN
-F 1 "PIC_ICSP" H 1775 2050 50  0000 C CNN
-F 2 "db-thparts:HDR1X6" H 1825 2425 60  0001 C CNN
-F 3 "" H 1475 2050 60  0001 C CNN
-F 4 "#ND" H 1500 2325 60  0001 C CNN "Digikey"
-F 5 "Microchip Pickit 3 Programming Header" H 2300 2225 60  0001 C CNN "Description"
-	1    1350 2000
-	-1   0    0    -1  
-$EndComp
-$Comp
-L USB-B1HSB6 CON301
-U 1 1 5B99C2DF
-P 1150 6550
-F 0 "CON301" H 1400 6675 50  0000 C CNN
-F 1 "USB-B1HSB6" H 1300 6600 50  0000 C CNN
-F 2 "db-thparts:USB-B1HSxx" H 1725 7025 60  0001 C CNN
-F 3 "http://www.on-shore.com/wp-content/uploads/2015/09/usb-b1hsxx.pdf" H 2900 6775 60  0001 C CNN
-F 4 "ED2983-ND" H 1450 6950 60  0001 C CNN "Digikey"
-F 5 "CONN USB TYPE B R/A BLACK" H 1875 6850 60  0001 C CNN "Description"
-	1    1150 6550
-	-1   0    0    -1  
-$EndComp
-Text Label 7725 5450 0    60   ~ 0
-D15
-Text Label 7725 5550 0    60   ~ 0
-D14
-Text Label 7725 5650 0    60   ~ 0
-D13
-Text Label 7725 5750 0    60   ~ 0
-D12
-Text Label 7725 5850 0    60   ~ 0
-D11
-Text Label 7725 5950 0    60   ~ 0
-D10
-Text Label 7725 6050 0    60   ~ 0
-D9
-Text Label 7725 6150 0    60   ~ 0
-D8
-Text Label 7725 6250 0    60   ~ 0
-D7
-Text Label 7725 6350 0    60   ~ 0
-D6
-Text Label 7725 6450 0    60   ~ 0
-D5
-Text Label 7725 6550 0    60   ~ 0
-D4
-Text Label 7725 6650 0    60   ~ 0
-D3
-Text Label 7725 6750 0    60   ~ 0
-D2
-Text Label 7725 6850 0    60   ~ 0
-D1
-Text Label 7725 6950 0    60   ~ 0
-D0
-Text Label 3925 2550 2    60   ~ 0
-ALH
-Text Label 3925 2450 2    60   ~ 0
-ALL
-Text Label 7725 4950 0    60   ~ 0
-~CE1~
-Text Label 7725 5050 0    60   ~ 0
-~CE0~
-Text Label 7725 5150 0    60   ~ 0
-~RD~
-Text Label 7725 5250 0    60   ~ 0
-~WR~
-Text Label 7725 3250 0    60   ~ 0
-~USS4~/URX5/GP2
-Text Label 7725 3350 0    60   ~ 0
-USCK4/UTX5/GP3
-Text Label 7725 3450 0    60   ~ 0
-USDO4/UTX2/USCL5/GP4
-Text Label 7725 3550 0    60   ~ 0
-USDI4/URX2/USDA5/GP5
-Text Label 7725 2250 0    60   ~ 0
-~SS2~
-Text Label 7725 2350 0    60   ~ 0
-SCK2
-Text Label 7725 2450 0    60   ~ 0
-SDO2
-Text Label 7725 2550 0    60   ~ 0
-SDI2
-Text Label 3725 5650 0    60   ~ 0
-~SDCD~
-$Comp
-L GND #PWR035
-U 1 1 5B99C305
-P 950 7600
-F 0 "#PWR035" H 950 7350 50  0001 C CNN
-F 1 "GND" H 950 7450 50  0000 C CNN
-F 2 "" H 950 7600 50  0000 C CNN
-F 3 "" H 950 7600 50  0000 C CNN
-	1    950  7600
-	1    0    0    -1  
-$EndComp
-Text Label 3950 4650 2    60   ~ 0
-A16
-Text Label 3950 4550 2    60   ~ 0
-A17
-Text Label 3950 4450 2    60   ~ 0
-A18
-Text Label 3950 4350 2    60   ~ 0
-A19
-Text Label 3950 4250 2    60   ~ 0
-A20
-Text Label 3950 4150 2    60   ~ 0
-A21
-Text Label 3950 4050 2    60   ~ 0
-A22
-Text Label 3950 3950 2    60   ~ 0
-A23
-Text Label 7725 3750 0    60   ~ 0
-SDA1
-Text Label 7725 3850 0    60   ~ 0
-SCL1
-Text Label 3925 2300 2    60   ~ 0
-PGC
-Text Label 3925 2200 2    60   ~ 0
-PGD
-Text Label 3750 2100 0    60   ~ 0
-~MCLR~
-Text Label 1625 2300 0    60   ~ 0
-~MCLR~
-Text Label 1625 2400 0    60   ~ 0
-PGC
-Text Label 1625 2500 0    60   ~ 0
-PGD
-Text Label 3775 2650 0    60   ~ 0
-~AOE~
-Text Label 7725 4650 0    60   ~ 0
-GP1
-Text Label 7725 4750 0    60   ~ 0
-GP0
-$Comp
-L C_0603 C301
-U 1 1 5B99C320
-P 2200 7500
-F 0 "C301" V 2275 7600 50  0000 L CNN
-F 1 "0.1uF/50V" V 2375 7600 50  0000 L CNN
-F 2 "db-smt:0603" H 2700 7400 30  0001 C CNN
-F 3 "" H 2225 7600 60  0001 C CNN
-F 4 "490-8020-1-ND" H 2625 7475 60  0001 C CNN "Digikey"
-F 5 "CAP CER 0.1UF 50V X7R 0603" H 2625 7575 60  0001 C CNN "Description"
-	1    2200 7500
-	0    1    1    0   
-$EndComp
-$Comp
-L USBLC6-2SC6 D301
-U 1 1 5B99C329
-P 1875 6750
-F 0 "D301" H 1975 7000 50  0000 C CNN
-F 1 "USBLC6-2SC6" H 2150 6925 50  0000 C CNN
-F 2 "db-smt:SOT-23-6" H 2175 7075 60  0001 C CNN
-F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf" H 3175 7250 60  0001 C CNN
-F 4 "497-5235-1-ND" H 2225 7150 60  0001 C CNN "Digikey"
-F 5 "TVS DIODE 5.25V 17V SOT23-6" H 2725 6975 60  0001 C CNN "Description"
-	1    1875 6750
-	1    0    0    -1  
-$EndComp
-Text Label 1375 6750 0    60   ~ 0
-D-in
-Text Label 1375 6850 0    60   ~ 0
-D+in
-Text Label 2875 6850 0    60   ~ 0
-D-
-Text Label 2875 7250 0    60   ~ 0
-D+
-Text Notes 775  6350 0    60   ~ 0
-USB data input and ESD protection
-Text Notes 725  1800 0    60   ~ 0
-PIC ICSP 1x6 0.1" header
-Text Label 1375 6650 0    60   ~ 0
-Vbus
-$Comp
-L +5VD #PWR036
-U 1 1 5B99C337
-P 2850 6575
-F 0 "#PWR036" H 2850 6425 50  0001 C CNN
-F 1 "+5VD" H 2850 6715 50  0000 C CNN
-F 2 "" H 2850 6575 50  0000 C CNN
-F 3 "" H 2850 6575 50  0000 C CNN
-	1    2850 6575
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR037
-U 1 1 5B99C33D
-P 6150 7700
-F 0 "#PWR037" H 6150 7450 50  0001 C CNN
-F 1 "GND" H 6150 7550 50  0000 C CNN
-F 2 "" H 6150 7700 50  0000 C CNN
-F 3 "" H 6150 7700 50  0000 C CNN
-	1    6150 7700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7650 5450 8075 5450
 Wire Wire Line
@@ -1869,17 +2087,13 @@ Wire Wire Line
 Wire Wire Line
 	7650 3850 8075 3850
 Wire Wire Line
-	4150 2300 3725 2300
+	1500 2300 4150 2300
 Wire Wire Line
-	4150 2200 3725 2200
+	4150 2100 3650 2100
 Wire Wire Line
-	4150 2100 3725 2100
+	1500 2100 1925 2100
 Wire Wire Line
-	1550 2300 1975 2300
-Wire Wire Line
-	1550 2400 1975 2400
-Wire Wire Line
-	1550 2500 1975 2500
+	1500 2200 4150 2200
 Wire Wire Line
 	4150 2650 3725 2650
 Wire Wire Line
@@ -1939,111 +2153,20 @@ Connection ~ 5750 7600
 Wire Wire Line
 	5550 7450 5550 7600
 Connection ~ 5650 7600
-Text Label 3725 5950 0    60   ~ 0
-5V/~3V~
-Text Label 3725 6050 0    60   ~ 0
-CVEN
-$Comp
-L +3.3VP #PWR038
-U 1 1 5B99C39B
-P 5550 1150
-F 0 "#PWR038" H 5700 1100 50  0001 C CNN
-F 1 "+3.3VP" H 5550 1250 50  0000 C CNN
-F 2 "" H 5550 1150 50  0000 C CNN
-F 3 "" H 5550 1150 50  0000 C CNN
-	1    5550 1150
-	1    0    0    -1  
-$EndComp
-Text HLabel 3625 5950 0    60   Output ~ 0
-5V/~3V~
-Text HLabel 3625 6050 0    60   Output ~ 0
-CVEN
 Wire Wire Line
 	4150 5950 3625 5950
 Wire Wire Line
 	4150 6050 3625 6050
 Wire Wire Line
 	5550 1150 5550 1550
-$Comp
-L +3.3VP #PWR?
-U 1 1 5B9B1B74
-P 1750 2025
-F 0 "#PWR?" H 1900 1975 50  0001 C CNN
-F 1 "+3.3VP" H 1750 2125 50  0000 C CNN
-F 2 "" H 1750 2025 50  0000 C CNN
-F 3 "" H 1750 2025 50  0000 C CNN
-	1    1750 2025
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1750 2025 1750 2100
+	1700 1825 1700 1900
 Wire Wire Line
-	1750 2100 1550 2100
-$Comp
-L GND #PWR?
-U 1 1 5B9B22ED
-P 1250 5650
-F 0 "#PWR?" H 1250 5400 50  0001 C CNN
-F 1 "GND" H 1250 5500 50  0000 C CNN
-F 2 "" H 1250 5650 50  0000 C CNN
-F 3 "" H 1250 5650 50  0000 C CNN
-	1    1250 5650
-	1    0    0    -1  
-$EndComp
-Text HLabel 1050 5350 0    60   Input ~ 0
-Vdigital
-Text HLabel 1050 5450 0    60   Input ~ 0
-Vcart
-Text HLabel 1050 5550 0    60   BiDi ~ 0
-GND
+	1700 1900 1500 1900
 Wire Wire Line
 	1050 5550 1250 5550
 Wire Wire Line
 	1250 5550 1250 5650
-$Comp
-L VDD #PWR?
-U 1 1 5B9B2CD6
-P 11675 4150
-F 0 "#PWR?" H 11675 4000 50  0001 C CNN
-F 1 "VDD" H 11675 4300 50  0000 C CNN
-F 2 "" H 11675 4150 50  0000 C CNN
-F 3 "" H 11675 4150 50  0000 C CNN
-	1    11675 4150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L VDD #PWR?
-U 1 1 5B9B2D1E
-P 11675 5775
-F 0 "#PWR?" H 11675 5625 50  0001 C CNN
-F 1 "VDD" H 11675 5925 50  0000 C CNN
-F 2 "" H 11675 5775 50  0000 C CNN
-F 3 "" H 11675 5775 50  0000 C CNN
-	1    11675 5775
-	0    -1   -1   0   
-$EndComp
-$Comp
-L VDD #PWR?
-U 1 1 5B9B2F08
-P 1250 5250
-F 0 "#PWR?" H 1250 5100 50  0001 C CNN
-F 1 "VDD" H 1250 5400 50  0000 C CNN
-F 2 "" H 1250 5250 50  0000 C CNN
-F 3 "" H 1250 5250 50  0000 C CNN
-	1    1250 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR?
-U 1 1 5B9B2F0E
-P 1450 5250
-F 0 "#PWR?" H 1450 5100 50  0001 C CNN
-F 1 "VCC" H 1450 5400 50  0000 C CNN
-F 2 "" H 1450 5250 50  0000 C CNN
-F 3 "" H 1450 5250 50  0000 C CNN
-	1    1450 5250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1350 6650 4150 6650
 Connection ~ 2850 6650
@@ -2051,47 +2174,6 @@ Wire Wire Line
 	4150 6950 3100 6950
 Wire Wire Line
 	3100 6950 3100 7250
-Text HLabel 1050 4350 0    60   Output ~ 0
-+5Vusb
-Text HLabel 1050 4650 0    60   Input ~ 0
-+3.3V
-Text HLabel 1050 4450 0    60   Input ~ 0
-+5V
-Text HLabel 1050 4550 0    60   Input ~ 0
-+3.3VP
-$Comp
-L +3.3V #PWR?
-U 1 1 5B9B4FAE
-P 1950 4250
-F 0 "#PWR?" H 1950 4100 50  0001 C CNN
-F 1 "+3.3V" H 1950 4390 50  0000 C CNN
-F 2 "" H 1950 4250 50  0000 C CNN
-F 3 "" H 1950 4250 50  0000 C CNN
-	1    1950 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR?
-U 1 1 5B9B4FB4
-P 1450 4250
-F 0 "#PWR?" H 1450 4100 50  0001 C CNN
-F 1 "+5V" H 1450 4390 50  0000 C CNN
-F 2 "" H 1450 4250 50  0000 C CNN
-F 3 "" H 1450 4250 50  0000 C CNN
-	1    1450 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3VP #PWR?
-U 1 1 5B9B4FBA
-P 1700 4200
-F 0 "#PWR?" H 1850 4150 50  0001 C CNN
-F 1 "+3.3VP" H 1700 4300 50  0000 C CNN
-F 2 "" H 1700 4200 50  0000 C CNN
-F 3 "" H 1700 4200 50  0000 C CNN
-	1    1700 4200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1450 4250 1450 4450
 Wire Wire Line
@@ -2104,23 +2186,10 @@ Wire Wire Line
 	1950 4250 1950 4650
 Wire Wire Line
 	1950 4650 1050 4650
-$Comp
-L +5VD #PWR?
-U 1 1 5B9B4FC6
-P 1250 4250
-F 0 "#PWR?" H 1250 4100 50  0001 C CNN
-F 1 "+5VD" H 1250 4390 50  0000 C CNN
-F 2 "" H 1250 4250 50  0000 C CNN
-F 3 "" H 1250 4250 50  0000 C CNN
-	1    1250 4250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1250 4250 1250 4350
 Wire Wire Line
 	1250 4350 1050 4350
-Text Notes 675  4000 0    60   ~ 0
-5Vusb = from CON301 data USB\n5V    = from CON201 charger micro USB\n3.3VP = uC voltage rail, LDO on +5Vusb\n3.3V  = logic voltage rail, LDO on +5V
 Wire Wire Line
 	1050 5350 1250 5350
 Wire Wire Line
@@ -2129,27 +2198,10 @@ Wire Wire Line
 	1050 5450 1450 5450
 Wire Wire Line
 	1450 5450 1450 5250
-Text Notes 650  5025 0    60   ~ 0
-Vdigital = 5V or 3.3V selectable via 5V/~3.3V­~ on U202\nVcart   = Vdigital switched and current sensed
-$Comp
-L GND #PWR?
-U 1 1 5B9B68FD
-P 1750 2900
-F 0 "#PWR?" H 1750 2650 50  0001 C CNN
-F 1 "GND" H 1750 2750 50  0000 C CNN
-F 2 "" H 1750 2900 50  0000 C CNN
-F 3 "" H 1750 2900 50  0000 C CNN
-	1    1750 2900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1550 2800 1750 2800
+	1500 2600 1700 2600
 Wire Wire Line
-	1750 2800 1750 2900
-Text Label 3950 3750 2    60   ~ 0
-AN0
-Text Label 3950 3650 2    60   ~ 0
-AN1
+	1700 2600 1700 2750
 Wire Wire Line
 	4150 3750 3725 3750
 Wire Wire Line
@@ -2162,8 +2214,6 @@ Wire Notes Line
 	11250 9075 11250 5825
 Wire Notes Line
 	11250 5825 9200 5825
-Text Notes 11950 4625 0    60   ~ 0
-address latch
 Wire Notes Line
 	11400 4500 11400 9075
 Wire Notes Line
@@ -2174,8 +2224,54 @@ Wire Notes Line
 	13550 4500 11400 4500
 Wire Wire Line
 	4150 3550 3725 3550
-Text HLabel 3725 3550 0    60   Input ~ 0
-iSense
-Text Label 3775 3550 0    60   ~ 0
-iSense
+Wire Wire Line
+	3050 1500 3050 1625
+Wire Wire Line
+	3050 2025 3050 2350
+Wire Wire Line
+	3250 2100 3050 2100
+Connection ~ 3050 2100
+$Comp
+L GND #PWR?
+U 1 1 5B9E0541
+P 3050 2750
+F 0 "#PWR?" H 3050 2500 50  0001 C CNN
+F 1 "GND" H 3050 2600 50  0000 C CNN
+F 2 "" H 3050 2750 50  0000 C CNN
+F 3 "" H 3050 2750 50  0000 C CNN
+	1    3050 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2750 3050 2650
+$Comp
+L C_0805 C?
+U 1 1 5B9E1904
+P 5150 1350
+F 0 "C?" H 5175 1450 50  0000 L CNN
+F 1 "10uF/16V" H 5175 1250 50  0000 L CNN
+F 2 "db-smt:0805" H 5188 1200 30  0001 C CNN
+F 3 "" H 5175 1450 60  0000 C CNN
+F 4 "1276-2872-1-ND" H 5275 1550 60  0001 C CNN "Digikey"
+F 5 "CAP CER 10UF 16V X7R 0805" H 5275 1650 60  0001 C CNN "Description"
+	1    5150 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 1550 5400 1350
+Wire Wire Line
+	5400 1350 5300 1350
+$Comp
+L GND #PWR?
+U 1 1 5B9E1D38
+P 4850 1350
+F 0 "#PWR?" H 4850 1100 50  0001 C CNN
+F 1 "GND" H 4850 1200 50  0000 C CNN
+F 2 "" H 4850 1350 50  0000 C CNN
+F 3 "" H 4850 1350 50  0000 C CNN
+	1    4850 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 1350 4850 1350
 $EndSCHEMATC
