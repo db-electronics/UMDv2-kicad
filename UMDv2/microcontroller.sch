@@ -662,7 +662,7 @@ B3 B0 E6 6A 7C B0 91 B5 85 F5 AA 29 4B 86 75 1C 70 FA DE 25 95 FA 0B 3B 73 C4 42
 C3 4E EA F9 43 51 69 F1 E7 1F 27 08 64 6B 61 83 10 1A DB 7D 78 6E 69 C1 17 5F DB 34 A0 11 42 A8 
 55 70 33 82 AD 8D 87 68 2D 82 9A 22 84 9A D5 6D AC 9D 3F 96 26 7E 21 1F FE 4D 60 29 EC 04 00 00 
 00 E8 29 58 2C 03 00 00 C0 A8 FD 1F 1F 82 A8 A4 9D 50 0C 54 00 00 00 00 49 45 4E 44 AE 42 60 82 
-F0 
+78 
 EndData
 $EndBitmap
 $Comp
@@ -1185,7 +1185,7 @@ F 5 "CONN SD CARD PUSH-PUSH R/A SMD" H 10825 1675 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 Text Label 9375 1650 0    60   ~ 0
-~SS2~
+~SSSD~
 Text Label 9375 1750 0    60   ~ 0
 SCK2
 Text Label 9375 1850 0    60   ~ 0
@@ -1267,10 +1267,6 @@ Text Label 7725 6850 0    60   ~ 0
 D1
 Text Label 7725 6950 0    60   ~ 0
 D0
-Text Label 3925 2550 2    60   ~ 0
-ALH
-Text Label 3925 2450 2    60   ~ 0
-ALL
 Text Label 7725 4950 0    60   ~ 0
 ~CE1~
 Text Label 7725 5050 0    60   ~ 0
@@ -1288,7 +1284,7 @@ USDO4/UTX2/USCL5/GP4
 Text Label 7725 3550 0    60   ~ 0
 USDI4/URX2/USDA5/GP5
 Text Label 7725 2250 0    60   ~ 0
-~SS2~
+~SSSD~
 Text Label 7725 2350 0    60   ~ 0
 SCK2
 Text Label 7725 2450 0    60   ~ 0
@@ -1308,22 +1304,6 @@ F 3 "" H 950 7600 50  0000 C CNN
 	1    950  7600
 	1    0    0    -1  
 $EndComp
-Text Label 3950 4650 2    60   ~ 0
-A16
-Text Label 3950 4550 2    60   ~ 0
-A17
-Text Label 3950 4450 2    60   ~ 0
-A18
-Text Label 3950 4350 2    60   ~ 0
-A19
-Text Label 3950 4250 2    60   ~ 0
-A20
-Text Label 3950 4150 2    60   ~ 0
-A21
-Text Label 3950 4050 2    60   ~ 0
-A22
-Text Label 3950 3950 2    60   ~ 0
-A23
 Text Label 7725 3750 0    60   ~ 0
 SDA1
 Text Label 7725 3850 0    60   ~ 0
@@ -1340,8 +1320,6 @@ Text Label 1575 2300 0    60   ~ 0
 PGC
 Text Label 1575 2200 0    60   ~ 0
 PGD
-Text Label 3775 2650 0    60   ~ 0
-~AOE~
 Text Label 7725 4650 0    60   ~ 0
 GP1
 Text Label 7725 4750 0    60   ~ 0
@@ -1566,10 +1544,6 @@ F 3 "" H 1700 2750 50  0000 C CNN
 	1    1700 2750
 	1    0    0    -1  
 $EndComp
-Text Label 3950 3750 2    60   ~ 0
-AN0
-Text Label 3950 3650 2    60   ~ 0
-AN1
 Text Notes 11950 4625 0    60   ~ 0
 address latch
 Text HLabel 3725 3550 0    60   Input ~ 0
@@ -2274,4 +2248,67 @@ F 3 "" H 4850 1350 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	5000 1350 4850 1350
+$Comp
+L S25FL127SABMFI101 U?
+U 1 1 5B9EFA5F
+P 9925 3075
+F 0 "U?" H 9975 3200 50  0000 C CNN
+F 1 "S25FL127SABMFI101" H 10325 3125 50  0000 C CNN
+F 2 "db-smt:SOIC-8-5.3MM" H 10475 3600 60  0001 C CNN
+F 3 "http://www.cypress.com/file/177961/download" H 11050 3500 60  0001 C CNN
+F 4 "1274-1045-ND" H 10300 3300 60  0001 C CNN "Digikey"
+F 5 "IC FLASH 128M SPI 108MHZ 8SO" H 10700 3400 60  0001 C CNN "Description"
+	1    9925 3075
+	1    0    0    -1  
+$EndComp
+Text Label 9375 3175 0    60   ~ 0
+~SSSD~
+Text Label 9375 3275 0    60   ~ 0
+SCK2
+Text Label 9375 3375 0    60   ~ 0
+SDO2
+Text Label 9375 3475 0    60   ~ 0
+SDI2
+Wire Wire Line
+	9300 3175 9725 3175
+Wire Wire Line
+	9300 3275 9725 3275
+Wire Wire Line
+	9300 3375 9725 3375
+Wire Wire Line
+	9300 3475 9725 3475
+Text Label 3725 5350 0    60   ~ 0
+PRG_BTN
+Wire Wire Line
+	3725 5350 4150 5350
+Text Label 3725 5250 0    60   ~ 0
+BOOT
+Wire Wire Line
+	3725 5250 4150 5250
+Text Label 3725 4650 0    60   ~ 0
+A16
+Text Label 3725 4550 0    60   ~ 0
+A17
+Text Label 3725 4450 0    60   ~ 0
+A18
+Text Label 3725 4350 0    60   ~ 0
+A19
+Text Label 3725 4250 0    60   ~ 0
+A20
+Text Label 3725 4150 0    60   ~ 0
+A21
+Text Label 3725 4050 0    60   ~ 0
+A22
+Text Label 3725 3950 0    60   ~ 0
+A23
+Text Label 3725 3750 0    60   ~ 0
+AN0
+Text Label 3725 3650 0    60   ~ 0
+AN1
+Text Label 3725 2650 0    60   ~ 0
+~AOE~
+Text Label 3725 2550 0    60   ~ 0
+ALH
+Text Label 3725 2450 0    60   ~ 0
+ALL
 $EndSCHEMATC
