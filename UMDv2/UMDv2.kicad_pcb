@@ -5,7 +5,7 @@
     (no_connects 268)
     (area 0 0 0 0)
     (thickness 1.6)
-    (drawings 0)
+    (drawings 4)
     (tracks 0)
     (zones 0)
     (modules 53)
@@ -72,6 +72,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
+    (grid_origin 195.5165 64.3636)
     (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x00030_80000001)
@@ -920,7 +921,7 @@
   )
 
   (module db-smt:USB-uB-10118194 (layer F.Cu) (tedit 5B969A69) (tstamp 5BA04953)
-    (at 97.79 67.93 270)
+    (at 98.1165 69.1636 270)
     (path /5B98554A/5B9862FC)
     (solder_mask_margin 0.1016)
     (fp_text reference CON201 (at 4.8664 1.0668 360) (layer F.SilkS)
@@ -955,7 +956,7 @@
   )
 
   (module db-thparts:USB-B1HSxx (layer F.Cu) (tedit 5B929E84) (tstamp 5BA04963)
-    (at 106.5833 80.1626 90)
+    (at 104.2265 82.3836 90)
     (path /5B9907CA/5B99C2DF)
     (solder_mask_margin 0.1016)
     (fp_text reference CON301 (at -7.1626 -7.6757 180) (layer F.SilkS)
@@ -1019,7 +1020,7 @@
   )
 
   (module db-smt:SDCARD-AMP-10100405 (layer F.Cu) (tedit 5B969AFB) (tstamp 5BA04991)
-    (at 121.2088 110.0836 270)
+    (at 121.3165 110.0636 270)
     (path /5B9907CA/5B99B192)
     (solder_mask_margin 0.1016)
     (fp_text reference CON303 (at -11.6 -3.3 270) (layer F.SilkS)
@@ -2521,5 +2522,10 @@
     (pad 2 smd rect (at 4.1 0 180) (size 1.9 2.4) (layers F.Cu F.Paste F.Mask)
       (net 10 "Net-(C302-Pad1)"))
   )
+
+  (gr_line (start 93.9165 61.8236) (end 198.0565 61.8236) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 93.9165 145.6436) (end 93.9165 61.8236) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 198.0565 145.6436) (end 93.9165 145.6436) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 198.0565 61.8236) (end 198.0565 145.6436) (layer Edge.Cuts) (width 0.15))
 
 )
