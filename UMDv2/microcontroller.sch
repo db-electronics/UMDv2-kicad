@@ -13,9 +13,9 @@ EELAYER 25 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 3 3
-Title "UMDv2 - Microcontroller"
-Date "2018-09-06"
+Sheet 3 4
+Title "UMDv2"
+Date "2018-10-11"
 Rev "2.0"
 Comp "db Electronics"
 Comment1 "https://github.com/db-electronics/UMDv2-kicad"
@@ -26,100 +26,100 @@ $EndDescr
 $Comp
 L 74ALVC164245DL,118 U?
 U 1 1 5B9981C3
-P 10350 7775
+P 10350 8000
 AR Path="/5B9981C3" Ref="U?"  Part="1" 
 AR Path="/5B9907CA/5B9981C3" Ref="U302"  Part="1" 
-F 0 "U302" H 10450 7900 50  0000 C CNN
-F 1 "74ALVC164245DL,118" H 10775 7825 50  0000 C CNN
-F 2 "db-smt:BSSOP-48-7.50mm" H 10925 8000 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74ALVC164245.pdf" H 11750 8225 50  0001 C CNN
-F 4 "1727-6309-1-ND" H 10725 8075 50  0001 C CNN "Digikey"
-F 5 "IC TRNSLTR BIDIRECTIONAL 48SSOP" H 11050 8150 50  0001 C CNN "Description"
-	1    10350 7775
+F 0 "U302" H 10450 8125 50  0000 C CNN
+F 1 "74ALVC164245DL,118" H 10775 8050 50  0000 C CNN
+F 2 "db-smt:BSSOP-48-7.50mm" H 10925 8225 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74ALVC164245.pdf" H 11750 8450 50  0001 C CNN
+F 4 "1727-6309-1-ND" H 10725 8300 50  0001 C CNN "Digikey"
+F 5 "IC TRNSLTR BIDIRECTIONAL 48SSOP" H 11050 8375 50  0001 C CNN "Description"
+	1    10350 8000
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74ALVC164245DL,118 U?
 U 2 1 5B9981CC
-P 10350 6375
+P 10350 6600
 AR Path="/5B9981CC" Ref="U?"  Part="2" 
 AR Path="/5B9907CA/5B9981CC" Ref="U302"  Part="2" 
-F 0 "U302" H 10450 6500 50  0000 C CNN
-F 1 "74ALVC164245DL,118" H 10775 6425 50  0000 C CNN
-F 2 "db-smt:BSSOP-48-7.50mm" H 10925 6600 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74ALVC164245.pdf" H 11750 6825 50  0001 C CNN
-F 4 "1727-6309-1-ND" H 10725 6675 50  0001 C CNN "Digikey"
-F 5 "IC TRNSLTR BIDIRECTIONAL 48SSOP" H 11050 6750 50  0001 C CNN "Description"
-	2    10350 6375
+F 0 "U302" H 10450 6725 50  0000 C CNN
+F 1 "74ALVC164245DL,118" H 10775 6650 50  0000 C CNN
+F 2 "db-smt:BSSOP-48-7.50mm" H 10925 6825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74ALVC164245.pdf" H 11750 7050 50  0001 C CNN
+F 4 "1727-6309-1-ND" H 10725 6900 50  0001 C CNN "Digikey"
+F 5 "IC TRNSLTR BIDIRECTIONAL 48SSOP" H 11050 6975 50  0001 C CNN "Description"
+	2    10350 6600
 	1    0    0    -1  
 $EndComp
-Text Label 9900 8575 2    60   ~ 0
+Text Label 9900 8800 2    60   ~ 0
 D7
-Text Label 9900 8475 2    60   ~ 0
+Text Label 9900 8700 2    60   ~ 0
 D6
-Text Label 9900 8375 2    60   ~ 0
+Text Label 9900 8600 2    60   ~ 0
 D5
-Text Label 9900 8275 2    60   ~ 0
+Text Label 9900 8500 2    60   ~ 0
 D4
-Text Label 9900 8175 2    60   ~ 0
+Text Label 9900 8400 2    60   ~ 0
 D3
-Text Label 9900 8075 2    60   ~ 0
+Text Label 9900 8300 2    60   ~ 0
 D2
-Text Label 9900 7975 2    60   ~ 0
+Text Label 9900 8200 2    60   ~ 0
 D1
-Text Label 9900 7875 2    60   ~ 0
+Text Label 9900 8100 2    60   ~ 0
 D0
-Text Label 9950 7175 2    60   ~ 0
+Text Label 9950 7400 2    60   ~ 0
 D15
-Text Label 9950 7075 2    60   ~ 0
+Text Label 9950 7300 2    60   ~ 0
 D14
-Text Label 9950 6975 2    60   ~ 0
+Text Label 9950 7200 2    60   ~ 0
 D13
-Text Label 9950 6875 2    60   ~ 0
+Text Label 9950 7100 2    60   ~ 0
 D12
-Text Label 9950 6775 2    60   ~ 0
+Text Label 9950 7000 2    60   ~ 0
 D11
-Text Label 9950 6675 2    60   ~ 0
+Text Label 9950 6900 2    60   ~ 0
 D10
-Text Label 9900 6575 2    60   ~ 0
+Text Label 9900 6800 2    60   ~ 0
 D9
-Text Label 9900 6475 2    60   ~ 0
+Text Label 9900 6700 2    60   ~ 0
 D8
-Text Label 11125 7875 0    60   ~ 0
+Text Label 11125 8100 0    60   ~ 0
 UD0
-Text Label 11125 7975 0    60   ~ 0
+Text Label 11125 8200 0    60   ~ 0
 UD1
-Text Label 11125 8075 0    60   ~ 0
+Text Label 11125 8300 0    60   ~ 0
 UD2
-Text Label 11125 8175 0    60   ~ 0
+Text Label 11125 8400 0    60   ~ 0
 UD3
-Text Label 11125 8275 0    60   ~ 0
+Text Label 11125 8500 0    60   ~ 0
 UD4
-Text Label 11125 8375 0    60   ~ 0
+Text Label 11125 8600 0    60   ~ 0
 UD5
-Text Label 11125 8475 0    60   ~ 0
+Text Label 11125 8700 0    60   ~ 0
 UD6
-Text Label 11125 8575 0    60   ~ 0
+Text Label 11125 8800 0    60   ~ 0
 UD7
-Text Label 11125 6475 0    60   ~ 0
+Text Label 11125 6700 0    60   ~ 0
 UD8
-Text Label 11125 6575 0    60   ~ 0
+Text Label 11125 6800 0    60   ~ 0
 UD9
-Text Label 11125 6675 0    60   ~ 0
+Text Label 11125 6900 0    60   ~ 0
 UD10
-Text Label 11125 6775 0    60   ~ 0
+Text Label 11125 7000 0    60   ~ 0
 UD11
-Text Label 11125 6875 0    60   ~ 0
+Text Label 11125 7100 0    60   ~ 0
 UD12
-Text Label 11125 6975 0    60   ~ 0
+Text Label 11125 7200 0    60   ~ 0
 UD13
-Text Label 11125 7075 0    60   ~ 0
+Text Label 11125 7300 0    60   ~ 0
 UD14
-Text Label 11125 7175 0    60   ~ 0
+Text Label 11125 7400 0    60   ~ 0
 UD15
-Text Notes 10225 9150 0    60   ~ 0
+Text Notes 10225 9375 0    60   ~ 0
 DIR = 0 = B to A\nDIR = 1 = A to B
-Text Notes 10150 6125 0    60   ~ 0
+Text Notes 10150 6350 0    60   ~ 0
 databus translation
 $Bitmap
 Pos 16075 9475
@@ -662,7 +662,7 @@ B3 B0 E6 6A 7C B0 91 B5 85 F5 AA 29 4B 86 75 1C 70 FA DE 25 95 FA 0B 3B 73 C4 42
 C3 4E EA F9 43 51 69 F1 E7 1F 27 08 64 6B 61 83 10 1A DB 7D 78 6E 69 C1 17 5F DB 34 A0 11 42 A8 
 55 70 33 82 AD 8D 87 68 2D 82 9A 22 84 9A D5 6D AC 9D 3F 96 26 7E 21 1F FE 4D 60 29 EC 04 00 00 
 00 E8 29 58 2C 03 00 00 C0 A8 FD 1F 1F 82 A8 A4 9D 50 0C 54 00 00 00 00 49 45 4E 44 AE 42 60 82 
-30 
+78 
 EndData
 $EndBitmap
 $Comp
@@ -1852,69 +1852,69 @@ $EndComp
 Text Label 3750 5750 0    60   ~ 0
 ~SSSF~
 Wire Wire Line
-	10150 8575 9675 8575
+	10150 8800 9675 8800
 Wire Wire Line
-	10150 8475 9675 8475
+	10150 8700 9675 8700
 Wire Wire Line
-	10150 8375 9675 8375
+	10150 8600 9675 8600
 Wire Wire Line
-	10150 8275 9675 8275
+	10150 8500 9675 8500
 Wire Wire Line
-	10150 8175 9675 8175
+	10150 8400 9675 8400
 Wire Wire Line
-	10150 8075 9675 8075
+	10150 8300 9675 8300
 Wire Wire Line
-	10150 7975 9675 7975
+	10150 8200 9675 8200
 Wire Wire Line
-	10150 7875 9675 7875
+	10150 8100 9675 8100
 Wire Wire Line
-	10150 7175 9675 7175
+	10150 7400 9675 7400
 Wire Wire Line
-	10150 7075 9675 7075
+	10150 7300 9675 7300
 Wire Wire Line
-	10150 6975 9675 6975
+	10150 7200 9675 7200
 Wire Wire Line
-	10150 6875 9675 6875
+	10150 7100 9675 7100
 Wire Wire Line
-	10150 6775 9675 6775
+	10150 7000 9675 7000
 Wire Wire Line
-	10150 6675 9675 6675
+	10150 6900 9675 6900
 Wire Wire Line
-	10150 6575 9675 6575
+	10150 6800 9675 6800
 Wire Wire Line
-	10150 6475 9675 6475
+	10150 6700 9675 6700
 Wire Wire Line
-	11050 7875 11475 7875
+	11050 8100 11475 8100
 Wire Wire Line
-	11050 7975 11475 7975
+	11050 8200 11475 8200
 Wire Wire Line
-	11050 8075 11475 8075
+	11050 8300 11475 8300
 Wire Wire Line
-	11050 8175 11475 8175
+	11050 8400 11475 8400
 Wire Wire Line
-	11050 8275 11475 8275
+	11050 8500 11475 8500
 Wire Wire Line
-	11050 8375 11475 8375
+	11050 8600 11475 8600
 Wire Wire Line
-	11050 8475 11475 8475
+	11050 8700 11475 8700
 Wire Wire Line
-	11050 8575 11475 8575
+	11050 8800 11475 8800
 Wire Wire Line
-	11050 6475 11475 6475
+	11050 6700 11475 6700
 Wire Wire Line
-	11050 6575 11475 6575
+	11050 6800 11475 6800
 Wire Wire Line
-	11050 6675 11475 6675
+	11050 6900 11475 6900
 Wire Wire Line
-	11050 6775 11475 6775
+	11050 7000 11475 7000
 Wire Wire Line
-	11050 6875 11475 6875
+	11050 7100 11475 7100
 Wire Wire Line
-	11050 6975 11475 6975
+	11050 7200 11475 7200
 Wire Wire Line
-	11050 7075 11475 7075
+	11050 7300 11475 7300
 Wire Wire Line
-	11050 7175 11475 7175
+	11050 7400 11475 7400
 Wire Wire Line
 	12475 8800 12050 8800
 Wire Wire Line
@@ -2422,13 +2422,13 @@ Wire Wire Line
 Wire Wire Line
 	4400 3650 3750 3650
 Wire Notes Line
-	9550 5975 9550 9225
+	9550 6200 9550 9450
 Wire Notes Line
-	9550 9225 11600 9225
+	9550 9450 11600 9450
 Wire Notes Line
-	11600 9225 11600 5975
+	11600 9450 11600 6200
 Wire Notes Line
-	11600 5975 9550 5975
+	11600 6200 9550 6200
 Wire Notes Line
 	11775 6200 11775 9225
 Wire Notes Line
@@ -2580,4 +2580,28 @@ F 5 "NHD-0420DZ-NSW-BBW" H 10850 2125 60  0001 C CNN "Description"
 	1    10450 1650
 	1    0    0    -1  
 $EndComp
+Text Label 9925 8950 2    60   ~ 0
+DIR
+Wire Wire Line
+	10150 8950 9675 8950
+Text Label 9950 9050 2    60   ~ 0
+~DOE~
+Wire Wire Line
+	10150 9050 9675 9050
+Text Label 9925 7550 2    60   ~ 0
+DIR
+Wire Wire Line
+	10150 7550 9675 7550
+Text Label 9950 7650 2    60   ~ 0
+~DOE~
+Wire Wire Line
+	10150 7650 9675 7650
+Text Label 8225 4450 2    60   ~ 0
+DIR
+Text Label 8250 4550 2    60   ~ 0
+~DOE~
+Wire Wire Line
+	7900 4450 8425 4450
+Wire Wire Line
+	7900 4550 8425 4550
 $EndSCHEMATC
