@@ -1,15 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:db-connectors
-LIBS:db-diodes
-LIBS:db-mcu
-LIBS:db-memory
-LIBS:db-passives
-LIBS:db-sem
-LIBS:db-transistors
-LIBS:db-vgparts
-LIBS:UMDv2-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8

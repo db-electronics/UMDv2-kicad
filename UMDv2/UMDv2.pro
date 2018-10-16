@@ -1,4 +1,4 @@
-update=Tue 25 Sep 2018 08:13:58 AM EDT
+update=Tue 16 Oct 2018 06:00:47 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -38,13 +38,3 @@ LabSize=60
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=power
-LibName2=/home/rene/Git/KiCad/kicadlib/db-connectors
-LibName3=/home/rene/Git/KiCad/kicadlib/db-diodes
-LibName4=/home/rene/Git/KiCad/kicadlib/db-mcu
-LibName5=/home/rene/Git/KiCad/kicadlib/db-memory
-LibName6=/home/rene/Git/KiCad/kicadlib/db-passives
-LibName7=/home/rene/Git/KiCad/kicadlib/db-sem
-LibName8=/home/rene/Git/KiCad/kicadlib/db-transistors
-LibName9=/home/rene/Git/KiCad/kicadlib/db-vgparts
