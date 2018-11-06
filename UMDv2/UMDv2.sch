@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:UMDv2-cache
 EELAYER 26 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
-Sheet 1 4
+Sheet 1 3
 Title "UMDv2"
 Date "2018-10-11"
 Rev "2.0"
@@ -608,10 +609,4 @@ Wire Wire Line
 	7125 6050 9125 6050
 Wire Wire Line
 	7125 5100 9125 5100
-$Sheet
-S 9125 6975 1250 1600
-U 5BC02D15
-F0 "user_interface" 60
-F1 "user_interface.sch" 60
-$EndSheet
 $EndSCHEMATC

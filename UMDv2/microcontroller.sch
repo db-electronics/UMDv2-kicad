@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:UMDv2-cache
 EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 3 4
+Sheet 3 3
 Title "UMDv2"
 Date "2018-10-11"
 Rev "2.0"
@@ -2097,7 +2098,7 @@ Wire Wire Line
 Wire Wire Line
 	15375 5125 15475 5125
 Wire Wire Line
-	15375 4625 15375 5125
+	15375 4625 15375 4825
 Wire Wire Line
 	15375 4625 15475 4625
 Wire Wire Line
@@ -2180,19 +2181,19 @@ Wire Wire Line
 Wire Wire Line
 	15075 1925 15475 1925
 Wire Wire Line
-	13825 1825 14325 1825
+	13825 1825 14225 1825
 Wire Wire Line
 	14225 1775 14225 1825
 Connection ~ 14225 1825
 Wire Wire Line
-	13825 1925 14675 1925
+	13825 1925 14225 1925
 Wire Wire Line
 	14225 1975 14225 1925
 Connection ~ 14225 1925
 Wire Wire Line
 	14150 2325 14150 2450
 Wire Wire Line
-	14975 1375 14975 1625
+	14975 1375 14975 1525
 Wire Wire Line
 	14300 1425 14300 1375
 Wire Wire Line
@@ -2279,7 +2280,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 5650 4400 5650
 Wire Wire Line
-	850  8275 850  8425
+	850  8275 850  8325
 Wire Wire Line
 	4400 4650 3750 4650
 Wire Wire Line
@@ -2315,7 +2316,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 4750 8425 4750
 Wire Wire Line
-	2875 7400 2875 8325
+	2875 7400 2875 7475
 Wire Wire Line
 	2875 7875 2625 7875
 Wire Wire Line
@@ -2333,11 +2334,11 @@ Wire Wire Line
 Wire Wire Line
 	1575 7875 1300 7875
 Wire Wire Line
-	1300 7775 1300 8325
+	1300 7775 1300 7875
 Wire Wire Line
 	1300 7775 1250 7775
 Wire Wire Line
-	850  8325 1950 8325
+	850  8325 1300 8325
 Connection ~ 1300 7875
 Wire Wire Line
 	2875 8325 2250 8325
@@ -2345,11 +2346,11 @@ Connection ~ 2875 7875
 Connection ~ 850  8325
 Connection ~ 1300 8325
 Wire Wire Line
-	6400 7450 6400 7700
+	6400 7450 6400 7600
 Wire Wire Line
 	6200 7600 6200 7450
 Wire Wire Line
-	5800 7600 6400 7600
+	5800 7600 5900 7600
 Connection ~ 6400 7600
 Wire Wire Line
 	6100 7450 6100 7600
@@ -2368,7 +2369,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 6050 3625 6050
 Wire Wire Line
-	5800 1150 5800 1550
+	5800 1150 5800 1350
 Wire Wire Line
 	1700 1825 1700 1900
 Wire Wire Line
@@ -2431,7 +2432,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 1500 3050 1625
 Wire Wire Line
-	3050 2025 3050 2350
+	3050 2025 3050 2100
 Wire Wire Line
 	3250 2100 3050 2100
 Connection ~ 3050 2100
@@ -2456,7 +2457,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 5250 4400 5250
 Wire Wire Line
-	2525 6350 4400 6350
+	2525 6350 2700 6350
 Wire Wire Line
 	2700 6350 2700 6300
 Wire Wire Line
@@ -2464,14 +2465,14 @@ Wire Wire Line
 Wire Wire Line
 	2950 6250 2950 5900
 Wire Wire Line
-	2950 5900 2525 5900
+	2950 5900 2700 5900
 Wire Wire Line
 	2700 5900 2700 5950
 Connection ~ 2700 5900
 Wire Wire Line
 	2225 6350 2025 6350
 Wire Wire Line
-	2025 5900 2025 6450
+	2025 5900 2025 6350
 Connection ~ 2700 6350
 Wire Wire Line
 	2225 5900 2025 5900
@@ -2493,16 +2494,16 @@ Wire Wire Line
 Wire Wire Line
 	3600 6650 3600 6600
 Wire Wire Line
-	5500 10150 5500 10250
+	5500 10150 5500 10200
 Wire Wire Line
 	5350 10150 5350 10200
 Wire Wire Line
-	5350 10200 6000 10200
+	5350 10200 5500 10200
 Connection ~ 5500 10200
 Wire Wire Line
 	5950 9750 6000 9750
 Wire Wire Line
-	6000 10200 6000 9700
+	6000 10200 6000 9750
 Wire Wire Line
 	4900 8900 4550 8900
 Wire Wire Line
@@ -2510,12 +2511,12 @@ Wire Wire Line
 Wire Wire Line
 	8600 9500 8550 9500
 Wire Wire Line
-	8600 9250 8600 9500
+	8600 9250 8600 9300
 Wire Wire Line
 	8600 9400 8550 9400
 Connection ~ 8600 9400
 Wire Wire Line
-	8800 9150 8800 9300
+	8800 9150 8800 9250
 Connection ~ 8600 9300
 Wire Wire Line
 	8550 9300 8600 9300
@@ -2529,7 +2530,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 9650 8800 9650
 Wire Wire Line
-	8800 9600 8800 9750
+	8800 9600 8800 9650
 Connection ~ 8800 9650
 Wire Wire Line
 	6000 9300 6000 9400
@@ -2537,7 +2538,7 @@ Connection ~ 6000 9750
 Wire Wire Line
 	4400 5750 3750 5750
 Wire Wire Line
-	5800 1350 6500 1350
+	5800 1350 5900 1350
 Wire Wire Line
 	6500 1350 6500 1550
 Connection ~ 5800 1350
@@ -2556,19 +2557,6 @@ Connection ~ 6000 1350
 Wire Wire Line
 	5900 1550 5900 1350
 Connection ~ 5900 1350
-$Comp
-L db-sem:NHD-0420DZ-NSW-BBW LCD?
-U 1 1 5BA4CD62
-P 10450 1650
-F 0 "LCD?" H 10550 1800 50  0000 C CNN
-F 1 "NHD-0420DZ-NSW-BBW" H 10925 1700 50  0000 C CNN
-F 2 "db-thparts:HDR1X16_4x20LCD" H 10900 1950 50  0001 C CNN
-F 3 "http://www.newhavendisplay.com/specs/NHD-0420DZ-NSW-BBW.pdf" H 11125 2225 50  0001 C CNN
-F 4 "NHD-0420DZ-NSW-BBW-ND" H 10875 2025 60  0001 C CNN "Digikey"
-F 5 "NHD-0420DZ-NSW-BBW" H 10850 2125 60  0001 C CNN "Description"
-	1    10450 1650
-	1    0    0    -1  
-$EndComp
 Text Label 9925 8950 2    60   ~ 0
 DIR
 Wire Wire Line
@@ -2593,4 +2581,66 @@ Wire Wire Line
 	7900 4450 8425 4450
 Wire Wire Line
 	7900 4550 8425 4550
+Wire Wire Line
+	15375 4825 15375 5125
+Wire Wire Line
+	14225 1825 14325 1825
+Wire Wire Line
+	14225 1925 14675 1925
+Wire Wire Line
+	14975 1525 14975 1625
+Wire Wire Line
+	1300 7875 1300 8325
+Wire Wire Line
+	2875 7875 2875 8325
+Wire Wire Line
+	850  8325 850  8425
+Wire Wire Line
+	1300 8325 1950 8325
+Wire Wire Line
+	6400 7600 6400 7700
+Wire Wire Line
+	6200 7600 6400 7600
+Wire Wire Line
+	6100 7600 6200 7600
+Wire Wire Line
+	6000 7600 6100 7600
+Wire Wire Line
+	5900 7600 6000 7600
+Wire Wire Line
+	2875 7475 2875 7875
+Wire Wire Line
+	3050 2100 3050 2350
+Wire Wire Line
+	2700 5900 2525 5900
+Wire Wire Line
+	2700 6350 4400 6350
+Wire Wire Line
+	2025 6350 2025 6450
+Wire Wire Line
+	5500 10200 5500 10250
+Wire Wire Line
+	5500 10200 6000 10200
+Wire Wire Line
+	8600 9400 8600 9500
+Wire Wire Line
+	8600 9300 8600 9400
+Wire Wire Line
+	8800 9250 8800 9300
+Wire Wire Line
+	8800 9650 8800 9750
+Wire Wire Line
+	6000 9750 6000 9700
+Wire Wire Line
+	5800 1350 5800 1550
+Wire Wire Line
+	6300 1350 6500 1350
+Wire Wire Line
+	6200 1350 6300 1350
+Wire Wire Line
+	6100 1350 6200 1350
+Wire Wire Line
+	6000 1350 6100 1350
+Wire Wire Line
+	5900 1350 6000 1350
 $EndSCHEMATC
