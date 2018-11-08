@@ -1360,9 +1360,9 @@ F 3 "" H 6400 7700 50  0000 C CNN
 	1    6400 7700
 	1    0    0    -1  
 $EndComp
-Text Label 3750 5950 0    60   ~ 0
+Text Label 4050 4850 0    60   ~ 0
 5V/~3V~
-Text Label 3750 6050 0    60   ~ 0
+Text Label 4050 4950 0    60   ~ 0
 CVEN
 $Comp
 L power:+3.3VP #PWR039
@@ -1375,9 +1375,9 @@ F 3 "" H 5800 1150 50  0000 C CNN
 	1    5800 1150
 	1    0    0    -1  
 $EndComp
-Text HLabel 3625 5950 0    60   Output ~ 0
+Text HLabel 3825 4850 0    60   Output ~ 0
 5V/~3V~
-Text HLabel 3625 6050 0    60   Output ~ 0
+Text HLabel 3825 4950 0    60   Output ~ 0
 CVEN
 $Comp
 L power:+3.3VP #PWR040
@@ -2251,9 +2251,9 @@ Wire Wire Line
 	5800 7450 5800 7600
 Connection ~ 5900 7600
 Wire Wire Line
-	4400 5950 3625 5950
+	4400 4850 3825 4850
 Wire Wire Line
-	4400 6050 3625 6050
+	4400 4950 3825 4950
 Wire Wire Line
 	5800 1150 5800 1350
 Wire Wire Line
@@ -2775,8 +2775,8 @@ $Comp
 L db-passives:R_0603 R308
 U 1 1 5CF24A1F
 P 3350 4950
-F 0 "R308" H 3225 4875 50  0000 C CNN
-F 1 "10.0k" H 3175 4975 50  0000 C CNN
+F 0 "R308" H 3500 4850 50  0000 C CNN
+F 1 "10.0k" H 3500 4950 50  0000 C CNN
 F 2 "db-smt:0603" H 3650 4850 30  0001 C CNN
 F 3 "" H 3450 4950 30  0001 C CNN
 F 4 "P10.0KHCT-ND" H 3600 4925 60  0001 C CNN "Digikey"
