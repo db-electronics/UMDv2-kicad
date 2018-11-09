@@ -1326,9 +1326,9 @@ F 5 "TVS DIODE 5.25V 17V SOT23-6" H 2650 7825 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 Text Label 1300 7600 0    60   ~ 0
-D-in
+Din-
 Text Label 1300 7700 0    60   ~ 0
-D+in
+Din+
 Text Label 2675 7700 0    60   ~ 0
 D-
 Text Label 2675 8100 0    60   ~ 0
