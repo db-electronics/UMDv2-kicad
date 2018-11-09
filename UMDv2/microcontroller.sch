@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:UMDv2-cache
 EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
@@ -1269,7 +1270,7 @@ Text Label 8000 2450 0    60   ~ 0
 SDO2
 Text Label 8000 2550 0    60   ~ 0
 SDI2
-Text Label 3750 5650 0    60   ~ 0
+Text Label 3750 5750 0    60   ~ 0
 ~SDCD~
 $Comp
 L power:GND #PWR036
@@ -1823,7 +1824,7 @@ F 3 "" H 6000 9200 50  0000 C CNN
 	1    6000 9200
 	1    0    0    -1  
 $EndComp
-Text Label 3750 5750 0    60   ~ 0
+Text Label 3750 5650 0    60   ~ 0
 ~SSSF~
 Wire Wire Line
 	10150 8800 9675 8800

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:UMDv2-cache
 EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
@@ -2469,4 +2470,27 @@ Text Notes 4950 3500 0    60   ~ 0
 3V3
 Text Notes 4200 5000 0    60   ~ 0
 VDD
+$Comp
+L db-passives:C_0805 C231
+U 1 1 5BE9F401
+P 3300 9600
+F 0 "C231" H 3050 9700 50  0000 L CNN
+F 1 "10uF/16V" H 3325 9500 50  0000 L CNN
+F 2 "db-smt:0805" H 3338 9450 30  0001 C CNN
+F 3 "" H 3325 9700 60  0000 C CNN
+F 4 "1276-2872-1-ND" H 3425 9800 60  0001 C CNN "Digikey"
+F 5 "CAP CER 10UF 16V X7R 0805" H 3425 9900 60  0001 C CNN "Description"
+	1    3300 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 9400 3300 9400
+Wire Wire Line
+	3300 9400 3300 9450
+Connection ~ 2950 9400
+Wire Wire Line
+	2950 9800 3300 9800
+Wire Wire Line
+	3300 9800 3300 9750
+Connection ~ 2950 9800
 $EndSCHEMATC
