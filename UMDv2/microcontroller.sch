@@ -1514,22 +1514,6 @@ Text Label 3750 5350 0    60   ~ 0
 PRG_BTN
 Text Label 3750 5250 0    60   ~ 0
 BOOT_LED
-Text Label 3750 4650 0    60   ~ 0
-A16
-Text Label 3750 4550 0    60   ~ 0
-A17
-Text Label 3750 4450 0    60   ~ 0
-A18
-Text Label 3750 4350 0    60   ~ 0
-A19
-Text Label 3750 4250 0    60   ~ 0
-A20
-Text Label 3750 4150 0    60   ~ 0
-A21
-Text Label 3750 4050 0    60   ~ 0
-A22
-Text Label 3750 3950 0    60   ~ 0
-A23
 Text Label 3750 3750 0    60   ~ 0
 AN0
 Text Label 3750 3650 0    60   ~ 0
@@ -1605,9 +1589,9 @@ F 5 "PTC RESET FUSE 16V 250MA 1206" H 2700 8275 60  0001 C CNN "Description"
 	1    2000 7625
 	1    0    0    -1  
 $EndComp
-Text Label 3750 6850 0    60   ~ 0
+Text Label 4000 8800 0    60   ~ 0
 D-
-Text Label 3750 6950 0    60   ~ 0
+Text Label 4000 8700 0    60   ~ 0
 D+
 $Comp
 L power:+5VD #PWR055
@@ -1981,22 +1965,6 @@ Wire Wire Line
 	3750 5650 4400 5650
 Wire Wire Line
 	875  8500 875  8550
-Wire Wire Line
-	4400 4650 3750 4650
-Wire Wire Line
-	4400 4550 3750 4550
-Wire Wire Line
-	4400 4450 3750 4450
-Wire Wire Line
-	4400 4350 3750 4350
-Wire Wire Line
-	4400 4250 3750 4250
-Wire Wire Line
-	4400 4150 3750 4150
-Wire Wire Line
-	4400 4050 3750 4050
-Wire Wire Line
-	4400 3950 3750 3950
 Wire Wire Line
 	1500 2300 4400 2300
 Wire Wire Line
@@ -2406,9 +2374,9 @@ Text Label 3750 5550 0    60   ~ 0
 Text Label 13400 3400 0    60   ~ 0
 ~URST~
 Wire Wire Line
-	3750 6850 4400 6850
+	4000 8700 4650 8700
 Wire Wire Line
-	3750 6950 4400 6950
+	4000 8800 4650 8800
 Wire Wire Line
 	13350 3400 13800 3400
 Wire Wire Line
