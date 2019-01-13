@@ -39,17 +39,6 @@ F 3 "" H 10600 5750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
-U 1 1 5B986017
-P 10600 7950
-F 0 "#PWR02" H 10600 7700 50  0001 C CNN
-F 1 "GND" H 10600 7800 50  0000 C CNN
-F 2 "" H 10600 7950 50  0000 C CNN
-F 3 "" H 10600 7950 50  0000 C CNN
-	1    10600 7950
-	1    0    0    -1  
-$EndComp
-$Comp
 L db-sem:74ALVC164245DL,118 U302
 U 3 1 5B98601F
 P 10300 2300
@@ -1060,7 +1049,7 @@ F 3 "" H 3900 4350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 900  3275 0    60   ~ 0
-PIC32 voltage regulation\nAlways from data USB +5VD
+STM32 voltage regulation\nAlways from data USB +5VD
 $Comp
 L db-passives:C_0805 C202
 U 1 1 5B985D2D
@@ -1099,31 +1088,6 @@ Connection ~ 10600 4800
 Wire Wire Line
 	10500 4700 10600 4700
 Connection ~ 10600 4700
-Wire Wire Line
-	10500 6800 10600 6800
-Wire Wire Line
-	10600 6800 10600 6900
-Wire Wire Line
-	10500 7500 10600 7500
-Connection ~ 10600 7500
-Wire Wire Line
-	10500 7400 10600 7400
-Connection ~ 10600 7400
-Wire Wire Line
-	10500 7300 10600 7300
-Connection ~ 10600 7300
-Wire Wire Line
-	10500 7200 10600 7200
-Connection ~ 10600 7200
-Wire Wire Line
-	10500 7100 10600 7100
-Connection ~ 10600 7100
-Wire Wire Line
-	10500 7000 10600 7000
-Connection ~ 10600 7000
-Wire Wire Line
-	10500 6900 10600 6900
-Connection ~ 10600 6900
 Wire Wire Line
 	10500 2400 10600 2400
 Wire Wire Line
@@ -1659,20 +1623,6 @@ Wire Wire Line
 Wire Wire Line
 	10600 4700 10600 4800
 Wire Wire Line
-	10600 7500 10600 7900
-Wire Wire Line
-	10600 7400 10600 7500
-Wire Wire Line
-	10600 7300 10600 7400
-Wire Wire Line
-	10600 7200 10600 7300
-Wire Wire Line
-	10600 7100 10600 7200
-Wire Wire Line
-	10600 7000 10600 7100
-Wire Wire Line
-	10600 6900 10600 7000
-Wire Wire Line
 	10600 3100 10600 3500
 Wire Wire Line
 	10600 3000 10600 3100
@@ -2051,128 +2001,6 @@ Wire Wire Line
 Connection ~ 10600 5700
 Wire Wire Line
 	10600 5700 10600 5750
-$Comp
-L db-passives:C_0603 C227
-U 1 1 5C0CD63C
-P 8600 7700
-F 0 "C227" H 8700 7600 50  0000 L CNN
-F 1 "0.1uF/50V" H 8650 7800 50  0000 L CNN
-F 2 "db-smt:0603" H 9100 7600 30  0001 C CNN
-F 3 "" H 8625 7800 60  0001 C CNN
-F 4 "490-8020-1-ND" H 9025 7675 60  0001 C CNN "Digikey"
-F 5 "CAP CER 0.1UF 50V X7R 0603" H 9025 7775 60  0001 C CNN "Description"
-	1    8600 7700
-	-1   0    0    1   
-$EndComp
-$Comp
-L db-passives:C_0603 C228
-U 1 1 5C0CD644
-P 8900 7700
-F 0 "C228" H 8950 7600 50  0000 L CNN
-F 1 "0.1uF/50V" H 8950 7800 50  0001 L CNN
-F 2 "db-smt:0603" H 9400 7600 30  0001 C CNN
-F 3 "" H 8925 7800 60  0001 C CNN
-F 4 "490-8020-1-ND" H 9325 7675 60  0001 C CNN "Digikey"
-F 5 "CAP CER 0.1UF 50V X7R 0603" H 9325 7775 60  0001 C CNN "Description"
-	1    8900 7700
-	-1   0    0    1   
-$EndComp
-$Comp
-L db-passives:C_0603 C229
-U 1 1 5C0CD64C
-P 9200 7700
-F 0 "C229" H 9250 7600 50  0000 L CNN
-F 1 "0.1uF/50V" H 9250 7800 50  0001 L CNN
-F 2 "db-smt:0603" H 9700 7600 30  0001 C CNN
-F 3 "" H 9225 7800 60  0001 C CNN
-F 4 "490-8020-1-ND" H 9625 7675 60  0001 C CNN "Digikey"
-F 5 "CAP CER 0.1UF 50V X7R 0603" H 9625 7775 60  0001 C CNN "Description"
-	1    9200 7700
-	-1   0    0    1   
-$EndComp
-$Comp
-L db-passives:C_0603 C230
-U 1 1 5C0CD654
-P 9500 7700
-F 0 "C230" H 9550 7600 50  0000 L CNN
-F 1 "0.1uF/50V" H 9550 7800 50  0001 L CNN
-F 2 "db-smt:0603" H 10000 7600 30  0001 C CNN
-F 3 "" H 9525 7800 60  0001 C CNN
-F 4 "490-8020-1-ND" H 9925 7675 60  0001 C CNN "Digikey"
-F 5 "CAP CER 0.1UF 50V X7R 0603" H 9925 7775 60  0001 C CNN "Description"
-	1    9500 7700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8600 7850 8600 7900
-Wire Wire Line
-	8600 7900 8900 7900
-Wire Wire Line
-	8900 7850 8900 7900
-Connection ~ 8900 7900
-Wire Wire Line
-	8900 7900 9200 7900
-Wire Wire Line
-	9200 7850 9200 7900
-Connection ~ 9200 7900
-Wire Wire Line
-	9200 7900 9500 7900
-Wire Wire Line
-	9500 7850 9500 7900
-Wire Wire Line
-	8600 6800 8600 7550
-$Comp
-L power:VDD #PWR0205
-U 1 1 5C0CD666
-P 8600 6750
-F 0 "#PWR0205" H 8600 6600 50  0001 C CNN
-F 1 "VDD" H 8600 6900 50  0000 C CNN
-F 2 "" H 8600 6750 50  0000 C CNN
-F 3 "" H 8600 6750 50  0000 C CNN
-	1    8600 6750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8600 6750 8600 6800
-Connection ~ 8600 6800
-Wire Wire Line
-	8900 7550 8900 6800
-Wire Wire Line
-	8900 6800 8600 6800
-Connection ~ 8900 6800
-Wire Wire Line
-	8900 6800 9200 6800
-Wire Wire Line
-	9600 6900 9500 6900
-Wire Wire Line
-	9500 6900 9500 6800
-Connection ~ 9500 6800
-Wire Wire Line
-	9500 6800 9600 6800
-Wire Wire Line
-	9500 7900 10600 7900
-Connection ~ 9500 7900
-Connection ~ 10600 7900
-Wire Wire Line
-	10600 7900 10600 7950
-Wire Wire Line
-	9200 7550 9200 6800
-Connection ~ 9200 6800
-Wire Wire Line
-	9200 6800 9500 6800
-Wire Wire Line
-	9600 7100 9500 7100
-Wire Wire Line
-	9500 7100 9500 7000
-Connection ~ 9500 6900
-Wire Wire Line
-	9600 7000 9500 7000
-Connection ~ 9500 7000
-Wire Wire Line
-	9500 7000 9500 6900
-Wire Wire Line
-	9500 7550 9500 7100
-Connection ~ 9500 7100
 $Comp
 L db-diodes:LS_M67K-H2L1-1-Z D202
 U 1 1 5C20A68D
