@@ -909,9 +909,9 @@ F 3 "" H 8600 10050 50  0000 C CNN
 	1    8600 10050
 	1    0    0    -1  
 $EndComp
-Text Label 3400 6700 0    60   ~ 0
+Text Label 5150 7550 0    60   ~ 0
 5V/~3V~
-Text Label 3400 6800 0    60   ~ 0
+Text Label 5150 7650 0    60   ~ 0
 CVEN
 $Comp
 L power:+3.3VP #PWR039
@@ -924,9 +924,9 @@ F 3 "" H 7900 1850 50  0000 C CNN
 	1    7900 1850
 	1    0    0    -1  
 $EndComp
-Text HLabel 3325 6700 0    60   Output ~ 0
+Text HLabel 5125 7550 0    60   Output ~ 0
 5V/~3V~
-Text HLabel 3325 6800 0    60   Output ~ 0
+Text HLabel 5125 7650 0    60   Output ~ 0
 CVEN
 $Comp
 L power:GND #PWR041
@@ -1328,9 +1328,9 @@ Connection ~ 2800 9700
 Connection ~ 775  10150
 Connection ~ 1225 10150
 Wire Wire Line
-	4000 6700 3325 6700
+	5900 7550 5125 7550
 Wire Wire Line
-	4000 6800 3325 6800
+	5900 7650 5125 7650
 Wire Wire Line
 	7900 1850 7900 2050
 Wire Wire Line
@@ -2064,18 +2064,10 @@ Wire Wire Line
 	10350 5850 10875 5850
 Wire Wire Line
 	10350 5950 10875 5950
-Text Label 10450 5050 0    60   ~ 0
-A25
-Text Label 10450 5150 0    60   ~ 0
-A24
 Text Label 10450 5250 0    60   ~ 0
 A23
 Text Label 10450 5350 0    60   ~ 0
 A22
-Wire Wire Line
-	10350 5050 10875 5050
-Wire Wire Line
-	10350 5150 10875 5150
 Wire Wire Line
 	10350 5250 10875 5250
 Wire Wire Line
@@ -3083,7 +3075,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 1000 3900 1100
 Text Notes 3500 650  0    60   ~ 0
-USART3 BOOTLOADER
+USART3 BOOTLOADER/DEBUG
 Text Label 15100 1700 0    60   ~ 0
 SPI2_MISO
 Text Label 15100 1800 0    60   ~ 0
@@ -3225,4 +3217,12 @@ Wire Wire Line
 	15700 5350 15850 5350
 Wire Wire Line
 	15850 5350 15850 5400
+Text Label 15100 1600 0    60   ~ 0
+GP6
+Wire Wire Line
+	15600 1600 15100 1600
+Text Label 10450 3650 0    60   ~ 0
+GP6
+Wire Wire Line
+	10350 3650 10875 3650
 $EndSCHEMATC
