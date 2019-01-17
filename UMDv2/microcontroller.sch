@@ -2480,16 +2480,10 @@ Wire Wire Line
 Wire Wire Line
 	7600 2050 7700 2050
 Connection ~ 7700 2050
-Text Label 5150 8850 0    60   ~ 0
+Text Label 4950 8850 0    60   ~ 0
 Vbus
-Wire Wire Line
-	5900 8850 5150 8850
 Text Notes 1300 2050 0    60   ~ 0
 RESET
-Text Label 5150 6950 0    60   ~ 0
-~SDCD~
-Wire Wire Line
-	5900 6950 5150 6950
 Text Label 5150 6050 0    60   ~ 0
 USART3_TX
 Text Label 5150 5950 0    60   ~ 0
@@ -2822,46 +2816,46 @@ UA6
 Wire Wire Line
 	15600 3700 15100 3700
 Text Label 15100 3400 0    60   ~ 0
-D4
+D5
 Wire Wire Line
 	15600 3400 15100 3400
 Text Label 15100 7900 0    60   ~ 0
-D5
+D4
 Wire Wire Line
 	15600 7900 15100 7900
 Text Label 15100 3300 0    60   ~ 0
-D6
+D7
 Wire Wire Line
 	15600 3300 15100 3300
 Text Label 15100 7800 0    60   ~ 0
-D7
+D6
 Wire Wire Line
 	15600 7800 15100 7800
 Text Label 15100 3200 0    60   ~ 0
-D8
+D9
 Wire Wire Line
 	15600 3200 15100 3200
 Text Label 15100 7700 0    60   ~ 0
-D9
+D8
 Wire Wire Line
 	15600 7700 15100 7700
 Text Label 15100 3100 0    60   ~ 0
-D10
+D11
 Wire Wire Line
 	15600 3100 15100 3100
 Text Label 15100 7600 0    60   ~ 0
-D11
+D10
 Wire Wire Line
 	15600 7600 15100 7600
-Text Label 15100 3000 0    60   ~ 0
-D12
+Text Label 15100 2700 0    60   ~ 0
+D1
 Wire Wire Line
 	15600 3000 15100 3000
 Text Label 15100 7500 0    60   ~ 0
-D1
+D12
 Wire Wire Line
 	15600 7500 15100 7500
-Text Label 15100 2800 0    60   ~ 0
+Text Label 15100 2900 0    60   ~ 0
 D0
 Wire Wire Line
 	15600 2800 15100 2800
@@ -2869,7 +2863,7 @@ Text Label 15100 7300 0    60   ~ 0
 D15
 Wire Wire Line
 	15600 7300 15100 7300
-Text Label 15100 2700 0    60   ~ 0
+Text Label 15100 2800 0    60   ~ 0
 D14
 Wire Wire Line
 	15600 2700 15100 2700
@@ -2877,7 +2871,7 @@ Text Label 15100 7200 0    60   ~ 0
 D13
 Wire Wire Line
 	15600 7200 15100 7200
-Text Label 15100 2900 0    60   ~ 0
+Text Label 15100 3000 0    60   ~ 0
 D3
 Wire Wire Line
 	15600 2900 15100 2900
@@ -2964,11 +2958,11 @@ GP1
 Wire Wire Line
 	15600 3500 15100 3500
 Text Label 5150 5050 0    60   ~ 0
-~OUT_EN~
+~OUT_EN0~
 Wire Wire Line
 	5900 5050 5150 5050
 Text Label 11600 4700 0    60   ~ 0
-~OUT_EN~
+~OUT_EN0~
 Wire Wire Line
 	12050 4700 11600 4700
 $Comp
@@ -2985,7 +2979,7 @@ $EndComp
 Wire Wire Line
 	12050 5950 11650 5950
 Text Label 11600 6050 0    60   ~ 0
-~OUT_EN~
+~OUT_EN0~
 Wire Wire Line
 	12050 6050 11600 6050
 $Comp
@@ -3002,7 +2996,7 @@ $EndComp
 Wire Wire Line
 	12050 7300 11650 7300
 Text Label 11600 7400 0    60   ~ 0
-~OUT_EN~
+~OUT_EN1~
 Wire Wire Line
 	12050 7400 11600 7400
 $Comp
@@ -3019,7 +3013,7 @@ $EndComp
 Wire Wire Line
 	12050 8650 11650 8650
 Text Label 11600 8750 0    60   ~ 0
-~OUT_EN~
+~OUT_EN1~
 Wire Wire Line
 	12050 8750 11600 8750
 Wire Wire Line
@@ -3225,4 +3219,29 @@ Text Label 10450 3650 0    60   ~ 0
 GP6
 Wire Wire Line
 	10350 3650 10875 3650
+Text Label 10450 3450 0    60   ~ 0
+~SDCD~
+Wire Wire Line
+	10350 3450 10875 3450
+$Comp
+L db-passives:R_0603 R312
+U 1 1 5C4ECCE9
+P 5450 8850
+F 0 "R312" V 5650 8900 50  0000 C CNN
+F 1 "0" V 5550 8800 50  0000 C CNN
+F 2 "db-smt:0603" H 5750 8750 30  0001 C CNN
+F 3 "" H 5550 8850 30  0001 C CNN
+F 4 "RMCF0603ZT0R00CT-ND" H 5700 8825 60  0001 C CNN "Digikey"
+F 5 "RES 0 OHM JUMPER 1/10W 0603" H 5700 8925 60  0001 C CNN "Description"
+	1    5450 8850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 8850 5650 8850
+Wire Wire Line
+	5250 8850 4950 8850
+Text Label 10450 2850 0    60   ~ 0
+~OUT_EN1~
+Wire Wire Line
+	10350 2850 10875 2850
 $EndSCHEMATC
