@@ -2855,19 +2855,19 @@ Text Label 15100 7500 0    60   ~ 0
 D12
 Wire Wire Line
 	15600 7500 15100 7500
-Text Label 15100 2900 0    60   ~ 0
+Text Label 15100 7200 0    60   ~ 0
 D0
 Wire Wire Line
 	15600 2800 15100 2800
-Text Label 15100 7300 0    60   ~ 0
+Text Label 15100 2800 0    60   ~ 0
 D15
 Wire Wire Line
 	15600 7300 15100 7300
-Text Label 15100 2800 0    60   ~ 0
+Text Label 15100 7300 0    60   ~ 0
 D14
 Wire Wire Line
 	15600 2700 15100 2700
-Text Label 15100 7200 0    60   ~ 0
+Text Label 15100 2900 0    60   ~ 0
 D13
 Wire Wire Line
 	15600 7200 15100 7200
