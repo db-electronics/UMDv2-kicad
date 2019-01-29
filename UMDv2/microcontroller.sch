@@ -6,8 +6,8 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 3 3
 Title "UMDv2"
-Date "2019-01-14"
-Rev "2.0"
+Date "2019-01-29"
+Rev "RC_2.0"
 Comp "db Electronics"
 Comment1 "https://github.com/db-electronics/UMDv2-kicad"
 Comment2 "Licensed Under CERN OHL v.1.2"
@@ -3031,9 +3031,9 @@ F 3 "" H 3900 1100 50  0000 C CNN
 	1    3900 1100
 	1    0    0    -1  
 $EndComp
-Text Label 3500 900  0    60   ~ 0
-USART3_TX
 Text Label 3500 800  0    60   ~ 0
+USART3_TX
+Text Label 3500 900  0    60   ~ 0
 USART3_RX
 Wire Wire Line
 	4100 900  3500 900 
