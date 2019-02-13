@@ -6,7 +6,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 3 3
 Title "UMDv2"
-Date "2019-01-29"
+Date "2019-02-13"
 Rev "RC_2.0"
 Comp "db Electronics"
 Comment1 "https://github.com/db-electronics/UMDv2-kicad"
@@ -2247,13 +2247,9 @@ Connection ~ 8900 2050
 Wire Wire Line
 	8900 2050 9000 2050
 Wire Wire Line
-	5900 4750 5200 4750
-Wire Wire Line
 	5900 4950 5200 4950
 Wire Wire Line
 	5900 4850 5200 4850
-Wire Wire Line
-	5900 4650 5200 4650
 Wire Wire Line
 	1300 7750 800  7750
 Wire Wire Line
@@ -3336,4 +3332,8 @@ Wire Wire Line
 	5900 7550 5200 7550
 Wire Wire Line
 	5900 7650 5200 7650
+Text Label 5200 4950 0    60   ~ 0
+DAC1
+Text Label 5200 4850 0    60   ~ 0
+DAC2
 $EndSCHEMATC

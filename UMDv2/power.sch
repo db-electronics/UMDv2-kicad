@@ -6,12 +6,12 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 2 3
 Title "UMDv2"
-Date "2018-10-11"
-Rev "2.0"
+Date "2019-02-13"
+Rev "RC_2.0"
 Comp "db Electronics"
 Comment1 "https://github.com/db-electronics/UMDv2-kicad"
 Comment2 "Licensed Under CERN OHL v.1.2"
-Comment3 "Copyright René Richard 2018"
+Comment3 "Copyright René Richard 2019"
 Comment4 ""
 $EndDescr
 $Comp
