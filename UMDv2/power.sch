@@ -630,7 +630,7 @@ F 3 "" H 1600 5200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 2875 5975 0    60   ~ 0
-I limit = 500/Rlim\n500/2200 = 227mA
+I limit = 500/Rlim\n500/1200 = 416mA
 $Comp
 L db-passives:R_0603 R204
 U 1 1 5B98510C
@@ -682,7 +682,7 @@ F 5 "CAP CER 0.1UF 50V X7R 0603" H 2525 5725 60  0001 C CNN "Description"
 	-1   0    0    1   
 $EndComp
 Text Notes 1550 4950 0    60   ~ 0
-Cartridge voltage select - 3.3V or 5V
+Cartridge voltage select - 3.3V or 5V\nCurrent limiting
 $Comp
 L power:+5V #PWR06
 U 1 1 5B98512C
@@ -801,169 +801,50 @@ Cartridge current sensing\n0.1V/A on R207 * 100 = 10V/A @ iSense output
 $Comp
 L power:+5V #PWR011
 U 1 1 5B9862CC
-P 6900 2450
-F 0 "#PWR011" H 6900 2300 50  0001 C CNN
-F 1 "+5V" H 6900 2590 50  0000 C CNN
-F 2 "" H 6900 2450 50  0000 C CNN
-F 3 "" H 6900 2450 50  0000 C CNN
-	1    6900 2450
+P 5350 1850
+F 0 "#PWR011" H 5350 1700 50  0001 C CNN
+F 1 "+5V" H 5350 1990 50  0000 C CNN
+F 2 "" H 5350 1850 50  0000 C CNN
+F 3 "" H 5350 1850 50  0000 C CNN
+	1    5350 1850
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR012
-U 1 1 5B9862D2
-P 2250 2900
-F 0 "#PWR012" H 2250 2650 50  0001 C CNN
-F 1 "GND" H 2250 2750 50  0000 C CNN
-F 2 "" H 2250 2900 50  0000 C CNN
-F 3 "" H 2250 2900 50  0000 C CNN
-	1    2250 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L db-passives:R_0603 R203
-U 1 1 5B9862DA
-P 4250 2650
-F 0 "R203" V 4150 2525 50  0000 C CNN
-F 1 "10.0k" V 4150 2775 50  0000 C CNN
-F 2 "db-smt:0603" H 4550 2550 30  0001 C CNN
-F 3 "" H 4350 2650 30  0001 C CNN
-F 4 "P10.0KHCT-ND" H 4500 2625 60  0001 C CNN "Digikey"
-F 5 "RES SMD 10.0K OHM 1% 1/10W 0603" H 4500 2725 60  0001 C CNN "Description"
-	1    4250 2650
-	0    1    1    0   
-$EndComp
-$Comp
-L db-transistors:SMMBT3904LT1G Q201
-U 1 1 5B9862E3
-P 4600 2200
-F 0 "Q201" H 4675 2225 50  0000 L CNN
-F 1 "SMMBT3904LT1G" H 4000 2050 50  0000 L CNN
-F 2 "db-smt:SOT23" H 4800 2125 50  0001 L CIN
-F 3 "http://www.onsemi.com/pub/Collateral/MMBT3904LT1-D.PDF" H 4625 2525 50  0001 L CNN
-F 4 "SMMBT3904LT1GOSCT-ND" H 5200 2600 60  0001 C CNN "Digikey"
-F 5 "TRANS NPN 40V 0.2A SOT23" H 5250 2700 60  0001 C CNN "Description"
-	1    4600 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L db-passives:R_0603 R201
-U 1 1 5B9862EC
-P 4250 1900
-F 0 "R201" V 4350 2025 50  0000 C CNN
-F 1 "10.0k" V 4350 1775 50  0000 C CNN
-F 2 "db-smt:0603" H 4550 1800 30  0001 C CNN
-F 3 "" H 4350 1900 30  0001 C CNN
-F 4 "P10.0KHCT-ND" H 4500 1875 60  0001 C CNN "Digikey"
-F 5 "RES SMD 10.0K OHM 1% 1/10W 0603" H 4500 1975 60  0001 C CNN "Description"
-	1    4250 1900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5VD #PWR013
-U 1 1 5B9862F3
-P 3800 1050
-F 0 "#PWR013" H 3800 900 50  0001 C CNN
-F 1 "+5VD" H 3800 1190 50  0000 C CNN
-F 2 "" H 3800 1050 50  0000 C CNN
-F 3 "" H 3800 1050 50  0000 C CNN
-	1    3800 1050
-	1    0    0    -1  
-$EndComp
-Text Notes 4650 1475 0    60   ~ 0
-5V source auto-select\nPriority to 5V 2A source\n2A limit per load switch
-$Comp
-L db-connectors:10118194-0001LF CON201
-U 1 1 5B9862FC
-P 2000 1650
-F 0 "CON201" H 2275 1775 50  0000 C CNN
-F 1 "10118194-0001LF" H 2050 1700 50  0000 C CNN
-F 2 "db-smt:USB-uB-10118194" H 2625 2175 60  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf" H 3750 1875 60  0001 C CNN
-F 4 "609-4618-1-ND" H 2400 2075 60  0001 C CNN "Digikey"
-F 5 "CONN USB MICRO B RECPT SMT R/A" H 2825 1975 60  0001 C CNN "Description"
-	1    2000 1650
-	-1   0    0    -1  
-$EndComp
-Text Notes 1325 1475 0    60   ~ 0
-USB alternate power input\n5V 2A USB phone charger
-Text Label 3625 2200 0    60   ~ 0
-Vsec
 $Comp
 L power:GND #PWR014
 U 1 1 5B986318
-P 6100 3000
-F 0 "#PWR014" H 6100 2750 50  0001 C CNN
-F 1 "GND" H 6100 2850 50  0000 C CNN
-F 2 "" H 6100 3000 50  0000 C CNN
-F 3 "" H 6100 3000 50  0000 C CNN
-	1    6100 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR015
-U 1 1 5B98631E
-P 5950 2150
-F 0 "#PWR015" H 5950 1900 50  0001 C CNN
-F 1 "GND" H 5950 2000 50  0000 C CNN
-F 2 "" H 5950 2150 50  0000 C CNN
-F 3 "" H 5950 2150 50  0000 C CNN
-	1    5950 2150
+P 4550 2500
+F 0 "#PWR014" H 4550 2250 50  0001 C CNN
+F 1 "GND" H 4550 2350 50  0000 C CNN
+F 2 "" H 4550 2500 50  0000 C CNN
+F 3 "" H 4550 2500 50  0000 C CNN
+	1    4550 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L db-passives:C_0603 C208
 U 1 1 5B986326
-P 6100 2700
-F 0 "C208" H 5875 2600 50  0000 L CNN
-F 1 "0.1uF/50V" H 5675 2825 50  0000 L CNN
-F 2 "db-smt:0603" H 6600 2600 30  0001 C CNN
-F 3 "" H 6125 2800 60  0001 C CNN
-F 4 "490-8020-1-ND" H 6525 2675 60  0001 C CNN "Digikey"
-F 5 "CAP CER 0.1UF 50V X7R 0603" H 6525 2775 60  0001 C CNN "Description"
-	1    6100 2700
+P 4550 2200
+F 0 "C208" H 4325 2100 50  0000 L CNN
+F 1 "0.1uF/50V" H 4125 2325 50  0000 L CNN
+F 2 "db-smt:0603" H 5050 2100 30  0001 C CNN
+F 3 "" H 4575 2300 60  0001 C CNN
+F 4 "490-8020-1-ND" H 4975 2175 60  0001 C CNN "Digikey"
+F 5 "CAP CER 0.1UF 50V X7R 0603" H 4975 2275 60  0001 C CNN "Description"
+	1    4550 2200
 	-1   0    0    1   
 $EndComp
 $Comp
 L db-passives:CP C210
 U 1 1 5B98632F
-P 6900 2700
-F 0 "C210" H 6950 2800 50  0000 L CNN
-F 1 "220uF/10V" H 6950 2575 50  0000 L CNN
-F 2 "db-smt:SMD-6.6x6.6" H 6938 2550 30  0001 C CNN
-F 3 "" H 7030 2750 60  0000 C CNN
-F 4 "493-6210-1-ND" H 6900 2700 60  0001 C CNN "Digikey"
-F 5 "CAP ALUM 220UF 20% 10V SMD" H 6900 2700 60  0001 C CNN "Description"
-	1    6900 2700
+P 5350 2200
+F 0 "C210" H 5400 2300 50  0000 L CNN
+F 1 "220uF/10V" H 5400 2075 50  0000 L CNN
+F 2 "db-smt:SMD-6.6x6.6" H 5388 2050 30  0001 C CNN
+F 3 "" H 5480 2250 60  0000 C CNN
+F 4 "493-6210-1-ND" H 5350 2200 60  0001 C CNN "Digikey"
+F 5 "CAP ALUM 220UF 20% 10V SMD" H 5350 2200 60  0001 C CNN "Description"
+	1    5350 2200
 	1    0    0    -1  
-$EndComp
-NoConn ~ 4900 2050
-NoConn ~ 4900 2800
-$Comp
-L db-passives:C_0603 C204
-U 1 1 5B986355
-P 3600 2525
-F 0 "C204" H 3650 2425 50  0000 L CNN
-F 1 "0.1uF/50V" H 3650 2625 50  0000 L CNN
-F 2 "db-smt:0603" H 4100 2425 30  0001 C CNN
-F 3 "" H 3625 2625 60  0001 C CNN
-F 4 "490-8020-1-ND" H 4025 2500 60  0001 C CNN "Digikey"
-F 5 "CAP CER 0.1UF 50V X7R 0603" H 4025 2600 60  0001 C CNN "Description"
-	1    3600 2525
-	-1   0    0    1   
-$EndComp
-$Comp
-L db-passives:R_0603 R202
-U 1 1 5B986370
-P 4250 2200
-F 0 "R202" V 4350 2325 50  0000 C CNN
-F 1 "2.20k" V 4350 2075 50  0000 C CNN
-F 2 "db-smt:0603" H 4550 2100 30  0001 C CNN
-F 3 "" H 4350 2200 30  0001 C CNN
-F 4 "P2.20KHCT-ND" H 4500 2175 60  0001 C CNN "Digikey"
-F 5 "RES SMD 2.2K OHM 1% 1/10W 0603" H 4500 2275 60  0001 C CNN "Description"
-	1    4250 2200
-	0    -1   -1   0   
 $EndComp
 $Comp
 L db-sem:MIC5504-3.3YM5-TR U201
@@ -976,17 +857,6 @@ F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en580292" H 
 F 4 "576-4764-1-ND" H 2375 4175 60  0001 C CNN "Digikey"
 F 5 "IC REG LINEAR 3.3V 300MA SOT23-5" H 2750 4275 60  0001 C CNN "Description"
 	1    1900 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5VD #PWR016
-U 1 1 5B985D11
-P 1600 3650
-F 0 "#PWR016" H 1600 3500 50  0001 C CNN
-F 1 "+5VD" H 1600 3790 50  0000 C CNN
-F 2 "" H 1600 3650 50  0000 C CNN
-F 3 "" H 1600 3650 50  0000 C CNN
-	1    1600 3650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1012,7 +882,7 @@ F 3 "" H 4550 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 1550 3425 0    60   ~ 0
-STM32 voltage regulation\nAlways from data USB +5VD
+STM32 voltage regulation
 $Comp
 L db-passives:C_0805 C202
 U 1 1 5B985D2D
@@ -1119,73 +989,16 @@ Connection ~ 4500 5400
 Wire Wire Line
 	4500 6050 4500 5800
 Wire Wire Line
-	4450 1900 4700 1900
+	4350 2000 4550 2000
 Wire Wire Line
-	4700 1900 4700 2050
-Connection ~ 4700 1900
+	4550 2350 4550 2400
+Connection ~ 4550 2400
 Wire Wire Line
-	3800 1900 4050 1900
+	5350 1850 5350 2000
 Wire Wire Line
-	3800 1050 3800 1100
-Connection ~ 3800 1750
-Wire Wire Line
-	4550 2200 4450 2200
-Wire Wire Line
-	4900 1750 3800 1750
-Wire Wire Line
-	1700 2550 1700 2850
-Wire Wire Line
-	2200 2150 2250 2150
-Wire Wire Line
-	2250 2150 2250 2850
-Wire Wire Line
-	5900 2050 5950 2050
-Wire Wire Line
-	5900 2500 6100 2500
-Wire Wire Line
-	5950 2050 5950 2150
-Wire Wire Line
-	6100 2850 6100 2900
-Wire Wire Line
-	5975 2900 6100 2900
-Wire Wire Line
-	5975 2900 5975 2800
-Wire Wire Line
-	5975 2800 5900 2800
-Connection ~ 6100 2900
-Wire Wire Line
-	6900 2450 6900 2500
-Wire Wire Line
-	6900 2900 6900 2850
-Wire Wire Line
-	6100 1750 6100 2500
-Connection ~ 6100 2500
-Wire Wire Line
-	5900 1750 6100 1750
-Connection ~ 6900 2500
-Wire Wire Line
-	1550 2850 1700 2850
-Connection ~ 2250 2850
-Wire Wire Line
-	3600 2200 3800 2200
-Connection ~ 3800 2200
-Wire Wire Line
-	3800 2500 4825 2500
-Wire Wire Line
-	3800 2500 3800 2200
-Wire Wire Line
-	3975 2850 3975 2650
-Wire Wire Line
-	3975 2650 4050 2650
-Wire Wire Line
-	4450 2650 4825 2650
-Wire Wire Line
-	4700 2850 4700 2350
-Connection ~ 3975 2850
-Wire Wire Line
-	4825 2650 4825 2500
-Connection ~ 4825 2500
-Connection ~ 4825 2650
+	5350 2400 5350 2350
+Connection ~ 4550 2000
+Connection ~ 5350 2000
 Wire Wire Line
 	2700 3800 2850 3800
 Wire Wire Line
@@ -1197,11 +1010,8 @@ Wire Wire Line
 Wire Wire Line
 	1600 3900 1700 3900
 Connection ~ 1600 3800
-Text HLabel 1550 1100 0    60   Input ~ 0
-+5VD
-Wire Wire Line
-	1550 1100 3800 1100
-Connection ~ 3800 1100
+Text HLabel 4350 2000 0    60   Input ~ 0
++5Vusb
 Connection ~ 1600 3900
 Wire Wire Line
 	3950 4450 4550 4450
@@ -1236,8 +1046,6 @@ F 5 "IC REG LINEAR 3.3V 800MA SOT223" H 5100 4275 60  0001 C CNN "Description"
 	1    4250 3700
 	1    0    0    -1  
 $EndComp
-Text HLabel 7125 2500 2    60   Output ~ 0
-+5V
 $Comp
 L db-passives:C_0805 C206
 U 1 1 5B98DEEB
@@ -1323,9 +1131,8 @@ $EndComp
 Connection ~ 5200 3800
 Text HLabel 6050 3800 2    60   Output ~ 0
 +3.3V
-Text HLabel 1550 2850 0    60   BiDi ~ 0
+Text HLabel 4350 2400 0    60   BiDi ~ 0
 GND
-Connection ~ 1700 2850
 Text HLabel 1450 7300 0    60   Input ~ 0
 CVEN
 Text Label 3150 7150 0    60   ~ 0
@@ -1377,8 +1184,8 @@ Text HLabel 2650 5600 0    60   Input ~ 0
 5V/~3V~
 Wire Wire Line
 	2650 5600 2850 5600
-Text Notes 1325 1025 0    60   ~ 0
-USB +5VD from data usb
+Text Notes 4900 1500 0    60   ~ 0
+USB +5VD from data usb\n\n296-40731-1-ND eFuse
 $Comp
 L db-passives:R_0603 R208
 U 1 1 5B9C2AD8
@@ -1547,30 +1354,6 @@ Connection ~ 2400 9700
 Wire Wire Line
 	2050 9750 2050 9700
 Connection ~ 2050 9700
-$Comp
-L db-passives:0ZCF0100AF2A F201
-U 1 1 5BA4B29D
-P 2700 1825
-F 0 "F201" H 2925 1625 50  0000 C CNN
-F 1 "0ZCF0100AF2A" H 2775 1900 50  0000 C CNN
-F 2 "db-smt:2920" H 3075 2175 60  0001 C CNN
-F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCF%20Nov2016.pdf" H 3800 2275 60  0001 C CNN
-F 4 "507-2070-1-ND" H 3025 2375 60  0001 C CNN "Digikey"
-F 5 "PTC RESET FUSE 60V 1A 2920" H 3400 2475 60  0001 C CNN "Description"
-	1    2700 1825
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2350 1750 2200 1750
-Wire Wire Line
-	2800 1750 2950 1750
-Wire Wire Line
-	3600 1750 3600 2200
-Wire Wire Line
-	3600 2675 3600 2850
-Connection ~ 3600 2850
-Text Notes 3250 1700 0    60   ~ 0
-2A limit
 Wire Wire Line
 	14750 5400 14750 5800
 Wire Wire Line
@@ -1620,37 +1403,17 @@ Wire Wire Line
 Wire Wire Line
 	4500 5400 4500 5500
 Wire Wire Line
-	4700 1900 4900 1900
+	4550 2400 4550 2500
 Wire Wire Line
-	3800 1750 3800 1900
+	4550 2400 5350 2400
 Wire Wire Line
-	6100 2900 6100 3000
+	4550 2000 5350 2000
 Wire Wire Line
-	6100 2900 6900 2900
+	4550 2000 4550 2050
 Wire Wire Line
-	6100 2500 6900 2500
-Wire Wire Line
-	6100 2500 6100 2550
-Wire Wire Line
-	6900 2500 6900 2550
-Wire Wire Line
-	6900 2500 7125 2500
-Wire Wire Line
-	2250 2850 2250 2900
-Wire Wire Line
-	2250 2850 2950 2850
-Wire Wire Line
-	3800 2200 4050 2200
-Wire Wire Line
-	3975 2850 4700 2850
-Wire Wire Line
-	4825 2500 4900 2500
-Wire Wire Line
-	4825 2650 4900 2650
+	5350 2000 5350 2050
 Wire Wire Line
 	1600 3800 1600 3900
-Wire Wire Line
-	3800 1100 3800 1750
 Wire Wire Line
 	1600 3900 1600 4050
 Wire Wire Line
@@ -1671,8 +1434,6 @@ Wire Wire Line
 	5200 3800 5500 3800
 Wire Wire Line
 	5200 3800 5200 4050
-Wire Wire Line
-	1700 2850 2250 2850
 Wire Wire Line
 	2900 8000 2900 8050
 Wire Wire Line
@@ -1695,11 +1456,6 @@ Wire Wire Line
 	2400 9700 2750 9700
 Wire Wire Line
 	2050 9700 2400 9700
-Wire Wire Line
-	3600 2850 3975 2850
-Connection ~ 3600 2200
-Wire Wire Line
-	3600 2200 3600 2375
 $Comp
 L db-passives:C_0603 C219
 U 1 1 5BEDCCCB
@@ -1965,44 +1721,6 @@ Connection ~ 14750 5800
 Wire Wire Line
 	14750 5800 14750 5850
 $Comp
-L db-diodes:LS_M67K-H2L1-1-Z D202
-U 1 1 5C20A68D
-P 2950 2000
-F 0 "D202" V 3000 1700 50  0000 L CNN
-F 1 "LS_M67K-H2L1-1-Z" H 2950 1850 50  0001 L CNN
-F 2 "db-smt:SMD-2" H 3250 2325 60  0001 C CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493621/LS%20M67K.pdf" H 4250 2500 60  0001 C CNN
-F 4 "475-2510-1-ND" H 3300 2400 60  0001 C CNN "Digikey"
-F 5 "LED RED CLEAR SMD" H 3800 2225 60  0001 C CNN "Description"
-	1    2950 2000
-	0    1    1    0   
-$EndComp
-$Comp
-L db-passives:R_0603 R209
-U 1 1 5C20A8AF
-P 2950 2550
-F 0 "R209" H 2750 2350 50  0000 C CNN
-F 1 "1.00k" H 2750 2450 50  0000 C CNN
-F 2 "db-smt:0603" H 3250 2450 30  0001 C CNN
-F 3 "" H 3050 2550 30  0001 C CNN
-F 4 "P1.00KHCT-ND" H 3200 2525 60  0001 C CNN "Digikey"
-F 5 "RES SMD 1.00KOHM 1% 1/10W 0603" H 3200 2625 60  0001 C CNN "Description"
-	1    2950 2550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2950 1900 2950 1750
-Connection ~ 2950 1750
-Wire Wire Line
-	2950 1750 3600 1750
-Wire Wire Line
-	2950 2200 2950 2350
-Wire Wire Line
-	2950 2750 2950 2850
-Connection ~ 2950 2850
-Wire Wire Line
-	2950 2850 3600 2850
-$Comp
 L db-passives:C_0603 C211
 U 1 1 5B98517F
 P 3100 7500
@@ -2113,38 +1831,18 @@ Wire Wire Line
 	4250 7150 4100 7150
 Connection ~ 4100 7150
 $Comp
-L db-connectors:TP_50 TP201
-U 1 1 5EB14BEB
-P 2950 1550
-F 0 "TP201" V 2800 1500 50  0000 L CNN
-F 1 "TP_50" H 3050 1750 60  0001 C CNN
-F 2 "db-smt:TP50" H 3250 1850 60  0001 C CNN
-F 3 "" H 2950 1500 60  0001 C CNN
-F 4 "#ND" H 3100 1850 60  0001 C CNN "Digikey"
-F 5 "0.05\" x 0.05\" SMT Test Point" H 3625 1950 60  0001 C CNN "Description"
-	1    2950 1550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2950 1650 2950 1750
-Text Notes 2650 2200 0    60   ~ 0
-Red
-$Comp
 L db-connectors:TP_50 TP202
 U 1 1 5EB308E4
-P 6100 1550
-F 0 "TP202" V 5950 1500 50  0000 L CNN
-F 1 "TP_50" H 6200 1750 60  0001 C CNN
-F 2 "db-smt:TP50" H 6400 1850 60  0001 C CNN
-F 3 "" H 6100 1500 60  0001 C CNN
-F 4 "#ND" H 6250 1850 60  0001 C CNN "Digikey"
-F 5 "0.05\" x 0.05\" SMT Test Point" H 6775 1950 60  0001 C CNN "Description"
-	1    6100 1550
+P 4550 1800
+F 0 "TP202" V 4400 1750 50  0000 L CNN
+F 1 "TP_50" H 4650 2000 60  0001 C CNN
+F 2 "db-smt:TP50" H 4850 2100 60  0001 C CNN
+F 3 "" H 4550 1750 60  0001 C CNN
+F 4 "#ND" H 4700 2100 60  0001 C CNN "Digikey"
+F 5 "0.05\" x 0.05\" SMT Test Point" H 5225 2200 60  0001 C CNN "Description"
+	1    4550 1800
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6100 1650 6100 1750
-Connection ~ 6100 1750
 $Comp
 L db-connectors:TP_50 TP203
 U 1 1 5EC00239
@@ -2214,9 +1912,7 @@ F 5 "0.05\" x 0.05\" SMT Test Point" H 7325 7650 60  0001 C CNN "Description"
 $EndComp
 Wire Wire Line
 	6650 7350 6650 7450
-Text Notes 3050 1550 0    60   ~ 0
-Vsec
-Text Notes 6200 1550 0    60   ~ 0
+Text Notes 4500 1500 0    60   ~ 0
 5V
 Text Notes 3200 3650 0    60   ~ 0
 3.3VP
@@ -2500,32 +2196,6 @@ F 3 "" H 4100 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L db-sem:AP22802AW5-7 U203
-U 1 1 5C52AB99
-P 5100 1650
-F 0 "U203" H 5200 1800 50  0000 C CNN
-F 1 "AP22802AW5-7" H 5400 1726 50  0000 C CNN
-F 2 "db-smt:SC-74A" H 5725 1925 60  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP22802.pdf" H 6250 2025 60  0001 C CNN
-F 4 "AP22802AW5-7DICT-ND" H 5575 2125 60  0001 C CNN "Digikey"
-F 5 "IC USB POWER SWITCH" H 5950 2225 60  0001 C CNN "Description"
-	1    5100 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L db-sem:AP22802AW5-7 U204
-U 1 1 5C52B87E
-P 5100 2400
-F 0 "U204" H 5200 2550 50  0000 C CNN
-F 1 "AP22802AW5-7" H 5400 2476 50  0000 C CNN
-F 2 "db-smt:SC-74A" H 5725 2675 60  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP22802.pdf" H 6250 2775 60  0001 C CNN
-F 4 "AP22802AW5-7DICT-ND" H 5575 2875 60  0001 C CNN "Digikey"
-F 5 "IC USB POWER SWITCH" H 5950 2975 60  0001 C CNN "Description"
-	1    5100 2400
-	1    0    0    -1  
-$EndComp
-$Comp
 L db-sem:AP22802AW5-7 U206
 U 1 1 5C52D659
 P 2050 7050
@@ -2536,6 +2206,21 @@ F 3 "https://www.diodes.com/assets/Datasheets/AP22802.pdf" H 3200 7425 60  0001 
 F 4 "AP22802AW5-7DICT-ND" H 2525 7525 60  0001 C CNN "Digikey"
 F 5 "IC USB POWER SWITCH" H 2900 7625 60  0001 C CNN "Description"
 	1    2050 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1900 4550 2000
+Wire Wire Line
+	4550 2400 4350 2400
+$Comp
+L power:+5V #PWR0118
+U 1 1 5C822D67
+P 1600 3650
+F 0 "#PWR0118" H 1600 3500 50  0001 C CNN
+F 1 "+5V" H 1600 3790 50  0000 C CNN
+F 2 "" H 1600 3650 50  0000 C CNN
+F 3 "" H 1600 3650 50  0000 C CNN
+	1    1600 3650
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
