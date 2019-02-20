@@ -654,7 +654,9 @@ AR Path="/5B9907CA/5B99A3E0" Ref="CON304"  Part="1"
 F 0 "CON304" H 15950 12550 50  0000 C CNN
 F 1 "UMDv2-CONN" H 16050 12450 50  0000 C CNN
 F 2 "db-thparts:UMD-CONN-DIP64" H 16525 12750 60  0001 C CNN
-F 3 "" H 16150 9650 60  0001 C CNN
+F 3 "http://suddendocs.samtec.com/prints/ssw-1xx-xx-xxx-x-xx-xxx-xx-mkt.pdf" H 16150 9650 60  0001 C CNN
+F 4 "CONN RCPT 32POS 0.1 GOLD PCB" H 0   0   50  0001 C CNN "Description"
+F 5 "SAM1211-32-ND" H 0   0   50  0001 C CNN "Digikey"
 	1    15800 9100
 	1    0    0    -1  
 $EndComp
@@ -667,7 +669,9 @@ AR Path="/5B9907CA/5B99A3E7" Ref="CON304"  Part="2"
 F 0 "CON304" H 16000 8050 50  0000 C CNN
 F 1 "UMDv2-CONN" H 16100 7950 50  0000 C CNN
 F 2 "db-thparts:UMD-CONN-DIP64" H 16525 8250 60  0001 C CNN
-F 3 "" H 16150 5150 60  0001 C CNN
+F 3 "http://suddendocs.samtec.com/prints/ssw-1xx-xx-xxx-x-xx-xxx-xx-mkt.pdf" H 16150 5150 60  0001 C CNN
+F 4 "CONN RCPT 32POS 0.1 GOLD PCB" H 0   0   50  0001 C CNN "Description"
+F 5 "SAM1211-32-ND" H 0   0   50  0001 C CNN "Digikey"
 	2    15800 4600
 	1    0    0    -1  
 $EndComp
@@ -796,19 +800,6 @@ Text Label 13075 1400 0    60   ~ 0
 ~SDCD~
 Text Notes 12000 700  0    60   ~ 0
 SD Card connector
-$Comp
-L db-connectors:USB-B1HSB6 CON301
-U 1 1 5B99C2DF
-P 975 9200
-F 0 "CON301" H 1225 9325 50  0000 C CNN
-F 1 "USB-B1HSB6" H 1125 9250 50  0000 C CNN
-F 2 "db-thparts:USB-B1HSxx" H 1550 9675 60  0001 C CNN
-F 3 "http://www.on-shore.com/wp-content/uploads/2015/09/usb-b1hsxx.pdf" H 2725 9425 60  0001 C CNN
-F 4 "ED2983-ND" H 1275 9600 60  0001 C CNN "Digikey"
-F 5 "CONN USB TYPE B R/A BLACK" H 1700 9500 60  0001 C CNN "Description"
-	1    975  9200
-	-1   0    0    -1  
-$EndComp
 Text Label 10500 7850 0    60   ~ 0
 D15
 Text Label 10500 7950 0    60   ~ 0
@@ -849,55 +840,6 @@ Text Label 10500 4950 0    60   ~ 0
 ~RD~
 Text Label 10500 4850 0    60   ~ 0
 ~WR~
-$Comp
-L power:GND #PWR036
-U 1 1 5B99C305
-P 775 10250
-F 0 "#PWR036" H 775 10000 50  0001 C CNN
-F 1 "GND" H 775 10100 50  0000 C CNN
-F 2 "" H 775 10250 50  0000 C CNN
-F 3 "" H 775 10250 50  0000 C CNN
-	1    775  10250
-	1    0    0    -1  
-$EndComp
-$Comp
-L db-passives:C_0603 C301
-U 1 1 5B99C320
-P 2275 10150
-F 0 "C301" V 2350 10250 50  0000 L CNN
-F 1 "0.1uF/50V" V 2450 10250 50  0000 L CNN
-F 2 "db-smt:0603" H 2775 10050 30  0001 C CNN
-F 3 "" H 2300 10250 60  0001 C CNN
-F 4 "490-8020-1-ND" H 2700 10125 60  0001 C CNN "Digikey"
-F 5 "CAP CER 0.1UF 50V X7R 0603" H 2700 10225 60  0001 C CNN "Description"
-	1    2275 10150
-	0    1    1    0   
-$EndComp
-$Comp
-L db-diodes:USBLC6-2SC6 D301
-U 1 1 5B99C329
-P 1950 9400
-F 0 "D301" H 2025 8750 50  0000 C CNN
-F 1 "USBLC6-2SC6" H 2625 8750 50  0000 C CNN
-F 2 "db-smt:SOT-23-6" H 2250 9725 60  0001 C CNN
-F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf" H 3250 9900 60  0001 C CNN
-F 4 "497-5235-1-ND" H 2300 9800 60  0001 C CNN "Digikey"
-F 5 "TVS DIODE 5.25V 17V SOT23-6" H 2800 9625 60  0001 C CNN "Description"
-	1    1950 9400
-	1    0    0    -1  
-$EndComp
-Text Label 1200 9400 0    60   ~ 0
-Din-
-Text Label 1200 9500 0    60   ~ 0
-Din+
-Text Label 2825 9500 0    60   ~ 0
-D-
-Text Label 2825 9900 0    60   ~ 0
-D+
-Text Notes 1900 8750 0    60   ~ 0
-USB data input (500mA) and ESD protection
-Text Label 1200 9300 0    60   ~ 0
-Vbus
 $Comp
 L power:GND #PWR038
 U 1 1 5B99C33D
@@ -965,8 +907,6 @@ F 3 "" H 1200 6500 50  0000 C CNN
 	1    1200 6500
 	1    0    0    -1  
 $EndComp
-Text HLabel 1000 5550 0    60   Output ~ 0
-+5Vusb
 Text HLabel 1000 5850 0    60   Input ~ 0
 +3.3V
 Text HLabel 1000 5750 0    60   Input ~ 0
@@ -994,7 +934,7 @@ F 3 "" H 1650 5400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 675  5200 0    60   ~ 0
-5Vusb = from CON301 data USB\n3.3VP = MCU voltage rail\n3.3V  = logic voltage rail
+3.3VP = MCU voltage rail\n3.3V  = logic voltage rail
 Text Notes 600  6200 0    60   ~ 0
 Vdigital = 5V or 3.3V selectable via 5V/~3.3V­~ on U202\nVcart   = Vdigital switched and current sensed
 $Comp
@@ -1065,14 +1005,14 @@ $EndComp
 $Comp
 L db-memory:S25FL127SABMFI101 U305
 U 1 1 5B9EFA5F
-P 1500 7550
-F 0 "U305" H 1600 7675 50  0000 C CNN
-F 1 "S25FL127SABMFI101" H 1900 7600 50  0000 C CNN
-F 2 "db-smt:SOIC-8-5.3MM" H 2050 8075 60  0001 C CNN
-F 3 "http://www.cypress.com/file/177961/download" H 2625 7975 60  0001 C CNN
-F 4 "1274-1045-ND" H 1875 7775 60  0001 C CNN "Digikey"
-F 5 "IC FLASH 128M SPI 108MHZ 8SO" H 2275 7875 60  0001 C CNN "Description"
-	1    1500 7550
+P 1500 8200
+F 0 "U305" H 1600 8325 50  0000 C CNN
+F 1 "S25FL127SABMFI101" H 1900 8250 50  0000 C CNN
+F 2 "db-smt:SOIC-8-5.3MM" H 2050 8725 60  0001 C CNN
+F 3 "http://www.cypress.com/file/177961/download" H 2625 8625 60  0001 C CNN
+F 4 "1274-1045-ND" H 1875 8425 60  0001 C CNN "Digikey"
+F 5 "IC FLASH 128M SPI 108MHZ 8SO" H 2275 8525 60  0001 C CNN "Description"
+	1    1500 8200
 	1    0    0    -1  
 $EndComp
 Text Label 1500 3650 0    60   ~ 0
@@ -1124,24 +1064,11 @@ F 5 "CAP CER 18PF 10V C0G/NP0 0603" H 4925 3575 60  0001 C CNN "Description"
 $EndComp
 Text Notes 5150 3750 0    60   ~ 0
 8 MHz
-$Comp
-L db-passives:0ZCJ0025FF2E F301
-U 1 1 5BA0C622
-P 2150 9225
-F 0 "F301" H 2175 9250 50  0000 C CNN
-F 1 "0ZCJ0025FF2E" H 2400 9325 50  0000 C CNN
-F 2 "db-smt:1206" H 2525 9575 60  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCJ%20Nov2016.pdf" H 3250 9675 60  0001 C CNN
-F 4 "507-1798-1-ND" H 2475 9775 60  0001 C CNN "Digikey"
-F 5 "PTC RESET FUSE 16V 250MA 1206" H 2850 9875 60  0001 C CNN "Description"
-	1    2150 9225
-	1    0    0    -1  
-$EndComp
 Text Label 5200 9350 0    60   ~ 0
 D-
 Text Label 5200 9250 0    60   ~ 0
 D+
-Text Notes 1500 7300 0    60   ~ 0
+Text Notes 1500 7950 0    60   ~ 0
 16MB serial flash
 $Comp
 L power:GND #PWR056
@@ -1157,12 +1084,12 @@ $EndComp
 $Comp
 L power:GND #PWR057
 U 1 1 5BA1F1A8
-P 3300 8100
-F 0 "#PWR057" H 3300 7850 50  0001 C CNN
-F 1 "GND" H 3300 7950 50  0000 C CNN
-F 2 "" H 3300 8100 50  0000 C CNN
-F 3 "" H 3300 8100 50  0000 C CNN
-	1    3300 8100
+P 3300 8750
+F 0 "#PWR057" H 3300 8500 50  0001 C CNN
+F 1 "GND" H 3300 8600 50  0000 C CNN
+F 2 "" H 3300 8750 50  0000 C CNN
+F 3 "" H 3300 8750 50  0000 C CNN
+	1    3300 8750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1179,25 +1106,25 @@ $EndComp
 $Comp
 L power:+3.3VP #PWR059
 U 1 1 5BA201E3
-P 3300 7500
-F 0 "#PWR059" H 3450 7450 50  0001 C CNN
-F 1 "+3.3VP" H 3300 7600 50  0000 C CNN
-F 2 "" H 3300 7500 50  0000 C CNN
-F 3 "" H 3300 7500 50  0000 C CNN
-	1    3300 7500
+P 3300 8150
+F 0 "#PWR059" H 3450 8100 50  0001 C CNN
+F 1 "+3.3VP" H 3300 8250 50  0000 C CNN
+F 2 "" H 3300 8150 50  0000 C CNN
+F 3 "" H 3300 8150 50  0000 C CNN
+	1    3300 8150
 	1    0    0    -1  
 $EndComp
 $Comp
 L db-passives:C_0603 C307
 U 1 1 5BA20AEC
-P 3300 7800
-F 0 "C307" H 3075 7700 50  0000 L CNN
-F 1 "0.1uF/50V" H 2875 7900 50  0000 L CNN
-F 2 "db-smt:0603" H 3800 7700 30  0001 C CNN
-F 3 "" H 3325 7900 60  0001 C CNN
-F 4 "490-8020-1-ND" H 3725 7775 60  0001 C CNN "Digikey"
-F 5 "CAP CER 0.1UF 50V X7R 0603" H 3725 7875 60  0001 C CNN "Description"
-	1    3300 7800
+P 3300 8450
+F 0 "C307" H 3075 8350 50  0000 L CNN
+F 1 "0.1uF/50V" H 2875 8550 50  0000 L CNN
+F 2 "db-smt:0603" H 3800 8350 30  0001 C CNN
+F 3 "" H 3325 8550 60  0001 C CNN
+F 4 "490-8020-1-ND" H 3725 8425 60  0001 C CNN "Digikey"
+F 5 "CAP CER 0.1UF 50V X7R 0603" H 3725 8525 60  0001 C CNN "Description"
+	1    3300 8450
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1279,43 +1206,15 @@ Wire Wire Line
 Wire Wire Line
 	10350 4950 10925 4950
 Wire Wire Line
-	775  10100 775  10150
-Wire Wire Line
 	10350 4350 10925 4350
 Wire Wire Line
 	10350 4450 10925 4450
-Wire Wire Line
-	3050 9700 2800 9700
-Wire Wire Line
-	1175 9400 1425 9400
-Wire Wire Line
-	1425 9400 1425 9500
-Wire Wire Line
-	1425 9500 1750 9500
-Wire Wire Line
-	1175 9500 1325 9500
-Wire Wire Line
-	1325 9500 1325 9900
-Wire Wire Line
-	1325 9900 1550 9900
-Wire Wire Line
-	1225 9600 1225 9700
-Wire Wire Line
-	1225 9600 1175 9600
-Wire Wire Line
-	775  10150 1225 10150
-Connection ~ 1225 9700
-Wire Wire Line
-	3050 10150 2425 10150
-Connection ~ 3050 9700
-Connection ~ 775  10150
 Wire Wire Line
 	7900 1850 7900 2050
 Wire Wire Line
 	1000 6800 1200 6800
 Wire Wire Line
 	1200 6800 1200 6900
-Connection ~ 3050 9300
 Wire Wire Line
 	1650 5400 1650 5750
 Wire Wire Line
@@ -1324,10 +1223,6 @@ Wire Wire Line
 	1900 5450 1900 5850
 Wire Wire Line
 	1900 5850 1000 5850
-Wire Wire Line
-	1200 5450 1200 5550
-Wire Wire Line
-	1200 5550 1000 5550
 Wire Wire Line
 	1000 6600 1200 6600
 Wire Wire Line
@@ -1361,10 +1256,6 @@ Wire Wire Line
 Wire Wire Line
 	4350 3500 4150 3500
 Wire Wire Line
-	2800 9500 2975 9500
-Wire Wire Line
-	2800 9900 2975 9900
-Wire Wire Line
 	12550 2450 12550 2500
 Wire Wire Line
 	12400 2450 12400 2500
@@ -1380,23 +1271,23 @@ Wire Wire Line
 Wire Wire Line
 	11600 1200 11600 900 
 Wire Wire Line
-	2650 7600 2650 7650
+	2650 8250 2650 8300
 Wire Wire Line
-	3300 7500 3300 7600
+	3300 8150 3300 8250
 Wire Wire Line
-	2600 7650 2650 7650
+	2600 8300 2650 8300
 Wire Wire Line
-	2650 7600 3300 7600
-Connection ~ 3300 7600
+	2650 8250 3300 8250
+Connection ~ 3300 8250
 Wire Wire Line
-	2600 7950 2650 7950
+	2600 8600 2650 8600
 Wire Wire Line
-	2650 7950 2650 8000
+	2650 8600 2650 8650
 Wire Wire Line
-	2650 8000 3300 8000
+	2650 8650 3300 8650
 Wire Wire Line
-	3300 7950 3300 8000
-Connection ~ 3300 8000
+	3300 8600 3300 8650
+Connection ~ 3300 8650
 Wire Wire Line
 	13050 1600 13050 1700
 Connection ~ 13050 2050
@@ -1423,23 +1314,15 @@ Wire Wire Line
 Wire Wire Line
 	14300 8100 14700 8100
 Wire Wire Line
-	1225 9700 1225 10150
-Wire Wire Line
-	3050 9700 3050 10150
-Wire Wire Line
-	775  10150 775  10250
-Wire Wire Line
-	3050 9300 3050 9700
-Wire Wire Line
 	4650 3950 4850 3950
 Wire Wire Line
 	12550 2500 12550 2550
 Wire Wire Line
 	12550 2500 13050 2500
 Wire Wire Line
-	3300 7600 3300 7650
+	3300 8250 3300 8300
 Wire Wire Line
-	3300 8000 3300 8100
+	3300 8650 3300 8750
 Wire Wire Line
 	13050 2050 13050 2000
 Wire Wire Line
@@ -1454,51 +1337,6 @@ Wire Wire Line
 	8100 2050 8200 2050
 Wire Wire Line
 	8000 2050 8100 2050
-$Comp
-L db-diodes:LG_M67K-G1J2-24-Z D304
-U 1 1 5BEA64B3
-P 3350 9300
-F 0 "D304" H 3400 9500 50  0000 C CNN
-F 1 "LG_M67K-G1J2-24-Z" H 3650 9450 50  0001 C CNN
-F 2 "db-smt:SMD-2" H 3650 9625 60  0001 C CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493921/LG%20M67K.pdf" H 4650 9800 60  0001 C CNN
-F 4 "475-1406-1-ND" H 3700 9700 60  0001 C CNN "Digikey"
-F 5 "LED RED CLEAR SMD" H 4200 9525 60  0001 C CNN "Description"
-	1    3350 9300
-	1    0    0    -1  
-$EndComp
-$Comp
-L db-passives:R_0603 R305
-U 1 1 5BEE03F4
-P 3650 9750
-F 0 "R305" H 3850 9650 50  0000 C CNN
-F 1 "750" H 3850 9750 50  0000 C CNN
-F 2 "db-smt:0603" H 3950 9650 30  0001 C CNN
-F 3 "" H 3750 9750 30  0001 C CNN
-F 4 "P750HCT-ND" H 3900 9725 60  0001 C CNN "Digikey"
-F 5 "RES SMD 750 OHM 1% 1/10W 0603" H 3900 9825 60  0001 C CNN "Description"
-	1    3650 9750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3250 9300 3050 9300
-Wire Wire Line
-	3550 9300 3650 9300
-Wire Wire Line
-	3650 9300 3650 9550
-$Comp
-L power:GND #PWR0301
-U 1 1 5BF8D9F8
-P 3650 10250
-F 0 "#PWR0301" H 3650 10000 50  0001 C CNN
-F 1 "GND" H 3650 10100 50  0000 C CNN
-F 2 "" H 3650 10250 50  0000 C CNN
-F 3 "" H 3650 10250 50  0000 C CNN
-	1    3650 10250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 9950 3650 10250
 $Comp
 L db-passives:R_0603 R306
 U 1 1 5C0B2B74
@@ -1623,8 +1461,6 @@ F 5 "RES SMD 10.0K OHM 1% 1/10W 0603" H 1650 3425 60  0001 C CNN "Description"
 	1    1400 3350
 	-1   0    0    1   
 $EndComp
-Text Notes 3600 9200 0    60   ~ 0
-Red
 Wire Wire Line
 	1400 3550 1400 3650
 $Comp
@@ -2214,13 +2050,13 @@ Wire Wire Line
 Wire Wire Line
 	5900 4850 5200 4850
 Wire Wire Line
-	1300 7750 800  7750
+	1300 8400 800  8400
 Wire Wire Line
-	1300 7950 800  7950
+	1300 8600 800  8600
 Wire Wire Line
-	1300 7850 800  7850
+	1300 8500 800  8500
 Wire Wire Line
-	1300 7650 800  7650
+	1300 8300 800  8300
 Wire Wire Line
 	4650 3500 4850 3500
 Wire Wire Line
@@ -2365,8 +2201,6 @@ Wire Wire Line
 Wire Wire Line
 	7600 2050 7700 2050
 Connection ~ 7700 2050
-Text Label 4950 9050 0    60   ~ 0
-Vbus
 Text Notes 1300 2050 0    60   ~ 0
 RESET
 Text Label 5200 6050 0    60   ~ 0
@@ -3054,30 +2888,6 @@ F 3 "" H 14800 1200 50  0001 C CNN
 	1    14800 1200
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:Vusb #PWR0114
-U 1 1 5CD12CBD
-P 3050 9100
-F 0 "#PWR0114" H 3050 8950 50  0001 C CNN
-F 1 "Vusb" H 3065 9273 50  0000 C CNN
-F 2 "" H 3050 9100 50  0001 C CNN
-F 3 "" H 3050 9100 50  0001 C CNN
-	1    3050 9100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3050 9100 3050 9300
-$Comp
-L power:Vusb #PWR0115
-U 1 1 5CD5D692
-P 1200 5450
-F 0 "#PWR0115" H 1200 5300 50  0001 C CNN
-F 1 "Vusb" H 1215 5623 50  0000 C CNN
-F 2 "" H 1200 5450 50  0001 C CNN
-F 3 "" H 1200 5450 50  0001 C CNN
-	1    1200 5450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	15600 5900 15200 5900
 Wire Wire Line
@@ -3103,23 +2913,6 @@ Text Label 10500 3650 0    60   ~ 0
 ~SDCD~
 Wire Wire Line
 	10350 3650 10925 3650
-$Comp
-L db-passives:R_0603 R312
-U 1 1 5C4ECCE9
-P 5450 9050
-F 0 "R312" V 5550 9100 50  0000 C CNN
-F 1 "0" V 5350 9100 50  0000 C CNN
-F 2 "db-smt:0603" H 5750 8950 30  0001 C CNN
-F 3 "" H 5550 9050 30  0001 C CNN
-F 4 "RMCF0603ZT0R00CT-ND" H 5700 9025 60  0001 C CNN "Digikey"
-F 5 "RES 0 OHM JUMPER 1/10W 0603" H 5700 9125 60  0001 C CNN "Description"
-	1    5450 9050
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5900 9050 5650 9050
-Wire Wire Line
-	5250 9050 4950 9050
 Text Label 5200 8450 0    60   ~ 0
 ~OUT_EN1~
 Text Label 5200 6250 0    60   ~ 0
@@ -3192,44 +2985,6 @@ Wire Wire Line
 	5200 6550 5900 6550
 Text Label 5200 6550 0    60   ~ 0
 PRG_BTN
-$Comp
-L db-passives:R_0603 R314
-U 1 1 5C615812
-P 1550 9000
-F 0 "R314" V 1650 9150 50  0000 C CNN
-F 1 "1.50k" V 1450 8950 50  0000 C CNN
-F 2 "db-smt:0603" H 1850 8900 30  0001 C CNN
-F 3 "" H 1650 9000 30  0001 C CNN
-F 4 "P1.50KHCT-ND" H 1800 8975 60  0001 C CNN "Digikey"
-F 5 "RES SMD 1.5K OHM 1% 1/10W 0603" H 1800 9075 60  0001 C CNN "Description"
-	1    1550 9000
-	1    0    0    -1  
-$EndComp
-Connection ~ 1225 10150
-Wire Wire Line
-	1225 10150 2125 10150
-Wire Wire Line
-	2050 9300 1175 9300
-Wire Wire Line
-	1750 9700 1225 9700
-$Comp
-L power:+3.3VP #PWR0117
-U 1 1 5C84B074
-P 1550 8700
-F 0 "#PWR0117" H 1700 8650 50  0001 C CNN
-F 1 "+3.3VP" H 1550 8800 50  0000 C CNN
-F 2 "" H 1550 8700 50  0000 C CNN
-F 3 "" H 1550 8700 50  0000 C CNN
-	1    1550 8700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1550 8700 1550 8800
-Wire Wire Line
-	1550 9200 1550 9900
-Connection ~ 1550 9900
-Wire Wire Line
-	1550 9900 1750 9900
 Text Notes 11650 3250 0    60   ~ 0
 FMSC Mapped at 0x6000 0000 - 0x6FFF FFFF\nCE0 = 0x6000 0000 -> 0x63FF FFFF\nCE1 = 0x6400 0000 -> 0x67FF FFFF\nCE2 = 0x6800 0000 -> 0x6BFF FFFF\nCE3 = 0x6C00 0000 -> 0x6FFF FFFF\n
 $Comp
@@ -3271,21 +3026,21 @@ Wire Wire Line
 	10350 2950 10925 2950
 Wire Wire Line
 	10350 3050 10925 3050
-Text Label 2700 7850 0    60   ~ 0
+Text Label 2700 8500 0    60   ~ 0
 QSPI_IO3
-Text Label 2700 7750 0    60   ~ 0
+Text Label 2700 8400 0    60   ~ 0
 QSPI_IO2
-Text Label 800  7850 0    60   ~ 0
+Text Label 800  8500 0    60   ~ 0
 QSPI_IO0
-Text Label 800  7950 0    60   ~ 0
+Text Label 800  8600 0    60   ~ 0
 QSPI_IO1
 Wire Wire Line
-	2600 7750 3125 7750
+	2600 8400 3125 8400
 Wire Wire Line
-	2600 7850 3125 7850
-Text Label 800  7650 0    60   ~ 0
+	2600 8500 3125 8500
+Text Label 800  8300 0    60   ~ 0
 QSPI_NCS
-Text Label 800  7750 0    60   ~ 0
+Text Label 800  8400 0    60   ~ 0
 QSPI_CLK
 Wire Wire Line
 	5900 4550 5500 4550
@@ -3299,6 +3054,8 @@ Text Label 5200 4950 0    60   ~ 0
 DAC1
 Text Label 5200 4850 0    60   ~ 0
 DAC2
-Wire Wire Line
-	2500 9300 3050 9300
+Text HLabel 5200 9250 0    60   BiDi ~ 0
+D+
+Text HLabel 5200 9350 0    60   BiDi ~ 0
+D-
 $EndSCHEMATC
