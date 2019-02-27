@@ -6,7 +6,7 @@ $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 3
 Title "UMDv2"
-Date "2019-02-13"
+Date "2019-02-27"
 Rev "RC_2.0"
 Comp "db Electronics"
 Comment1 "https://github.com/db-electronics/UMDv2-kicad"
@@ -565,13 +565,13 @@ F1 "power.sch" 60
 F2 "+3.3VP" O R 7150 4200 60 
 F3 "+3.3V" O R 7150 4300 60 
 F4 "GND" B R 7150 6050 60 
-F5 "CVEN" I R 7150 5000 60 
-F6 "Vdigital" O R 7150 4400 60 
-F7 "Vcart" O R 7150 4500 60 
-F8 "5V/~3V~" I R 7150 4900 60 
-F9 "iSense" O R 7150 5100 60 
-F10 "D-" B R 7150 5500 60 
-F11 "D+" B R 7150 5400 60 
+F5 "Vdigital" O R 7150 4400 60 
+F6 "Vcart" O R 7150 4500 60 
+F7 "iSense" O R 7150 5100 60 
+F8 "D-" B R 7150 5500 60 
+F9 "D+" B R 7150 5400 60 
+F10 "VSEL0" I R 7150 5000 60 
+F11 "VSEL1" I R 7150 4900 60 
 $EndSheet
 Wire Wire Line
 	9100 4200 7150 4200
@@ -594,16 +594,16 @@ S 9100 3900 1350 2375
 U 5B9907CA
 F0 "Microcontroller" 60
 F1 "microcontroller.sch" 60
-F2 "5V/~3V~" O L 9100 4900 60 
-F3 "CVEN" O L 9100 5000 60 
-F4 "+3.3VP" I L 9100 4200 60 
-F5 "Vdigital" I L 9100 4400 60 
-F6 "Vcart" I L 9100 4500 60 
-F7 "GND" B L 9100 6050 60 
-F8 "+3.3V" I L 9100 4300 60 
-F9 "iSense" I L 9100 5100 60 
-F10 "D+" B L 9100 5400 60 
-F11 "D-" B L 9100 5500 60 
+F2 "+3.3VP" I L 9100 4200 60 
+F3 "Vdigital" I L 9100 4400 60 
+F4 "Vcart" I L 9100 4500 60 
+F5 "GND" B L 9100 6050 60 
+F6 "+3.3V" I L 9100 4300 60 
+F7 "iSense" I L 9100 5100 60 
+F8 "D+" B L 9100 5400 60 
+F9 "D-" B L 9100 5500 60 
+F10 "VSEL0" O L 9100 5000 60 
+F11 "VSEL1" O L 9100 4900 60 
 $EndSheet
 Wire Wire Line
 	7150 5400 9100 5400

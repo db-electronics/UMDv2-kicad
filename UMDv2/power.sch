@@ -6,7 +6,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 2 3
 Title "UMDv2"
-Date "2019-02-13"
+Date "2019-02-27"
 Rev "RC_2.0"
 Comp "db Electronics"
 Comment1 "https://github.com/db-electronics/UMDv2-kicad"
@@ -1055,7 +1055,7 @@ Text HLabel 5650 4400 2    60   Output ~ 0
 Text HLabel 1150 2700 0    60   BiDi ~ 0
 GND
 Text HLabel 2250 7350 0    60   Input ~ 0
-CVEN
+VSEL0
 Text Label 4150 7150 0    60   ~ 0
 RS+
 Text Notes 3500 3950 0    60   ~ 0
@@ -1091,7 +1091,7 @@ Vdigital
 Text HLabel 8050 6750 2    60   Output ~ 0
 Vcart
 Text HLabel 2250 7450 0    60   Input ~ 0
-5V/~3V~
+VSEL1
 Wire Wire Line
 	2250 7450 2450 7450
 Text Notes 6100 1450 0    60   ~ 0
