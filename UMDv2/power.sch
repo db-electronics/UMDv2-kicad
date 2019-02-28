@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:UMDv2-cache
 EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
@@ -1060,10 +1059,10 @@ Text Label 4150 7150 0    60   ~ 0
 RS+
 Text Notes 3500 3950 0    60   ~ 0
 Cartridge 3.3V voltage regulation
-Text HLabel 8050 7600 2    60   Output ~ 0
-iSense
-Text Label 7700 7600 0    60   ~ 0
-iSense
+Text HLabel 8150 7600 2    60   Output ~ 0
+Icart
+Text Label 7750 7600 0    60   ~ 0
+Icart
 Text Label 4850 7150 0    60   ~ 0
 RS-
 Wire Wire Line
@@ -1088,7 +1087,7 @@ Wire Wire Line
 Connection ~ 5450 8150
 Text HLabel 4400 6850 2    60   Output ~ 0
 Vdigital
-Text HLabel 8050 6750 2    60   Output ~ 0
+Text HLabel 8150 6750 2    60   Output ~ 0
 Vcart
 Text HLabel 2250 7450 0    60   Input ~ 0
 VSEL1
@@ -1634,7 +1633,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 7600 7650 7700
 Wire Wire Line
-	7650 7600 8050 7600
+	7650 7600 8150 7600
 Connection ~ 7650 7600
 Wire Wire Line
 	5700 7300 5450 7300
@@ -1669,7 +1668,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 8150 5450 8150
 Wire Wire Line
-	8050 6750 5250 6750
+	8150 6750 5250 6750
 Wire Wire Line
 	5250 6750 5250 7150
 $Comp
@@ -2085,31 +2084,31 @@ Red Fault LED
 $Comp
 L db-passives:R_0603 R?
 U 1 1 5C926B9C
-P 10400 2100
+P 9950 2100
 AR Path="/5B9907CA/5C926B9C" Ref="R?"  Part="1" 
 AR Path="/5B98554A/5C926B9C" Ref="R202"  Part="1" 
-F 0 "R202" V 10500 2100 50  0000 C CNN
-F 1 "750" V 10300 2100 50  0000 C CNN
-F 2 "db-smt:0603" H 10700 2000 30  0001 C CNN
-F 3 "" H 10500 2100 30  0001 C CNN
-F 4 "P750HCT-ND" H 10650 2075 60  0001 C CNN "Digikey"
-F 5 "RES SMD 750 OHM 1% 1/10W 0603" H 10650 2175 60  0001 C CNN "Description"
-	1    10400 2100
+F 0 "R202" V 10050 2100 50  0000 C CNN
+F 1 "750" V 9850 2100 50  0000 C CNN
+F 2 "db-smt:0603" H 10250 2000 30  0001 C CNN
+F 3 "" H 10050 2100 30  0001 C CNN
+F 4 "P750HCT-ND" H 10200 2075 60  0001 C CNN "Digikey"
+F 5 "RES SMD 750 OHM 1% 1/10W 0603" H 10200 2175 60  0001 C CNN "Description"
+	1    9950 2100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L db-diodes:LG_M67K-G1J2-24-Z D?
 U 1 1 5C926BA5
-P 9950 2100
+P 10500 2100
 AR Path="/5B9907CA/5C926BA5" Ref="D?"  Part="1" 
 AR Path="/5B98554A/5C926BA5" Ref="D203"  Part="1" 
-F 0 "D203" H 10000 2000 50  0000 C CNN
-F 1 "LG_M67K-G1J2-24-Z" H 10250 2250 50  0001 C CNN
-F 2 "db-smt:SMD-2" H 10250 2425 60  0001 C CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493921/LG%20M67K.pdf" H 11250 2600 60  0001 C CNN
-F 4 "475-1406-1-ND" H 10300 2500 60  0001 C CNN "Digikey"
-F 5 "LED RED CLEAR SMD" H 10800 2325 60  0001 C CNN "Description"
-	1    9950 2100
+F 0 "D203" H 10550 2000 50  0000 C CNN
+F 1 "LG_M67K-G1J2-24-Z" H 10800 2250 50  0001 C CNN
+F 2 "db-smt:SMD-2" H 10800 2425 60  0001 C CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493921/LG%20M67K.pdf" H 11800 2600 60  0001 C CNN
+F 4 "475-1406-1-ND" H 10850 2500 60  0001 C CNN "Digikey"
+F 5 "LED RED CLEAR SMD" H 11350 2325 60  0001 C CNN "Description"
+	1    10500 2100
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -2390,8 +2389,6 @@ Wire Wire Line
 Wire Wire Line
 	10700 2100 10600 2100
 Wire Wire Line
-	10200 2100 10050 2100
-Wire Wire Line
 	9750 2100 8200 2100
 Wire Wire Line
 	8200 1800 8400 1800
@@ -2580,4 +2577,6 @@ F 3 "" H 5450 7200 50  0000 C CNN
 	1    5450 7200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10300 2100 10150 2100
 $EndSCHEMATC

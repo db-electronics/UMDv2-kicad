@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:UMDv2-cache
 EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
@@ -914,26 +913,26 @@ Text HLabel 1000 6000 0    60   Input ~ 0
 $Comp
 L power:+3.3V #PWR046
 U 1 1 5B9B4FAE
-P 1900 5700
-F 0 "#PWR046" H 1900 5550 50  0001 C CNN
-F 1 "+3.3V" H 1900 5840 50  0000 C CNN
-F 2 "" H 1900 5700 50  0000 C CNN
-F 3 "" H 1900 5700 50  0000 C CNN
-	1    1900 5700
+P 1450 5700
+F 0 "#PWR046" H 1450 5550 50  0001 C CNN
+F 1 "+3.3V" H 1450 5840 50  0000 C CNN
+F 2 "" H 1450 5700 50  0000 C CNN
+F 3 "" H 1450 5700 50  0000 C CNN
+	1    1450 5700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3VP #PWR048
 U 1 1 5B9B4FBA
-P 1650 5650
-F 0 "#PWR048" H 1800 5600 50  0001 C CNN
-F 1 "+3.3VP" H 1650 5750 50  0000 C CNN
-F 2 "" H 1650 5650 50  0000 C CNN
-F 3 "" H 1650 5650 50  0000 C CNN
-	1    1650 5650
+P 1200 5650
+F 0 "#PWR048" H 1350 5600 50  0001 C CNN
+F 1 "+3.3VP" H 1200 5750 50  0000 C CNN
+F 2 "" H 1200 5650 50  0000 C CNN
+F 3 "" H 1200 5650 50  0000 C CNN
+	1    1200 5650
 	1    0    0    -1  
 $EndComp
-Text Notes 675  5450 0    60   ~ 0
+Text Notes 700  5400 0    60   ~ 0
 3.3VP = MCU voltage rail\n3.3V  = logic voltage rail
 Text Notes 700  6450 0    60   ~ 0
 Vdigital = 5V or 3.3V selectable via 5V/~3.3V­~ on U202\nVcart   = Vdigital switched and current sensed
@@ -949,9 +948,9 @@ F 3 "" H 2800 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 5200 5150 0    60   Input ~ 0
-iSense
+Icart
 Text Label 5200 5150 0    60   ~ 0
-iSense
+Icart
 $Comp
 L db-passives:R_0603 R304
 U 1 1 5B9DE3E2
@@ -1216,13 +1215,13 @@ Wire Wire Line
 Wire Wire Line
 	1200 7050 1200 7150
 Wire Wire Line
-	1650 5650 1650 6000
+	1200 5650 1200 6000
 Wire Wire Line
-	1650 6000 1000 6000
+	1200 6000 1000 6000
 Wire Wire Line
-	1900 5700 1900 6100
+	1450 5700 1450 6100
 Wire Wire Line
-	1900 6100 1000 6100
+	1450 6100 1000 6100
 Wire Wire Line
 	1000 6850 1200 6850
 Wire Wire Line
@@ -3184,10 +3183,10 @@ Connection ~ 4300 4350
 Wire Wire Line
 	4300 4350 4200 4350
 $Comp
-L db-diodes:BAT54S D?
+L db-diodes:BAT54S D301
 U 1 1 5C7C145B
 P 4600 4850
-F 0 "D?" H 4700 4950 50  0000 C CNN
+F 0 "D301" H 4700 4950 50  0000 C CNN
 F 1 "BAT54S" H 4600 5050 50  0000 C CNN
 F 2 "db-smt:SOT23" H 4900 5175 60  0001 C CNN
 F 3 "https://www.fairchildsemi.com/datasheets/BA/BAT54.pdf" H 5900 5350 60  0001 C CNN
@@ -3199,10 +3198,10 @@ $EndComp
 Wire Wire Line
 	4300 4350 4850 4350
 $Comp
-L power:+3.3VP #PWR?
+L power:+3.3VP #PWR0117
 U 1 1 5C8FD176
 P 4100 5150
-F 0 "#PWR?" H 4250 5100 50  0001 C CNN
+F 0 "#PWR0117" H 4250 5100 50  0001 C CNN
 F 1 "+3.3VP" H 3900 5200 50  0000 C CNN
 F 2 "" H 4100 5150 50  0000 C CNN
 F 3 "" H 4100 5150 50  0000 C CNN
