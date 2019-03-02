@@ -1095,7 +1095,7 @@ VSEL1
 Wire Wire Line
 	2250 7450 2450 7450
 Text Notes 6100 1450 0    60   ~ 0
-OVP = 5.5, UVP = 4V\nCurrent limit = 450mA\nIinrush approx. 213mA (assuming 47uF load)
+OVP = 5.4, UVP = 4.6V\nCurrent limit = 450mA\nIinrush approx. 213mA (assuming 47uF load)
 $Comp
 L db-passives:R_0603 R208
 U 1 1 5B9C2AD8
@@ -1749,7 +1749,7 @@ F 5 "0.05\" x 0.05\" SMT Test Point" H 8325 7800 60  0001 C CNN "Description"
 $EndComp
 Wire Wire Line
 	7650 7500 7650 7600
-Text Notes 3400 1100 0    60   ~ 0
+Text Notes 3600 1100 0    60   ~ 0
 Vusb
 Text Notes 2800 4250 0    60   ~ 0
 3.3VP
@@ -2258,11 +2258,11 @@ P 6200 2400
 AR Path="/5B9907CA/5CD1C0AE" Ref="R?"  Part="1" 
 AR Path="/5B98554A/5CD1C0AE" Ref="R210"  Part="1" 
 F 0 "R210" H 6050 2300 50  0000 C CNN
-F 1 "47.5k" H 6000 2400 50  0000 C CNN
+F 1 "43.2k" H 6000 2400 50  0000 C CNN
 F 2 "db-smt:0603" H 6500 2300 30  0001 C CNN
 F 3 "" H 6300 2400 30  0001 C CNN
-F 4 "P47.5KHCT-ND" H 6450 2375 60  0001 C CNN "Digikey"
-F 5 "RES SMD 47.5k OHM 1% 1/10W 0603" H 6450 2475 60  0001 C CNN "Description"
+F 4 "P43.2KHCT-ND" H 6450 2375 60  0001 C CNN "Digikey"
+F 5 "RES SMD 43.2k OHM 1% 1/10W 0603" H 6450 2475 60  0001 C CNN "Description"
 	1    6200 2400
 	-1   0    0    1   
 $EndComp
@@ -2273,11 +2273,11 @@ P 5900 2100
 AR Path="/5B9907CA/5CD1C16E" Ref="R?"  Part="1" 
 AR Path="/5B98554A/5CD1C16E" Ref="R209"  Part="1" 
 F 0 "R209" V 6100 2150 50  0000 C CNN
-F 1 "17.8k" V 5750 2150 50  0000 C CNN
+F 1 "7.50k" V 5750 2150 50  0000 C CNN
 F 2 "db-smt:0603" H 6200 2000 30  0001 C CNN
 F 3 "" H 6000 2100 30  0001 C CNN
-F 4 "P47.5KHCT-ND" H 6150 2075 60  0001 C CNN "Digikey"
-F 5 "RES SMD 47.5k OHM 1% 1/10W 0603" H 6150 2175 60  0001 C CNN "Description"
+F 4 "P7.50KHCT-ND" H 6150 2075 60  0001 C CNN "Digikey"
+F 5 "RES SMD 7.50k OHM 1% 1/10W 0603" H 6150 2175 60  0001 C CNN "Description"
 	1    5900 2100
 	0    -1   -1   0   
 $EndComp
@@ -2288,11 +2288,11 @@ P 5300 2000
 AR Path="/5B9907CA/5CD1C202" Ref="R?"  Part="1" 
 AR Path="/5B98554A/5CD1C202" Ref="R206"  Part="1" 
 F 0 "R206" V 5400 2050 50  0000 C CNN
-F 1 "124k" V 5150 2050 50  0000 C CNN
+F 1 "118k" V 5150 2050 50  0000 C CNN
 F 2 "db-smt:0603" H 5600 1900 30  0001 C CNN
 F 3 "" H 5400 2000 30  0001 C CNN
-F 4 "P47.5KHCT-ND" H 5550 1975 60  0001 C CNN "Digikey"
-F 5 "RES SMD 47.5k OHM 1% 1/10W 0603" H 5550 2075 60  0001 C CNN "Description"
+F 4 "P118KHCT-ND" H 5550 1975 60  0001 C CNN "Digikey"
+F 5 "RES SMD 118k OHM 1% 1/10W 0603" H 5550 2075 60  0001 C CNN "Description"
 	1    5300 2000
 	0    -1   -1   0   
 $EndComp
@@ -2580,4 +2580,21 @@ F 3 "" H 5450 7200 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	10300 2100 10150 2100
+$Comp
+L db-connectors:TP_50 TP201
+U 1 1 5CEB5C7C
+P 8900 1500
+F 0 "TP201" V 8750 1450 50  0000 L CNN
+F 1 "TP_50" H 9000 1700 60  0001 C CNN
+F 2 "db-smt:TP50" H 9200 1800 60  0001 C CNN
+F 3 "" H 8900 1450 60  0001 C CNN
+F 4 "#ND" H 9050 1800 60  0001 C CNN "Digikey"
+F 5 "0.05\" x 0.05\" SMT Test Point" H 9575 1900 60  0001 C CNN "Description"
+	1    8900 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8900 1600 8900 1800
+Text Notes 8850 1300 0    60   ~ 0
+5V
 $EndSCHEMATC
