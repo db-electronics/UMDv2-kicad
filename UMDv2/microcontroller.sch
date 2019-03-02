@@ -653,7 +653,7 @@ AR Path="/5B99A3E0" Ref="CON?"  Part="1"
 AR Path="/5B9907CA/5B99A3E0" Ref="CON304"  Part="1" 
 F 0 "CON304" H 15950 12550 50  0000 C CNN
 F 1 "UMDv2-CONN" H 16050 12450 50  0000 C CNN
-F 2 "db-thparts:UMD-CONN-DIP64" H 16525 12750 60  0001 C CNN
+F 2 "db-thparts:UMD-CONN-DIP64-2" H 16525 12750 60  0001 C CNN
 F 3 "http://suddendocs.samtec.com/prints/ssw-1xx-xx-xxx-x-xx-xxx-xx-mkt.pdf" H 16150 9650 60  0001 C CNN
 F 4 "CONN RCPT 32POS 0.1 GOLD PCB" H 0   0   50  0001 C CNN "Description"
 F 5 "SAM1211-32-ND" H 0   0   50  0001 C CNN "Digikey"
@@ -668,7 +668,7 @@ AR Path="/5B99A3E7" Ref="CON?"  Part="2"
 AR Path="/5B9907CA/5B99A3E7" Ref="CON304"  Part="2" 
 F 0 "CON304" H 16000 8050 50  0000 C CNN
 F 1 "UMDv2-CONN" H 16100 7950 50  0000 C CNN
-F 2 "db-thparts:UMD-CONN-DIP64" H 16525 8250 60  0001 C CNN
+F 2 "db-thparts:UMD-CONN-DIP64-2" H 16525 8250 60  0001 C CNN
 F 3 "http://suddendocs.samtec.com/prints/ssw-1xx-xx-xxx-x-xx-xxx-xx-mkt.pdf" H 16150 5150 60  0001 C CNN
 F 4 "CONN RCPT 32POS 0.1 GOLD PCB" H 0   0   50  0001 C CNN "Description"
 F 5 "SAM1211-32-ND" H 0   0   50  0001 C CNN "Digikey"

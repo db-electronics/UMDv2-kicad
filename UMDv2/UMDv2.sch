@@ -609,4 +609,56 @@ Wire Wire Line
 	7150 5400 9100 5400
 Wire Wire Line
 	7150 5500 9100 5500
+$Comp
+L db-electromech:NSP-4-6-01 MEC101
+U 1 1 5C7AF486
+P 5900 7050
+F 0 "MEC101" H 6378 6996 50  0000 L CNN
+F 1 "NSP-4-6-01" H 6378 6905 50  0000 L CNN
+F 2 "db-thparts:4-40-SCREW" H 6250 7550 60  0001 C CNN
+F 3 "http://www.essentracomponents.com.sg/images-line/pdfs/NSS-NSP.pdf" H 7150 7450 60  0001 C CNN
+F 4 "RPC3132-ND" H 6300 7650 60  0001 C CNN "Digikey"
+F 5 "MACHINE SCREW PAN PHILLIPS 4-40" H 6750 7350 60  0001 C CNN "Description"
+	1    5900 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L db-electromech:NSP-4-6-01 MEC102
+U 1 1 5C7AF4E7
+P 5900 7300
+F 0 "MEC102" H 6378 7246 50  0000 L CNN
+F 1 "NSP-4-6-01" H 6378 7155 50  0000 L CNN
+F 2 "db-thparts:4-40-SCREW" H 6250 7800 60  0001 C CNN
+F 3 "http://www.essentracomponents.com.sg/images-line/pdfs/NSS-NSP.pdf" H 7150 7700 60  0001 C CNN
+F 4 "RPC3132-ND" H 6300 7900 60  0001 C CNN "Digikey"
+F 5 "MACHINE SCREW PAN PHILLIPS 4-40" H 6750 7600 60  0001 C CNN "Description"
+	1    5900 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L db-electromech:NSP-4-6-01 MEC103
+U 1 1 5C7AF509
+P 5900 7550
+F 0 "MEC103" H 6378 7496 50  0000 L CNN
+F 1 "NSP-4-6-01" H 6378 7405 50  0000 L CNN
+F 2 "db-thparts:4-40-SCREW" H 6250 8050 60  0001 C CNN
+F 3 "http://www.essentracomponents.com.sg/images-line/pdfs/NSS-NSP.pdf" H 7150 7950 60  0001 C CNN
+F 4 "RPC3132-ND" H 6300 8150 60  0001 C CNN "Digikey"
+F 5 "MACHINE SCREW PAN PHILLIPS 4-40" H 6750 7850 60  0001 C CNN "Description"
+	1    5900 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L db-electromech:NSP-4-6-01 MEC104
+U 1 1 5C7AF529
+P 5900 7800
+F 0 "MEC104" H 6378 7746 50  0000 L CNN
+F 1 "NSP-4-6-01" H 6378 7655 50  0000 L CNN
+F 2 "db-thparts:4-40-SCREW" H 6250 8300 60  0001 C CNN
+F 3 "http://www.essentracomponents.com.sg/images-line/pdfs/NSS-NSP.pdf" H 7150 8200 60  0001 C CNN
+F 4 "RPC3132-ND" H 6300 8400 60  0001 C CNN "Digikey"
+F 5 "MACHINE SCREW PAN PHILLIPS 4-40" H 6750 8100 60  0001 C CNN "Description"
+	1    5900 7800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
