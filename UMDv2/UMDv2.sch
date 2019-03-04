@@ -661,4 +661,26 @@ F 5 "MACHINE SCREW PAN PHILLIPS 4-40" H 6750 8100 60  0001 C CNN "Description"
 	1    5900 7800
 	1    0    0    -1  
 $EndComp
+$Comp
+L db-artwork:logo logo101
+U 1 1 5C8BB43B
+P 8300 7200
+F 0 "logo101" H 8325 7253 60  0000 L CNN
+F 1 "db Electronics Logo" H 8325 7147 60  0000 L CNN
+F 2 "db-artwork:db-logo_10mm" H 8300 7200 60  0001 C CNN
+F 3 "" H 8300 7200 60  0001 C CNN
+	1    8300 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L db-artwork:logo logo102
+U 1 1 5C8BC932
+P 8300 7550
+F 0 "logo102" H 8325 7603 60  0000 L CNN
+F 1 "OSHW Logo" H 8325 7497 60  0000 L CNN
+F 2 "db-artwork:oshw-logo_7.5mm" H 8300 7550 60  0001 C CNN
+F 3 "" H 8300 7550 60  0001 C CNN
+	1    8300 7550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

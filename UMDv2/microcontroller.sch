@@ -2003,7 +2003,7 @@ F 3 "" H 5200 4100 50  0000 C CNN
 	1    5200 4100
 	1    0    0    -1  
 $EndComp
-Text Notes 2350 3300 0    60   ~ 0
+Text Notes 2850 4150 0    60   ~ 0
 BOOT0 = 0 = User flash\nBOOT0 = 1 = Bootloader
 Wire Wire Line
 	5900 4150 5200 4150
