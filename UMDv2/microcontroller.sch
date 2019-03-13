@@ -1002,7 +1002,7 @@ F 3 "" H 6450 1650 50  0000 C CNN
 	1    6450 1650
 	0    1    1    0   
 $EndComp
-Text Label 1700 4000 0    60   ~ 0
+Text Label 1700 4750 0    60   ~ 0
 LED0
 Text Label 5200 7850 0    60   ~ 0
 AN0
@@ -2601,39 +2601,39 @@ SPI2_MOSI
 $Comp
 L db-connectors:HDR1X3 CON306
 U 1 1 5C5F8CE1
-P 4300 1100
-F 0 "CON306" H 4350 1200 60  0000 C CNN
-F 1 "HDR1X3" H 4400 1300 60  0000 C CNN
-F 2 "db-thparts:HDR1X3" H 4575 1575 60  0001 C CNN
-F 3 "" H 4300 1075 60  0001 C CNN
-F 4 "732-5316-ND" H 4525 1375 60  0001 C CNN "Digikey"
-F 5 "CONN HEADER 3 POS 2.54" H 4625 1475 60  0001 C CNN "Description"
-	1    4300 1100
+P 4300 1150
+F 0 "CON306" H 4400 750 50  0000 C CNN
+F 1 "HDR1X3" H 4400 1350 50  0001 C CNN
+F 2 "db-thparts:HDR1X3" H 4575 1625 60  0001 C CNN
+F 3 "" H 4300 1125 60  0001 C CNN
+F 4 "732-5316-ND" H 4525 1425 60  0001 C CNN "Digikey"
+F 5 "CONN HEADER 3 POS 2.54" H 4625 1525 60  0001 C CNN "Description"
+	1    4300 1150
 	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0105
 U 1 1 5C5F9180
-P 3900 1150
-F 0 "#PWR0105" H 3900 900 50  0001 C CNN
-F 1 "GND" H 3900 1000 50  0000 C CNN
-F 2 "" H 3900 1150 50  0000 C CNN
-F 3 "" H 3900 1150 50  0000 C CNN
-	1    3900 1150
+P 3900 1200
+F 0 "#PWR0105" H 3900 950 50  0001 C CNN
+F 1 "GND" H 3900 1050 50  0000 C CNN
+F 2 "" H 3900 1200 50  0000 C CNN
+F 3 "" H 3900 1200 50  0000 C CNN
+	1    3900 1200
 	1    0    0    -1  
 $EndComp
-Text Label 3500 850  0    60   ~ 0
+Text Label 3500 900  0    60   ~ 0
 USART3_TX
-Text Label 3500 950  0    60   ~ 0
+Text Label 3500 1000 0    60   ~ 0
 USART3_RX
 Wire Wire Line
-	4100 950  3500 950 
+	4100 1000 3500 1000
 Wire Wire Line
-	4100 850  3500 850 
+	4100 900  3500 900 
 Wire Wire Line
-	4100 1050 3900 1050
+	4100 1100 3900 1100
 Wire Wire Line
-	3900 1050 3900 1150
+	3900 1100 3900 1200
 Text Notes 3500 700  0    60   ~ 0
 USART3 BOOTLOADER/DEBUG
 Text Label 15100 1700 0    60   ~ 0
@@ -2767,11 +2767,11 @@ Wire Wire Line
 	10350 3650 10925 3650
 Text Label 5200 8450 0    60   ~ 0
 ~OUT_EN1~
-Text Label 5200 5250 0    60   ~ 0
+Text Label 5200 5150 0    60   ~ 0
 LED1
 Wire Wire Line
 	5900 5350 5200 5350
-Text Label 1700 4250 0    60   ~ 0
+Text Label 1700 4500 0    60   ~ 0
 LED1
 Wire Wire Line
 	1650 4250 1950 4250
@@ -2825,7 +2825,7 @@ Wire Wire Line
 	1350 4000 1250 4000
 Wire Wire Line
 	1350 4250 1250 4250
-Text Label 5200 5350 0    60   ~ 0
+Text Label 5200 4750 0    60   ~ 0
 LED0
 Wire Wire Line
 	5900 5250 5200 5250
@@ -3060,15 +3060,15 @@ Wire Wire Line
 	5900 6250 5200 6250
 Text Label 5200 6250 0    60   ~ 0
 BOOT_EN
-Text Label 5200 5150 0    60   ~ 0
+Text Label 5200 5250 0    60   ~ 0
 LED2
 Wire Wire Line
 	5900 4750 5200 4750
-Text Label 5200 4750 0    60   ~ 0
+Text Label 5200 5350 0    60   ~ 0
 LED3
 Wire Wire Line
 	5900 4650 5150 4650
-Text Label 1700 4750 0    60   ~ 0
+Text Label 1700 4000 0    60   ~ 0
 LED3
 Wire Wire Line
 	1650 4500 1950 4500
@@ -3098,7 +3098,7 @@ F 5 "RES SMD 750 OHM 1% 1/10W 0603" H 1300 4575 60  0001 C CNN "Description"
 	1    1050 4500
 	0    -1   -1   0   
 $EndComp
-Text Label 1700 4500 0    60   ~ 0
+Text Label 1700 4250 0    60   ~ 0
 LED2
 Wire Wire Line
 	1650 4750 1950 4750
@@ -3142,4 +3142,27 @@ Wire Wire Line
 Connection ~ 700  4750
 Wire Wire Line
 	700  4750 700  4900
+$Comp
+L db-connectors:HDR1X2 CON301
+U 1 1 5C8E1D6B
+P 5800 850
+F 0 "CON301" H 5800 900 50  0000 C CNN
+F 1 "HDR1X2" V 6050 700 50  0001 C CNN
+F 2 "db-thparts:HDR1X2" H 5875 1350 60  0001 C CNN
+F 3 "" H 5900 1050 60  0001 C CNN
+F 4 "952-2262-ND" H 6000 1150 60  0001 C CNN "Digikey"
+F 5 "SIL VERTICAL PC TAIL PIN HEADER" H 6100 1250 60  0001 C CNN "Description"
+	1    5800 850 
+	1    0    0    -1  
+$EndComp
+Text Label 5000 950  0    60   ~ 0
+DAC1
+Text Label 5000 1050 0    60   ~ 0
+DAC2
+Wire Wire Line
+	5600 1050 5000 1050
+Wire Wire Line
+	5600 950  5000 950 
+Text Notes 5000 700  0    60   ~ 0
+JUST FOR TESTING
 $EndSCHEMATC

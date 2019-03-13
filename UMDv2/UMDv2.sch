@@ -678,7 +678,7 @@ U 1 1 5C8BC932
 P 8300 7550
 F 0 "logo102" H 8325 7603 60  0000 L CNN
 F 1 "OSHW Logo" H 8325 7497 60  0000 L CNN
-F 2 "db-artwork:oshw-logo_7.5mm" H 8300 7550 60  0001 C CNN
+F 2 "db-artwork:oshw-logo_5mm" H 8300 7550 60  0001 C CNN
 F 3 "" H 8300 7550 60  0001 C CNN
 	1    8300 7550
 	1    0    0    -1  

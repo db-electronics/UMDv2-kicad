@@ -757,7 +757,7 @@ F 5 "RES 0.1 OHM 1% 1/4W 1206" H 4850 7225 60  0001 C CNN "Description"
 	1    4600 7150
 	0    1    1    0   
 $EndComp
-Text Notes 5350 7000 0    60   ~ 0
+Text Notes 5500 6550 0    60   ~ 0
 Cartridge current sensing\n0.1V/A on R207 * 100 = 10V/A @ iSense output
 $Comp
 L power:+5V #PWR011
@@ -1094,8 +1094,8 @@ Text HLabel 2250 7450 0    60   Input ~ 0
 VSEL1
 Wire Wire Line
 	2250 7450 2450 7450
-Text Notes 6100 1450 0    60   ~ 0
-OVP = 5.4, UVP = 4.6V\nCurrent limit = 450mA\nIinrush approx. 213mA (assuming 47uF load)
+Text Notes 5900 1250 0    60   ~ 0
+OVP = 5.4, UVP = 4.6V\nCurrent limit = 450mA\nIinrush approx. 213mA (assuming 47uF load)\nsee:\nhttps://github.com/db-electronics/UMDv2-kicad/blob/master/calculations.ods\nfor calculations
 $Comp
 L db-passives:R_0603 R208
 U 1 1 5B9C2AD8
