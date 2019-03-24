@@ -823,16 +823,16 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR?
 U 1 1 5C8C276E
-P 7900 4950
-F 0 "#PWR?" H 7900 4800 50  0001 C CNN
-F 1 "+5V" H 7915 5123 50  0000 C CNN
-F 2 "" H 7900 4950 50  0001 C CNN
-F 3 "" H 7900 4950 50  0001 C CNN
-	1    7900 4950
+P 7700 4950
+F 0 "#PWR?" H 7700 4800 50  0001 C CNN
+F 1 "+5V" H 7715 5123 50  0000 C CNN
+F 2 "" H 7700 4950 50  0001 C CNN
+F 3 "" H 7700 4950 50  0001 C CNN
+	1    7700 4950
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8250 4950 7900 4950
+	8250 4950 7700 4950
 Text Notes 4800 6400 0    50   ~ 0
 Genesis ID = 0x00
 Wire Wire Line
@@ -841,8 +841,6 @@ Text Label 2950 2950 0    50   ~ 0
 ~WR~
 Wire Wire Line
 	4550 2050 5100 2050
-Text Label 4550 2050 0    50   ~ 0
-~WR~
 $Comp
 L power:GND #PWR?
 U 1 1 5C8C41C9
@@ -1043,8 +1041,8 @@ Wire Wire Line
 Text Label 6250 3550 0    50   ~ 0
 ~CE~
 Wire Wire Line
-	2900 4350 3450 4350
-Text Label 2950 4350 0    50   ~ 0
+	2900 2450 3450 2450
+Text Label 2950 2450 0    50   ~ 0
 ~LWR~
 Wire Wire Line
 	6200 4050 6750 4050
@@ -1065,7 +1063,7 @@ D12
 Wire Wire Line
 	6200 4550 6750 4550
 Text Label 6250 4550 0    50   ~ 0
-~RST~
+~VRES~
 Wire Wire Line
 	7700 4450 8250 4450
 Text Label 7700 4450 0    50   ~ 0
@@ -1082,4 +1080,215 @@ Wire Wire Line
 	7700 2450 8250 2450
 Text Label 7700 2450 0    50   ~ 0
 ~TIME~
+Wire Wire Line
+	2900 2550 3450 2550
+Text Label 2950 2550 0    50   ~ 0
+A15
+Wire Wire Line
+	2900 2650 3450 2650
+Text Label 2950 2650 0    50   ~ 0
+A13
+Wire Wire Line
+	2900 2750 3450 2750
+Text Label 2950 2750 0    50   ~ 0
+A18
+Wire Wire Line
+	2900 2850 3450 2850
+Text Label 2950 2850 0    50   ~ 0
+A16
+Wire Wire Line
+	2900 3050 3450 3050
+Text Label 2950 3050 0    50   ~ 0
+A10
+Wire Wire Line
+	2900 3150 3450 3150
+Text Label 2950 3150 0    50   ~ 0
+A8
+Wire Wire Line
+	2900 3250 3450 3250
+Text Label 2950 3250 0    50   ~ 0
+D0
+Wire Wire Line
+	2900 3350 3450 3350
+Text Label 2950 3350 0    50   ~ 0
+D14
+Wire Wire Line
+	2900 3450 3450 3450
+Text Label 2950 3450 0    50   ~ 0
+D2
+Wire Wire Line
+	2900 3550 3450 3550
+Text Label 2950 3550 0    50   ~ 0
+D12
+Wire Wire Line
+	2900 3650 3450 3650
+Text Label 2950 3650 0    50   ~ 0
+D10
+Wire Wire Line
+	2900 3750 3450 3750
+Text Label 2950 3750 0    50   ~ 0
+D8
+Wire Wire Line
+	2900 3850 3450 3850
+Text Label 2950 3850 0    50   ~ 0
+D6
+Wire Wire Line
+	2900 3950 3450 3950
+Text Label 2950 3950 0    50   ~ 0
+D4
+Wire Wire Line
+	2900 4050 3450 4050
+Text Label 2950 4050 0    50   ~ 0
+SL1
+Wire Wire Line
+	2900 4150 3450 4150
+Text Label 2950 4150 0    50   ~ 0
+SR1
+Wire Wire Line
+	2900 4450 3450 4450
+Text Label 2950 4450 0    50   ~ 0
+A5
+Wire Wire Line
+	2900 4550 3450 4550
+Text Label 2950 4550 0    50   ~ 0
+A3
+Wire Wire Line
+	2900 4650 3450 4650
+Text Label 2950 4650 0    50   ~ 0
+A1
+Wire Wire Line
+	2900 4750 3450 4750
+Text Label 2950 4750 0    50   ~ 0
+A22
+Wire Wire Line
+	2900 4850 3450 4850
+Text Label 2950 4850 0    50   ~ 0
+A20
+Wire Wire Line
+	2900 4950 3450 4950
+Text Label 2950 4950 0    50   ~ 0
+A19
+Wire Wire Line
+	2900 5050 3450 5050
+Text Label 2950 5050 0    50   ~ 0
+A23
+Wire Wire Line
+	4550 3750 5100 3750
+Text Label 4550 3750 0    50   ~ 0
+D7
+Wire Wire Line
+	6200 5050 6750 5050
+Text Label 6250 5050 0    50   ~ 0
+~CART~
+Wire Wire Line
+	7700 4150 8250 4150
+Text Label 7700 4150 0    50   ~ 0
+~CART~
+Wire Wire Line
+	7700 4650 8250 4650
+Text Label 7700 4650 0    50   ~ 0
+A2
+Wire Wire Line
+	7700 4750 8250 4750
+Text Label 7700 4750 0    50   ~ 0
+A0
+Wire Wire Line
+	7700 4850 8250 4850
+Text Label 7700 4850 0    50   ~ 0
+A21
+Wire Wire Line
+	7700 4550 8250 4550
+Text Label 7700 4550 0    50   ~ 0
+A4
+Wire Wire Line
+	7700 4250 8250 4250
+Text Label 7700 4250 0    50   ~ 0
+A6
+Wire Wire Line
+	7700 3850 8250 3850
+Text Label 7700 3850 0    50   ~ 0
+D7
+Wire Wire Line
+	7700 3950 8250 3950
+Text Label 7700 3950 0    50   ~ 0
+D5
+Wire Wire Line
+	7700 3750 8250 3750
+Text Label 7700 3750 0    50   ~ 0
+D9
+Wire Wire Line
+	7700 3550 8250 3550
+Text Label 7700 3550 0    50   ~ 0
+D3
+Wire Wire Line
+	7700 3650 8250 3650
+Text Label 7700 3650 0    50   ~ 0
+D11
+Wire Wire Line
+	7700 3450 8250 3450
+Text Label 7700 3450 0    50   ~ 0
+D13
+Wire Wire Line
+	7700 3350 8250 3350
+Text Label 7700 3350 0    50   ~ 0
+D15
+Wire Wire Line
+	7700 3150 8250 3150
+Text Label 7700 3150 0    50   ~ 0
+A7
+Wire Wire Line
+	7700 3250 8250 3250
+Text Label 7700 3250 0    50   ~ 0
+D1
+Wire Wire Line
+	7700 3050 8250 3050
+Text Label 7700 3050 0    50   ~ 0
+A9
+Wire Wire Line
+	7700 2950 8250 2950
+Text Label 7700 2950 0    50   ~ 0
+A11
+Wire Wire Line
+	7700 2750 8250 2750
+Text Label 7700 2750 0    50   ~ 0
+A17
+Wire Wire Line
+	7700 2650 8250 2650
+Text Label 7700 2650 0    50   ~ 0
+A12
+Wire Wire Line
+	7700 2550 8250 2550
+Text Label 7700 2550 0    50   ~ 0
+A14
+Wire Wire Line
+	6200 3850 6750 3850
+Text Label 6250 3850 0    50   ~ 0
+~DTACK~
+Wire Wire Line
+	6200 2050 6750 2050
+Text Label 6250 2050 0    50   ~ 0
+~MRES~
+Wire Wire Line
+	7700 2150 8250 2150
+Text Label 7700 2150 0    50   ~ 0
+~MRES~
+Wire Wire Line
+	6200 4750 6750 4750
+Text Label 6250 4750 0    50   ~ 0
+~WR~
+$Comp
+L power:+5V #PWR?
+U 1 1 5CA041DE
+P 4550 2050
+F 0 "#PWR?" H 4550 1900 50  0001 C CNN
+F 1 "+5V" H 4565 2223 50  0000 C CNN
+F 2 "" H 4550 2050 50  0001 C CNN
+F 3 "" H 4550 2050 50  0001 C CNN
+	1    4550 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 4050 8250 4050
+Text Label 7700 4050 0    50   ~ 0
+~VRES~
 $EndSCHEMATC
