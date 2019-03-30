@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:genesis-umd-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -989,14 +990,6 @@ Wire Wire Line
 Text Label 4550 4850 0    50   ~ 0
 D11
 Wire Wire Line
-	6200 1950 6750 1950
-Text Label 6250 1950 0    50   ~ 0
-SL1
-Wire Wire Line
-	6200 2150 6750 2150
-Text Label 6250 2150 0    50   ~ 0
-SR1
-Wire Wire Line
 	6200 2250 6750 2250
 Text Label 6250 2250 0    50   ~ 0
 A9
@@ -1137,14 +1130,6 @@ Wire Wire Line
 Text Label 2950 3950 0    50   ~ 0
 D4
 Wire Wire Line
-	2900 4050 3450 4050
-Text Label 2950 4050 0    50   ~ 0
-SL1
-Wire Wire Line
-	2900 4150 3450 4150
-Text Label 2950 4150 0    50   ~ 0
-SR1
-Wire Wire Line
 	2900 4450 3450 4450
 Text Label 2950 4450 0    50   ~ 0
 A5
@@ -1261,18 +1246,6 @@ Wire Wire Line
 Text Label 7700 2550 0    50   ~ 0
 A14
 Wire Wire Line
-	6200 3850 6750 3850
-Text Label 6250 3850 0    50   ~ 0
-~DTACK~
-Wire Wire Line
-	6200 2050 6750 2050
-Text Label 6250 2050 0    50   ~ 0
-~MRES~
-Wire Wire Line
-	7700 2150 8250 2150
-Text Label 7700 2150 0    50   ~ 0
-~MRES~
-Wire Wire Line
 	6200 4750 6750 4750
 Text Label 6250 4750 0    50   ~ 0
 ~WR~
@@ -1291,4 +1264,12 @@ Wire Wire Line
 	7700 4050 8250 4050
 Text Label 7700 4050 0    50   ~ 0
 ~VRES~
+Wire Wire Line
+	6200 3650 6750 3650
+Text Label 6250 3650 0    50   ~ 0
+~AS~
+Wire Wire Line
+	6200 4450 6750 4450
+Text Label 6250 4450 0    50   ~ 0
+~ASEL~
 $EndSCHEMATC
