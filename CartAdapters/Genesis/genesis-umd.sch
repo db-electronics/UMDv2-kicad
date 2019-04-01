@@ -807,11 +807,11 @@ Wire Wire Line
 	3050 1950 3050 1850
 Wire Wire Line
 	2900 2050 3450 2050
-Text Label 2950 2050 0    50   ~ 0
+Text Label 2950 2150 0    50   ~ 0
 SDA
 Wire Wire Line
 	2900 2150 3450 2150
-Text Label 2950 2150 0    50   ~ 0
+Text Label 2950 2050 0    50   ~ 0
 SCL
 Wire Wire Line
 	8250 5050 8150 5050
@@ -1059,8 +1059,8 @@ Text Label 6250 4550 0    50   ~ 0
 ~VRES~
 Wire Wire Line
 	7700 4450 8250 4450
-Text Label 7700 4450 0    50   ~ 0
-~CE~
+Text Label 7700 2450 0    50   ~ 0
+~AS~
 Wire Wire Line
 	6200 4650 6750 4650
 Text Label 6250 4650 0    50   ~ 0
@@ -1068,10 +1068,6 @@ Text Label 6250 4650 0    50   ~ 0
 Wire Wire Line
 	6200 4950 6750 4950
 Text Label 6250 4950 0    50   ~ 0
-~TIME~
-Wire Wire Line
-	7700 2450 8250 2450
-Text Label 7700 2450 0    50   ~ 0
 ~TIME~
 Wire Wire Line
 	2900 2550 3450 2550
@@ -1272,4 +1268,55 @@ Wire Wire Line
 	6200 4450 6750 4450
 Text Label 6250 4450 0    50   ~ 0
 ~ASEL~
+$Comp
+L power:GND #PWR?
+U 1 1 5CCCC95F
+P 9250 5150
+F 0 "#PWR?" H 9250 4900 50  0001 C CNN
+F 1 "GND" H 9255 4977 50  0000 C CNN
+F 2 "" H 9250 5150 50  0001 C CNN
+F 3 "" H 9250 5150 50  0001 C CNN
+	1    9250 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 4850 9250 4850
+Wire Wire Line
+	9250 4850 9250 5150
+Wire Wire Line
+	2900 4250 3450 4250
+Text Label 2950 4250 0    50   ~ 0
+~TIME~
+Wire Wire Line
+	7700 2450 8250 2450
+Text Label 7700 4450 0    50   ~ 0
+~ASEL~
+Wire Wire Line
+	2900 4350 3450 4350
+Text Label 2950 4350 0    50   ~ 0
+~CE~
+Wire Wire Line
+	7700 2150 8250 2150
+Text Label 7700 2150 0    50   ~ 0
+~MRES~
+Wire Wire Line
+	6200 2050 6750 2050
+Text Label 6250 2050 0    50   ~ 0
+~MRES~
+Wire Wire Line
+	6200 3850 6750 3850
+Text Label 6250 3850 0    50   ~ 0
+~DTACK~
+Wire Wire Line
+	2900 4050 3450 4050
+Text Label 2950 4050 0    50   ~ 0
+~DTACK~
+Wire Wire Line
+	6200 4850 6750 4850
+Text Label 6250 4850 0    50   ~ 0
+~M3~
+Wire Wire Line
+	2900 4150 3450 4150
+Text Label 2950 4150 0    50   ~ 0
+~M3~
 $EndSCHEMATC

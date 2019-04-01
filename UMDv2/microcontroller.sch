@@ -1609,19 +1609,17 @@ Wire Wire Line
 Wire Wire Line
 	10350 4750 10925 4750
 Wire Wire Line
-	14300 4950 14300 5050
-Wire Wire Line
-	14050 5050 14300 5050
+	14050 4950 14050 5050
 Wire Wire Line
 	14400 5050 14400 5150
 Wire Wire Line
-	14300 5050 14300 5150
+	14050 5050 14050 5150
 Wire Wire Line
 	14400 5700 14400 5550
 Wire Wire Line
 	5200 6350 5900 6350
 Wire Wire Line
-	14300 5550 14300 5800
+	14050 5550 14050 5800
 Wire Wire Line
 	5200 6450 5900 6450
 $Comp
@@ -2521,15 +2519,12 @@ Wire Wire Line
 	15150 6000 14650 6000
 Wire Wire Line
 	15150 5900 14650 5900
-Text Label 14650 5700 0    60   ~ 0
-SDA1
 Text Label 14650 5800 0    60   ~ 0
+SDA1
+Text Label 14650 5700 0    60   ~ 0
 SCL1
 Wire Wire Line
-	15150 5800 14300 5800
-Wire Wire Line
 	15150 5700 14400 5700
-Connection ~ 14300 5050
 $Comp
 L power:GND #PWR0110
 U 1 1 5C7A1711
@@ -2691,7 +2686,7 @@ LED0
 Wire Wire Line
 	5900 5250 5200 5250
 Text Notes 11500 2650 0    60   ~ 0
-FMSC Mapped at 0x6000 0000 - 0x6FFF FFFF\n\nCE0 = 0x6000 0000 -> 0x63FF FFFF\n    8 bit r/w 24 bit address - slow\nCE1 = 0x6400 0000 -> 0x67FF FFFF\n    16 bit r/w 24 bit address - slow\nCE2 = 0x6800 0000 -> 0x6BFF FFFF\n    8 bit r/w 24 bit address - fast\nCE3 = 0x6C00 0000 -> 0x6FFF FFFF\n    16 bit r/w 24 bit address - fast
+FMSC Mapped at 0x6000 0000 - 0x6FFF FFFF\n\nCE0 = 0x6000 0000 -> 0x63FF FFFF\n    8 bit r/w 24 bit address\nCE1 = 0x6400 0000 -> 0x67FF FFFF\n    8 bit r/w 24 bit address\nCE2 = 0x6800 0000 -> 0x6BFF FFFF\n    16 bit r/w 24 bit address\nCE3 = 0x6C00 0000 -> 0x6FFF FFFF\n    16 bit r/w 24 bit address
 $Comp
 L db-mcu:STM32F413ZHT6 U301
 U 1 1 5C751F0B
@@ -3015,17 +3010,12 @@ Text Label 14650 7700 0    60   ~ 0
 GP0
 Text Label 14650 3200 0    60   ~ 0
 GP1
-Connection ~ 14300 5800
-Wire Wire Line
-	14300 5800 14050 5800
-Wire Wire Line
-	14300 5050 14400 5050
 Wire Wire Line
 	16050 4100 16400 4100
 Wire Wire Line
 	16050 4200 16400 4200
 Wire Wire Line
-	16050 4000 16400 4000
+	16050 4000 16100 4000
 Text Label 16150 4000 0    60   ~ 0
 ~DTCT~
 Text Label 5200 7850 0    60   ~ 0
@@ -3040,4 +3030,40 @@ Wire Wire Line
 	5900 6950 5200 6950
 Text Label 5200 6950 0    60   ~ 0
 ~DTCT~
+Connection ~ 14050 5050
+Wire Wire Line
+	14050 5050 14400 5050
+Wire Wire Line
+	14050 5800 15150 5800
+$Comp
+L db-passives:R_0603 R301
+U 1 1 5CB4F6CB
+P 16100 3500
+F 0 "R301" H 16250 3450 50  0000 C CNN
+F 1 "2.20k" H 16250 3350 50  0000 C CNN
+F 2 "db-smt:0603" H 16400 3400 30  0001 C CNN
+F 3 "" H 16200 3500 30  0001 C CNN
+F 4 "P2.20KHCT-ND" H 16350 3475 60  0001 C CNN "Digikey"
+F 5 "RES SMD 2.20K OHM 1% 1/10W 0603" H 16350 3575 60  0001 C CNN "Description"
+	1    16100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VP #PWR0302
+U 1 1 5CB4F6D1
+P 16100 3250
+F 0 "#PWR0302" H 16250 3200 50  0001 C CNN
+F 1 "+3.3VP" H 16100 3350 50  0000 C CNN
+F 2 "" H 16100 3250 50  0000 C CNN
+F 3 "" H 16100 3250 50  0000 C CNN
+	1    16100 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16100 3250 16100 3300
+Wire Wire Line
+	16100 3700 16100 4000
+Connection ~ 16100 4000
+Wire Wire Line
+	16100 4000 16400 4000
 $EndSCHEMATC
