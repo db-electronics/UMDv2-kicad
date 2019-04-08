@@ -24,3 +24,8 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+
+# local output folders
+sch/
+gerbers/
+bom/

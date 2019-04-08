@@ -6,8 +6,8 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 3 3
 Title "UMDv2"
-Date "2019-03-26"
-Rev "RC_2.0"
+Date "2019-04-08"
+Rev "2.0"
 Comp "db Electronics"
 Comment1 "https://github.com/db-electronics/UMDv2-kicad"
 Comment2 "Licensed Under CERN OHL v.1.2"
@@ -1358,27 +1358,27 @@ Wire Wire Line
 $Comp
 L db-passives:R_0603 R309
 U 1 1 5BE8B0A3
-P 14050 5350
-F 0 "R309" H 14200 5300 50  0000 C CNN
-F 1 "2.20k" H 14200 5200 50  0000 C CNN
-F 2 "db-smt:0603" H 14350 5250 30  0001 C CNN
-F 3 "" H 14150 5350 30  0001 C CNN
-F 4 "P2.20KHCT-ND" H 14300 5325 60  0001 C CNN "Digikey"
-F 5 "RES SMD 2.20K OHM 1% 1/10W 0603" H 14300 5425 60  0001 C CNN "Description"
-	1    14050 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L db-passives:R_0603 R310
-U 1 1 5BE8B577
 P 14400 5350
-F 0 "R310" H 14550 5300 50  0000 C CNN
+F 0 "R309" H 14550 5300 50  0000 C CNN
 F 1 "2.20k" H 14550 5200 50  0000 C CNN
 F 2 "db-smt:0603" H 14700 5250 30  0001 C CNN
 F 3 "" H 14500 5350 30  0001 C CNN
 F 4 "P2.20KHCT-ND" H 14650 5325 60  0001 C CNN "Digikey"
 F 5 "RES SMD 2.20K OHM 1% 1/10W 0603" H 14650 5425 60  0001 C CNN "Description"
 	1    14400 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L db-passives:R_0603 R310
+U 1 1 5BE8B577
+P 14050 5350
+F 0 "R310" H 14200 5300 50  0000 C CNN
+F 1 "2.20k" H 14200 5200 50  0000 C CNN
+F 2 "db-smt:0603" H 14350 5250 30  0001 C CNN
+F 3 "" H 14150 5350 30  0001 C CNN
+F 4 "P2.20KHCT-ND" H 14300 5325 60  0001 C CNN "Digikey"
+F 5 "RES SMD 2.20K OHM 1% 1/10W 0603" H 14300 5425 60  0001 C CNN "Description"
+	1    14050 5350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2702,14 +2702,6 @@ F 5 "IC MCU 32BIT 1.5MB FLASH 144LQFP" H 8970 8845 60  0001 C CNN "Description"
 $EndComp
 Wire Wire Line
 	5200 8450 5900 8450
-Text Label 10500 3150 0    60   ~ 0
-QSPI_IO3
-Text Label 10500 3250 0    60   ~ 0
-QSPI_IO2
-Text Label 10500 3350 0    60   ~ 0
-QSPI_IO0
-Text Label 10500 3450 0    60   ~ 0
-QSPI_IO1
 Wire Wire Line
 	10350 3150 10925 3150
 Wire Wire Line
@@ -2718,10 +2710,6 @@ Wire Wire Line
 	10350 3350 10925 3350
 Wire Wire Line
 	10350 3450 10925 3450
-Text Label 10500 2950 0    60   ~ 0
-QSPI_NCS
-Text Label 10500 3050 0    60   ~ 0
-QSPI_CLK
 Wire Wire Line
 	10350 2950 10925 2950
 Wire Wire Line
@@ -3066,4 +3054,10 @@ Wire Wire Line
 Connection ~ 16100 4000
 Wire Wire Line
 	16100 4000 16400 4000
+Text Label 850  9550 0    60   ~ 0
+~SDWP~
+Text Label 5200 6150 0    60   ~ 0
+~SDWP~
+Wire Wire Line
+	5900 6150 5200 6150
 $EndSCHEMATC
