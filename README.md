@@ -17,4 +17,6 @@ Please note that version 2.0 is in its absolute infancy, don't expect to find an
 
 # Releases
 ## 2.0
+https://oshpark.com/shared_projects/H6cOtUHo
+
 The PCB version 2.0 release files are available in the releases section https://github.com/db-electronics/UMDv2-kicad/releases. Please note that this PCB is as of yet untested. Build at your own risk. I will post updates when I have begun testing this latest release.
