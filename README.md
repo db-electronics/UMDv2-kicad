@@ -1,5 +1,8 @@
-# UMDv2-kicad
-Universal Mega Dumper v2 PCB
+# UMDv2
+The Universal Mega Dumper v2 project aims to be a complete open-sourced solution for cartridge dumping and writing. It includes a very performant MCU which has a direct memory connection to a generalized databus consisting of 24 address bits and 16 data lines. Along with a dozen or so control signals, it should be sufficient to interface with most cartridge types.
+
+## Cartridge Adapters
+The UMDv2 by itself only includes a generalized connector with all its interfacing signals. Cartridge adapters must be used in order to interface to the physical media. These can all be found (as they are designed) in the CartridgeAdapters subfolder.
 
 # Dependencies
 ## Parts Libraries
