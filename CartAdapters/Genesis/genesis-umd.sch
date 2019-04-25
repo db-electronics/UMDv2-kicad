@@ -1162,8 +1162,8 @@ Wire Wire Line
 Text Label 6250 5050 0    50   ~ 0
 ~CART~
 Wire Wire Line
-	7700 4150 8250 4150
-Text Label 7700 4150 0    50   ~ 0
+	9150 4850 9700 4850
+Text Label 9250 4850 0    50   ~ 0
 ~CART~
 Wire Wire Line
 	7700 4650 8250 4650
@@ -1268,21 +1268,6 @@ Wire Wire Line
 	6200 4450 6750 4450
 Text Label 6250 4450 0    50   ~ 0
 ~ASEL~
-$Comp
-L power:GND #PWR?
-U 1 1 5CCCC95F
-P 9250 5150
-F 0 "#PWR?" H 9250 4900 50  0001 C CNN
-F 1 "GND" H 9255 4977 50  0000 C CNN
-F 2 "" H 9250 5150 50  0001 C CNN
-F 3 "" H 9250 5150 50  0001 C CNN
-	1    9250 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9150 4850 9250 4850
-Wire Wire Line
-	9250 4850 9250 5150
 Wire Wire Line
 	2900 4250 3450 4250
 Text Label 2950 4250 0    50   ~ 0
