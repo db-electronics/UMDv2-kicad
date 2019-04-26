@@ -646,28 +646,6 @@ F 3 "" H 1350 7300 50  0001 C CNN
 	1    1350 7300
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 5C89EA70
-P 8150 5150
-F 0 "#PWR0104" H 8150 4900 50  0001 C CNN
-F 1 "GND" H 8155 4977 50  0000 C CNN
-F 2 "" H 8150 5150 50  0001 C CNN
-F 3 "" H 8150 5150 50  0001 C CNN
-	1    8150 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0103
-U 1 1 5C89EAAB
-P 8100 1850
-F 0 "#PWR0103" H 8100 1700 50  0001 C CNN
-F 1 "+5V" H 8115 2023 50  0000 C CNN
-F 2 "" H 8100 1850 50  0001 C CNN
-F 3 "" H 8100 1850 50  0001 C CNN
-	1    8100 1850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1350 6250 1350 6300
 Wire Wire Line
@@ -695,10 +673,10 @@ SCL
 Text Label 2850 6300 0    50   ~ 0
 SDA
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5C8BE6E7
 P 4600 7250
-F 0 "#PWR?" H 4600 7000 50  0001 C CNN
+F 0 "#PWR0101" H 4600 7000 50  0001 C CNN
 F 1 "GND" H 4605 7077 50  0000 C CNN
 F 2 "" H 4600 7250 50  0001 C CNN
 F 3 "" H 4600 7250 50  0001 C CNN
@@ -706,10 +684,10 @@ F 3 "" H 4600 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 5C8BE72C
 P 3250 7250
-F 0 "#PWR?" H 3250 7000 50  0001 C CNN
+F 0 "#PWR0103" H 3250 7000 50  0001 C CNN
 F 1 "GND" H 3255 7077 50  0000 C CNN
 F 2 "" H 3250 7250 50  0001 C CNN
 F 3 "" H 3250 7250 50  0001 C CNN
@@ -780,10 +758,10 @@ Wire Wire Line
 	4600 6200 4600 6300
 Connection ~ 4600 6300
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0105
 U 1 1 5C8C00D8
 P 1350 6250
-F 0 "#PWR?" H 1350 6100 50  0001 C CNN
+F 0 "#PWR0105" H 1350 6100 50  0001 C CNN
 F 1 "+3.3V" H 1365 6423 50  0000 C CNN
 F 2 "" H 1350 6250 50  0001 C CNN
 F 3 "" H 1350 6250 50  0001 C CNN
@@ -791,10 +769,10 @@ F 3 "" H 1350 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0106
 U 1 1 5C8C0325
 P 3050 1850
-F 0 "#PWR?" H 3050 1700 50  0001 C CNN
+F 0 "#PWR0106" H 3050 1700 50  0001 C CNN
 F 1 "+3.3V" H 3065 2023 50  0000 C CNN
 F 2 "" H 3050 1850 50  0001 C CNN
 F 3 "" H 3050 1850 50  0001 C CNN
@@ -813,27 +791,6 @@ Wire Wire Line
 	2900 2150 3450 2150
 Text Label 2950 2050 0    50   ~ 0
 SCL
-Wire Wire Line
-	8250 5050 8150 5050
-Wire Wire Line
-	8150 5050 8150 5150
-Wire Wire Line
-	8250 2050 8100 2050
-Wire Wire Line
-	8100 2050 8100 1850
-$Comp
-L power:+5V #PWR?
-U 1 1 5C8C276E
-P 7700 4950
-F 0 "#PWR?" H 7700 4800 50  0001 C CNN
-F 1 "+5V" H 7715 5123 50  0000 C CNN
-F 2 "" H 7700 4950 50  0001 C CNN
-F 3 "" H 7700 4950 50  0001 C CNN
-	1    7700 4950
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8250 4950 7700 4950
 Text Notes 4800 6400 0    50   ~ 0
 Genesis ID = 0x00
 Wire Wire Line
@@ -842,31 +799,6 @@ Text Label 2950 2950 0    50   ~ 0
 ~WR~
 Wire Wire Line
 	4550 2050 5100 2050
-$Comp
-L power:GND #PWR?
-U 1 1 5C8C41C9
-P 5000 5150
-F 0 "#PWR?" H 5000 4900 50  0001 C CNN
-F 1 "GND" H 5005 4977 50  0000 C CNN
-F 2 "" H 5000 5150 50  0001 C CNN
-F 3 "" H 5000 5150 50  0001 C CNN
-	1    5000 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5100 5050 5000 5050
-Wire Wire Line
-	5000 5050 5000 5150
-Wire Wire Line
-	8150 5050 8150 1950
-Wire Wire Line
-	8150 1950 8250 1950
-Connection ~ 8150 5050
-Wire Wire Line
-	5000 5050 5000 3650
-Wire Wire Line
-	5000 1950 5100 1950
-Connection ~ 5000 5050
 Wire Wire Line
 	4550 2150 5100 2150
 Text Label 4550 2150 0    50   ~ 0
@@ -928,11 +860,6 @@ Wire Wire Line
 Text Label 4550 3550 0    50   ~ 0
 A1
 Wire Wire Line
-	5100 3650 5000 3650
-Connection ~ 5000 3650
-Wire Wire Line
-	5000 3650 5000 1950
-Wire Wire Line
 	4550 3850 5100 3850
 Text Label 4550 3850 0    50   ~ 0
 D0
@@ -964,19 +891,6 @@ Wire Wire Line
 	4550 4550 5100 4550
 Text Label 4550 4550 0    50   ~ 0
 D10
-$Comp
-L power:+5V #PWR?
-U 1 1 5C8CDFCA
-P 4550 4950
-F 0 "#PWR?" H 4550 4800 50  0001 C CNN
-F 1 "+5V" H 4565 5123 50  0000 C CNN
-F 2 "" H 4550 4950 50  0001 C CNN
-F 3 "" H 4550 4950 50  0001 C CNN
-	1    4550 4950
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5100 4950 4550 4950
 Wire Wire Line
 	4550 4650 5100 4650
 Text Label 4550 4650 0    50   ~ 0
@@ -1245,17 +1159,6 @@ Wire Wire Line
 	6200 4750 6750 4750
 Text Label 6250 4750 0    50   ~ 0
 ~WR~
-$Comp
-L power:+5V #PWR?
-U 1 1 5CA041DE
-P 4550 2050
-F 0 "#PWR?" H 4550 1900 50  0001 C CNN
-F 1 "+5V" H 4565 2223 50  0000 C CNN
-F 2 "" H 4550 2050 50  0001 C CNN
-F 3 "" H 4550 2050 50  0001 C CNN
-	1    4550 2050
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7700 4050 8250 4050
 Text Label 7700 4050 0    50   ~ 0
@@ -1304,4 +1207,34 @@ Wire Wire Line
 	2900 4150 3450 4150
 Text Label 2950 4150 0    50   ~ 0
 ~M3~
+Text Label 4550 2050 0    50   ~ 0
+5V_0
+Wire Wire Line
+	7700 2050 8250 2050
+Text Label 7700 2050 0    50   ~ 0
+5V_0
+Wire Wire Line
+	4550 4950 5100 4950
+Text Label 4550 4950 0    50   ~ 0
+5V_1
+Wire Wire Line
+	7700 4950 8250 4950
+Text Label 7700 4950 0    50   ~ 0
+5V_1
+Wire Wire Line
+	5100 1950 4550 1950
+Text Label 4550 1950 0    50   ~ 0
+GND
+Text Label 7700 1950 0    50   ~ 0
+GND
+Wire Wire Line
+	7700 1950 8250 1950
+Wire Wire Line
+	4550 5050 5100 5050
+Text Label 4550 5050 0    50   ~ 0
+GND_1
+Wire Wire Line
+	7700 5050 8250 5050
+Text Label 7700 5050 0    50   ~ 0
+GND_1
 $EndSCHEMATC
