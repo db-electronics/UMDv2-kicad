@@ -1232,9 +1232,13 @@ Wire Wire Line
 Wire Wire Line
 	4550 5050 5100 5050
 Text Label 4550 5050 0    50   ~ 0
-GND_1
+GND
 Wire Wire Line
 	7700 5050 8250 5050
 Text Label 7700 5050 0    50   ~ 0
-GND_1
+GND
+Wire Wire Line
+	5100 3650 4550 3650
+Text Label 4550 3650 0    50   ~ 0
+GND
 $EndSCHEMATC
