@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:genesis-umd-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1177,11 +1176,9 @@ Text Label 2950 4250 0    50   ~ 0
 ~TIME~
 Wire Wire Line
 	7700 2450 8250 2450
-Text Label 7700 4450 0    50   ~ 0
+Text Label 7700 4150 0    50   ~ 0
 ~ASEL~
-Wire Wire Line
-	2900 4350 3450 4350
-Text Label 2950 4350 0    50   ~ 0
+Text Label 7700 4450 0    50   ~ 0
 ~CE~
 Wire Wire Line
 	7700 2150 8250 2150
@@ -1241,4 +1238,6 @@ Wire Wire Line
 	5100 3650 4550 3650
 Text Label 4550 3650 0    50   ~ 0
 GND
+Wire Wire Line
+	8250 4150 7700 4150
 $EndSCHEMATC
