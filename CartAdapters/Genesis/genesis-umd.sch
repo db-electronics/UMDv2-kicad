@@ -797,8 +797,6 @@ Wire Wire Line
 Text Label 2950 2950 0    50   ~ 0
 ~WR~
 Wire Wire Line
-	4550 2050 5100 2050
-Wire Wire Line
 	4550 2150 5100 2150
 Text Label 4550 2150 0    50   ~ 0
 A8
@@ -1204,7 +1202,7 @@ Wire Wire Line
 	2900 4150 3450 4150
 Text Label 2950 4150 0    50   ~ 0
 ~M3~
-Text Label 4550 2050 0    50   ~ 0
+Text Label 3650 2050 0    50   ~ 0
 5V_0
 Wire Wire Line
 	7700 2050 8250 2050
@@ -1240,4 +1238,45 @@ Text Label 4550 3650 0    50   ~ 0
 GND
 Wire Wire Line
 	8250 4150 7700 4150
+$Comp
+L db-passives:R_0603 R102
+U 1 1 5E433F36
+P 4200 2250
+F 0 "R102" V 4100 2100 50  0000 C CNN
+F 1 "0" V 4300 2300 50  0000 C CNN
+F 2 "db-smt:0603" H 4500 2150 30  0001 C CNN
+F 3 "" H 4300 2250 30  0001 C CNN
+F 4 "#ND" H 4450 2225 60  0001 C CNN "Digikey"
+F 5 "#ND" H 4450 2325 60  0001 C CNN "Description"
+	1    4200 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L db-passives:R_0603 R101
+U 1 1 5E43725C
+P 4200 2050
+F 0 "R101" V 4100 1900 50  0000 C CNN
+F 1 "0" V 4300 2100 50  0000 C CNN
+F 2 "db-smt:0603" H 4500 1950 30  0001 C CNN
+F 3 "" H 4300 2050 30  0001 C CNN
+F 4 "#ND" H 4450 2025 60  0001 C CNN "Digikey"
+F 5 "#ND" H 4450 2125 60  0001 C CNN "Description"
+	1    4200 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 2050 4450 2050
+Wire Wire Line
+	4400 2250 4450 2250
+Wire Wire Line
+	4450 2250 4450 2050
+Connection ~ 4450 2050
+Wire Wire Line
+	4450 2050 5100 2050
+Wire Wire Line
+	4000 2050 3650 2050
+Wire Wire Line
+	4000 2250 3650 2250
+Text Label 3650 2250 0    50   ~ 0
+~WR~
 $EndSCHEMATC
