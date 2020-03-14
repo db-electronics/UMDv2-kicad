@@ -1,3 +1,6 @@
 [submodule "CartAdapters/UMDv2-genesis-kicad"]
 	path = CartAdapters/UMDv2-genesis-kicad
 	url = git@github.com:db-electronics/UMDv2-genesis-kicad.git
+[submodule "CartAdapters/UMDv2-sms-kicad"]
+	path = CartAdapters/UMDv2-sms-kicad
+	url = git@github.com:db-electronics/UMDv2-sms-kicad.git
