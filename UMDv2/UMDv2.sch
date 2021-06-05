@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:UMDv2-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
